@@ -1,7 +1,6 @@
-台海风险指数仪表盘 (Tension Index Dashboard) - 开源项目
+台海风险指数仪表盘 (Tension Index Dashboard) - V4
 
 查看实时仪表盘
-(请将上方链接替换为您 GitHub Pages 的真实网址)
 
 1. 项目简介
 
@@ -13,25 +12,35 @@
 
 本项目 100% 运行在免费的 GitHub 平台上：
 
-前端 (Website): index-v3.html 由 GitHub Pages 托管。
+前端 (Website): index.html 由 GitHub Pages 托管。
 
-后端 (Automation): analyst-v3.py 由 GitHub Actions 每日自动运行。
+后端 (Automation): analyst-v4.py (V4 衰减模型) 由 GitHub Actions 按计划自动运行。
 
-模型 (The "Brain"): indicators.json 是我们定义的所有“预警信号”及其权重。
+模型 (The "Brain"): indicators.json 是我们定义的所有“预警信号”及其基础权重。
 
-数据 (Data): scores-v3.json 是由后端自动生成并推送回本仓库的最新风险数据。
+数据 (The "Memory"): scores-v3.json 是由后端自动生成并推送回本仓库的最新风险状态。
 
-3. “数学模型” (indicators.json)
+3. V4 模型：累积衰减 (Cumulative Decay)
 
-本项目的核心是 indicators.json 文件。
+我们不再使用“无记忆”模型（V3），而是采用了一个有状态的、带衰减的模型。这更符合战争风险“逐渐累积”的特征。
 
-我们不依赖 LLM 的主观打分，而是将 LLM 用作“信息扫描仪”，在每日新闻中查找是否明确触发了此文件中定义的“预警信号”。
+模型逻辑：
 
-总风险指数 = (Sum(所有被触发指标的权重) / Sum(所有指标的总权重)) * 100
+记忆 (Memory): 脚本运行时，首先会读取上一次生成的 scores-v3.json，加载所有“已激活”的信号。
+
+衰减 (Decay): 任何“已激活”但今天未被新闻再次触发的信号，其权重会按 DECAY_FACTOR (当前设为 0.75) 衰减。
+
+例如： 权重 40 的信号，第二天变为 30，第三天变为 22.5...
+
+刷新 (Refresh): 任何今天被新闻再次触发的信号，其权重会立刻“刷新”回 100% 的基础权重。
+
+新增 (New): 今天新发现的信号会以 100% 的权重被添加到“激活列表”中。
+
+总分 (Score): 总风险指数 = (Sum(所有“激活”信号的“当前权重”) / Sum(所有指标的“总基础权重”)) * 100
 
 4. 如何贡献 (How to Contribute)
 
-这是本项目的核心目标！ 欢迎任何人提交 Pull Request 来改进这个模型。
+欢迎您通过 Pull Request 帮助改进这个模型！
 
 A. 优化“模型” (最重要的)
 
@@ -49,28 +58,35 @@ Fork 本仓库。
 
 B. 优化“引擎”
 
-您是否精通 Python 和 API？
+您是否想调整衰减因子 (DECAY_FACTOR)？
 
 Fork 本仓库。
 
-编辑 analyst-v3.py：
+编辑 analyst-v4.py：
 
-改进 NewsAPI 的搜索关键词 (query)？
-
-改进给 LLM 的 system_prompt？
+在文件顶部修改 DECAY_FACTOR = 0.75 的值。
 
 提交 Pull Request (PR)。
 
 5. 本地运行
 
-Clone 本仓库。
+git clone 本仓库。
 
 安装依赖: pip install -r requirements.txt
 
-创建您自己的 analyst-v3.py 副本，并填入您的 API 密钥 (请勿提交此文件)。
+在您的本地终端设置环境变量 (切勿将密钥写入代码)：
 
-运行: python analyst-v3.py
+# (在 Mac/Linux)
+export DEEPSEEK_API_KEY="sk-..."
+export NEWS_API_KEY="..."
+
+# (在 Windows CMD)
+set DEEPSEEK_API_KEY="sk-..."
+set NEWS_API_KEY="..."
+
+
+运行脚本: python analyst-v4.py
 
 6. 许可 (License)
 
-本项目采用 MIT 许可证。这意味着您可以自由地使用、修改和分发本项目的代码，但请保留原始许可声明。# TaiWan-situation
+本项目采用 MIT 许可证。详情请见 LICENSE 文件。
