@@ -20,6 +20,12 @@ jobs:
   build-and-analyze:
     # 使用最新的 Ubuntu 操作系统
     runs-on: ubuntu-latest
+    
+    # --- !! 关键修复 !! ---
+    # 明确授予 Action "写入" 权限，以便它可以推送 commit
+    permissions:
+      contents: write
+    # ---------------------
 
     steps:
       # 第 1 步：检出 (Checkout) 您的仓库代码
