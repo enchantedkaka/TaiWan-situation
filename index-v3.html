@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>台海风险指数仪表盘 (V3 - 指标模型)</title>
+    <title>台海风险指数仪表盘 (V4 - 累积衰减模型)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { font-family: 'Inter', sans-serif; }
@@ -11,9 +11,9 @@
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen p-4 md:p-8">
     <div class="max-w-6xl mx-auto">
-
+        
         <header class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">台海风险指数仪表盘 (V3)</h1>
+            <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">台海风险指数仪表盘 (V4)</h1>
             <p class="text-lg text-slate-400" id="last-updated">正在加载数据...</p>
         </header>
 
@@ -26,29 +26,29 @@
             <div id="risk-level-display" class="mt-4 text-2xl font-semibold text-green-500 transition-colors duration-300">
                 低风险
             </div>
-            <p id="risk-summary" class="text-slate-400 mt-2">触发了 0 / 0 个指标</p>
+            <p id="risk-summary" class="text-slate-400 mt-2">激活了 0 / 0 个指标</p>
         </div>
 
-        <!-- 触发的指标清单 -->
+        <!-- 激活的指标清单 -->
         <div class="mb-8 p-6 bg-slate-800 rounded-2xl shadow-xl">
-            <h3 class="text-2xl font-semibold mb-6">当前触发的预警信号</h3>
+            <h3 class="text-2xl font-semibold mb-6">当前激活的预警信号</h3>
             <div id="triggered-list" class="space-y-4">
                 <!-- 列表将由 JS 动态填充 -->
-                <p class="text-slate-400" id="no-triggers">未触发任何关键指标。</p>
+                <p class="text-slate-400" id="no-triggers">未激活任何关键指标。</p>
             </div>
         </div>
 
         <!-- LLM 分析摘要 -->
         <div class="bg-slate-800 rounded-2xl shadow-xl overflow-hidden">
-            <details class="p-6">
-                <summary class="text-2xl font-semibold cursor-pointer">查看 LLM 分析摘要 (点击展开)</summary>
+            <details class="p-6" open> <!-- 默认为展开状态 -->
+                <summary class="text-2xl font-semibold cursor-pointer">查看今日 LLM 分析摘要 (点击展开)</summary>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-
+                    
                     <div class="bg-slate-700 p-4 rounded-lg">
                         <h4 class="text-lg font-semibold mb-2 text-sky-400">📈 经济金融</h4>
                         <p id="r-econ" class="text-sm text-slate-300">...</p>
                     </div>
-
+                    
                     <div class="bg-slate-700 p-4 rounded-lg">
                         <h4 class="text-lg font-semibold mb-2 text-orange-400">🛡️ 军事后勤</h4>
                         <p id="r-mil" class="text-sm text-slate-300">...</p>
@@ -104,71 +104,105 @@
             }
         }
 
-        // 动态创建触发的指标卡片
-        function createIndicatorCard(indicator) {
+        // 动态创建激活的指标卡片
+        function createIndicatorCard(id, data, masterList) {
+            // 从 masterList 获取指标的描述和类别
+            const masterInfo = masterList[id] || { description: "未知指标", category: "未知" };
+            
+            const baseWeight = data.base_weight;
+            const currentWeight = data.current_weight;
+            const triggeredOn = data.triggered_on;
+            
+            // 根据权重设置背景色
             let bgColor = 'bg-slate-700';
-            if (indicator.weight >= 90) bgColor = 'bg-red-900/50';
-            else if (indicator.weight >= 70) bgColor = 'bg-orange-900/50';
+            if (baseWeight >= 90) bgColor = 'bg-red-900/50';
+            else if (baseWeight >= 70) bgColor = 'bg-orange-900/50';
 
+            // 计算衰减百分比
+            const decayPercentage = (currentWeight / baseWeight) * 100;
+            
             return `
                 <div class="${bgColor} p-4 rounded-lg border border-slate-600">
-                    <div class="flex justify-between items-center">
-                        <span class="font-semibold text-slate-300">${indicator.id} - ${indicator.category}</span>
-                        <span class="text-red-400 font-bold">权重: ${indicator.weight}</span>
+                    <div class="flex justify-between items-center mb-3">
+                        <span class="font-semibold text-slate-300">${id} - ${masterInfo.category}</span>
+                        <span class="text-red-400 font-bold">
+                            当前权重: ${Math.round(currentWeight)} / ${baseWeight}
+                        </span>
                     </div>
-                    <p class="text-slate-400 mt-2">${indicator.description}</p>
+                    <p class="text-slate-400 mt-2 text-sm">${masterInfo.description}</p>
+                    
+                    <!-- 衰减条 -->
+                    <div class="w-full bg-slate-800 rounded-full h-2.5 mt-3">
+                        <div class="bg-red-500 h-2.5 rounded-full" style="width: ${decayPercentage}%"></div>
+                    </div>
+                    <p class="text-xs text-slate-500 mt-1 text-right">首次触发: ${triggeredOn}</p>
                 </div>
             `;
         }
 
-        // 自动加载 V3 数据
-        async function loadScores() {
+        // 自动加载 V4 数据
+        async function loadData() {
             try {
-                const response = await fetch('scores-v3.json?t=' + new Date().getTime());
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
+                // 1. 加载主数据 (scores-v3.json)
+                const scoreResponse = await fetch('scores-v3.json?t=' + new Date().getTime());
+                if (!scoreResponse.ok) throw new Error(`HTTP error! status: ${scoreResponse.status}`);
+                const data = await scoreResponse.json();
 
-                // 1. 更新主分数
+                // 2. 加载指标大师列表 (indicators.json)，我们需要它来获取描述
+                const indicatorsResponse = await fetch('indicators.json?t=' + new Date().getTime());
+                if (!indicatorsResponse.ok) throw new Error('Failed to load indicators.json');
+                const indicatorsList = await indicatorsResponse.json();
+                // 将数组转换为对象以便快速查找
+                const masterList = indicatorsList.reduce((acc, ind) => {
+                    acc[ind.id] = ind;
+                    return acc;
+                }, {});
+
+
+                // 3. 更新主分数
                 const score = data.score;
                 riskIndexDisplay.textContent = score;
-                riskSummary.textContent = `触发了 ${data.triggered_indicators_count} / ${data.total_indicators} 个指标`;
+                riskSummary.textContent = `激活了 ${data.active_indicators_count} / ${data.total_indicators_possible} 个指标`;
                 updateRiskColor(score);
 
-                // 2. 更新时间戳
+                // 4. 更新时间戳
                 const updatedDate = new Date(data.last_updated);
                 lastUpdatedDisplay.textContent = `上次分析于: ${updatedDate.toLocaleString()}`;
 
-                // 3. 填充 LLM 理由
-                rEcon.textContent = "LLM 分析: " + data.category_reasoning.econ;
-                rMil.textContent = "LLM 分析: " + data.category_reasoning.mil;
-                rPol.textContent = "LLM 分析: " + data.category_reasoning.pol;
-                rLocal.textContent = "LLM 分析: " + data.category_reasoning.local;
+                // 5. 填充 LLM 理由
+                rEcon.textContent = "今日分析: " + data.category_reasoning.econ;
+                rMil.textContent = "今日分析: " + data.category_reasoning.mil; // <-- 已修复此处的语法错误
+                rPol.textContent = "今日分析: " + data.category_reasoning.pol;
+                rLocal.textContent = "今日分析: " + data.category_reasoning.local;
 
-                // 4. 填充触发的指标列表
-                if (data.triggered_indicators_count > 0) {
-                    noTriggers.style.display = 'none'; // 隐藏 "未触发" 消息
+                // 6. 填充激活的指标列表
+                if (data.active_indicators_count > 0) {
+                    noTriggers.style.display = 'none';
+                    
+                    // 将对象转换为数组并排序
+                    const activeIndicatorsArray = Object.entries(data.active_indicators)
+                        .map(([id, data]) => ({ id, ...data }));
+                        
+                    activeIndicatorsArray.sort((a, b) => b.current_weight - a.current_weight); // 按当前权重倒序
+                    
                     let htmlContent = '';
-                    data.triggered_indicators
-                        .sort((a, b) => b.weight - a.weight) // 按权重倒序排列
-                        .forEach(ind => {
-                            htmlContent += createIndicatorCard(ind);
-                        });
+                    activeIndicatorsArray.forEach(data => {
+                        htmlContent += createIndicatorCard(data.id, data, masterList);
+                    });
                     triggeredList.innerHTML = htmlContent;
                 } else {
-                    noTriggers.style.display = 'block'; // 显示 "未触发" 消息
-                    triggeredList.innerHTML = ''; // 清空列表
+                    noTriggers.style.display = 'block';
+                    triggeredList.innerHTML = '';
                 }
 
             } catch (error) {
-                console.error("加载 scores-v3.json 失败:", error);
-                lastUpdatedDisplay.textContent = "加载自动分析数据失败。请先运行 analyst-v3.py 脚本。";
+                console.error("加载数据失败:", error);
+                lastUpdatedDisplay.textContent = "加载自动分析数据失败。请检查 GitHub Action 运行状态。";
             }
         }
 
-        // 页面加载时，自动加载 LLM 的分数
-        document.addEventListener('DOMContentLoaded', loadScores);
+        // 页面加载时，自动加载
+        document.addEventListener('DOMContentLoaded', loadData);
     </script>
 </body>
 </html>
