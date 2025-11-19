@@ -1,70 +1,46 @@
-# .github/workflows/run-analysis.yml
-# 这是一个 GitHub Action 工作流，用于自动运行我们的分析脚本
-
 name: Run Risk Analysis
 
-# 触发条件
 on:
-  # 1. "workflow_dispatch" 允许您在 Actions 标签页上手动点击 "Run workflow"
   workflow_dispatch:
-  
-  # 2. "schedule" 允许您按计划自动运行
   schedule:
-    # cron 语法：分 时 日 月 星期
-    # '0 */6 * * *' = 每 6 小时运行一次 (在 00:00, 06:00, 12:00, 18:00 UTC)
-    # 鉴于 NewsAPI 的免费额度，请不要设置得太频繁。
     - cron: '0 */6 * * *'
 
-# 任务定义
 jobs:
   build-and-analyze:
-    # 使用最新的 Ubuntu 操作系统
     runs-on: ubuntu-latest
-    
-    # --- !! 关键修复 !! ---
-    # 明确授予 Action "写入" 权限，以便它可以推送 commit
     permissions:
       contents: write
-    # ---------------------
 
     steps:
-      # 第 1 步：检出 (Checkout) 您的仓库代码
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 第 2 步：设置 Python 3.10 环境
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
       
-      # 第 3 步：安装 Python 依赖
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       
-      # 第 4 步：运行分析脚本
-      # 它会自动使用您在第 1 步中设置的 "Secrets"
       - name: Run analysis script
         env:
-          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # 注意：这里我们删除了 DEEPSEEK_API_KEY，改用 GEMINI_API_KEY
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
         run: |
           python analyst-v5.py
       
-      # 第 5 步：(关键) 将生成的 scores-v3.json 提交回仓库
       - name: Commit and push score file
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add scores-v3.json
-          # 检查是否有文件变动
           if ! git diff --staged --quiet; then
-            git commit -m "📈 Auto-update risk analysis data"
+            git commit -m "📈 Auto-update risk analysis data (Gemini)"
             git push
           else
             echo "No changes to commit."
           fi
-
-
