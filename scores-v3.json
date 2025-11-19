@@ -5,15 +5,186 @@
     "active_indicators": {
         "POL-1": {
             "base_weight": 40,
-            "current_weight": 4.0045166015625,
+            "current_weight": 3.003387451171875,
             "triggered_on": "2025-11-16"
         }
     },
     "category_reasoning": {
-        "econ": "新闻情报中未明确提及任何预警指标清单中的异常事件，如台湾海峡战争险费率变化、抢购潮、经济制裁或大规模囤积物资。",
-        "mil": "新闻情报中未提及任何与军事后勤相关的异常活动，如禁航区、实弹演习、部队集结或预备役征召等。",
-        "pol": "新闻中未明确提及任何预警指标清单中的具体事件，如极端强硬措辞、针对台湾的旅行警告或撤侨行动。",
-        "local": "新闻明确提到防空警报测试是年度例行测试，非非例行活动，且超市物资供应充足，未见异常征用。"
+        "econ": "情报源未提及任何预警指标相关事件，如保险费率变化、抢购潮、经济制裁或物资囤积。内容涉及科技、商业、法律和地缘政治报告，但无明确触发。",
+        "mil": "所有情报源均未提及禁航区、非例行演习、军事集结或预备役征召等指标相关内容。官方信源为例行记者会或一般性报道，无预警触发。",
+        "pol": "所有信源均为例行内容或无关主题，未发现极端措辞、旅行警告或撤侨行动。",
+        "local": "情报源描述防空警报测试为年度例行，不触发LOCAL-1；超市物资充足无抢购，不触发LOCAL-2；无信息提及港口或机场征用，不触发LOCAL-3。"
     },
-    "last_updated": "2025-11-18T18:26:44.303330+00:00"
+    "news_sources": {
+        "econ": [
+            {
+                "title": "2025 年 11 月期 TOP500 榜单出炉，JUPITER 正式成为欧洲首台 E 级超算",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-18",
+                "url": "https://www.ithome.com/0/898/164.htm"
+            },
+            {
+                "title": "8点1氪丨无需结婚证，多省实现生育津贴直发个人；刘强东承诺京东点评“永不商业化”；网红酸奶Blueglass部分产品降价60%",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-18",
+                "url": "https://36kr.com/p/3557820671589510"
+            },
+            {
+                "title": "美国最高法院拒绝审理已到期专利上诉，苹果谷歌 LG 维持胜诉",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-17",
+                "url": "https://www.ithome.com/0/898/145.htm"
+            },
+            {
+                "title": "美报告：中共导弹井激增与AI作战系统引发警示(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-17",
+                "url": "https://www.secretchina.com/news/gb/2025/11/18/1090849.html"
+            },
+            {
+                "title": "美智库：中共或以能源围困台湾 瘫痪美供应链(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-17",
+                "url": "https://www.secretchina.com/news/gb/2025/11/18/1090846.html"
+            }
+        ],
+        "mil": [
+            {
+                "title": "8点1氪丨无需结婚证，多省实现生育津贴直发个人；刘强东承诺京东点评“永不商业化”；网红酸奶Blueglass部分产品降价60%",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-18",
+                "url": "https://36kr.com/p/3557820671589510"
+            },
+            {
+                "title": "美报告：中共导弹井激增与AI作战系统引发警示(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-17",
+                "url": "https://www.secretchina.com/news/gb/2025/11/18/1090849.html"
+            },
+            {
+                "title": "台湾开始向全民发送新版民防手册",
+                "source": "NewsAPI / Voachinese.com",
+                "date": "2025-11-17",
+                "url": "https://www.voachinese.com/a/taiwan-to-distribute-civil-defense-handbook-to-all-households-20251117/8082751.html"
+            },
+            {
+                "title": "俄罗斯对归国旅客实施24小时手机数据封禁 以防止无人机威胁",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-17",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1536742.htm"
+            },
+            {
+                "title": "零跑汽车第三季度净利润 1.5 亿元，共交付 17.39 万台汽车",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-17",
+                "url": "https://www.ithome.com/0/898/097.htm"
+            },
+            {
+                "title": "毛宁：日方必须给中国人民一个明确的交代 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMFh4QzBPMUY1d2s1dmlSMlRSdjc0SHdERHBBdC1BX2FkRzAzVU0xU2FMVFAzOVlVRmZaN2gtZ0JBcExxZ3gwcDl4S1MzUmMtZUNjNndxbHlIb3hqLW1nNDR6NGIxa2xCTjlpMXJjeGJWaG8xZ2RGajZXeGNzNE1ZTGlZT0txU1FqMWJj?oc=5"
+            },
+            {
+                "title": "2025年11月18日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsRmRaS1E5RkRMSFRldWd1NFJvOUkwSnF4SjBvQXZuMFk2UjhIaEl1TGdLLWJCOW1XYkVKSXdoZE51anZ4WjJkSnRaaTBDQjJMR18yaXU0TXAxakhqUXpKRlR0NTlJdjRjWWpSWXRBTWlWQllmYkE?oc=5"
+            },
+            {
+                "title": "2025年11月17日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-17",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XcmotblRndU9mSEZHQnc1blJxSlJlT0x2S29yaVBBbHNSVFQyZ0hwSVk2ZTlGM2xCalNPS0JhVjBuMjQ1aEJ2SmtYSHBwVFVrQzc4ZTRZUDFwX09rZDU3d2NyRjNJYlczdVNNS2RqejlBcFVMUFE?oc=5"
+            },
+            {
+                "title": "学习·故事丨总书记回信里的誓词碑 让民族团结的佳话代代相传 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-17",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZVzRYeURCM0otNm5VTDV3N2pQQTdVMDQ0MktnYlo4N1VzaWZEb0tsY3RocnFiRG1LWkFja0xhZzJlN3NWaEppWEJiMGh0WVI5N1E?oc=5"
+            },
+            {
+                "title": "中方就建立中东无核武器区提出三点主张 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95M3ZseElzMDkxMXZxT2swa1d6a0l6ZjdLdFExNFdxcXRQdXRodXJmel9zb05KRmtlOHk5NVI4OTkxc1A1a1doWG83NlpBeDlEQUE?oc=5"
+            },
+            {
+                "title": "11月19日起床号 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zMjhabzBKRDg2NjZWc0psbk1yaWl1QjFERzF1OFV1aTliWmRlTVNzTV9sX2JxaXN0S3N2MHVCOVdLNl9PS3JjdXhXZWxSSFhidmc?oc=5"
+            }
+        ],
+        "pol": [
+            {
+                "title": "北京反射控制新战场已在东京开打(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-18",
+                "url": "https://www.secretchina.com/news/gb/2025/11/18/1090853.html"
+            },
+            {
+                "title": "战狼外交反噬？世界掀起反共浪潮(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-18",
+                "url": "https://www.secretchina.com/news/gb/2025/11/18/1090852.html"
+            },
+            {
+                "title": "8点1氪丨无需结婚证，多省实现生育津贴直发个人；刘强东承诺京东点评“永不商业化”；网红酸奶Blueglass部分产品降价60%",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-18",
+                "url": "https://36kr.com/p/3557820671589510"
+            },
+            {
+                "title": "科技昨夜今晨 1118：华为 Mate 80 系列、Mate X7 定档 11 月 25 日发布；京东外卖独立 App 上线；3699 元起 OPPO Reno15 Pro 手机发布...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-17",
+                "url": "https://www.ithome.com/0/898/152.htm"
+            },
+            {
+                "title": "国产大飞机 C919 首次亮相中东，迪拜航展将进行飞行表演",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-17",
+                "url": "https://www.ithome.com/0/898/149.htm"
+            },
+            {
+                "title": "毛宁：日方必须给中国人民一个明确的交代 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMFh4QzBPMUY1d2s1dmlSMlRSdjc0SHdERHBBdC1BX2FkRzAzVU0xU2FMVFAzOVlVRmZaN2gtZ0JBcExxZ3gwcDl4S1MzUmMtZUNjNndxbHlIb3hqLW1nNDR6NGIxa2xCTjlpMXJjeGJWaG8xZ2RGajZXeGNzNE1ZTGlZT0txU1FqMWJj?oc=5"
+            },
+            {
+                "title": "2025年11月18日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsRmRaS1E5RkRMSFRldWd1NFJvOUkwSnF4SjBvQXZuMFk2UjhIaEl1TGdLLWJCOW1XYkVKSXdoZE51anZ4WjJkSnRaaTBDQjJMR18yaXU0TXAxakhqUXpKRlR0NTlJdjRjWWpSWXRBTWlWQllmYkE?oc=5"
+            },
+            {
+                "title": "2025年11月17日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-17",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XcmotblRndU9mSEZHQnc1blJxSlJlT0x2S29yaVBBbHNSVFQyZ0hwSVk2ZTlGM2xCalNPS0JhVjBuMjQ1aEJ2SmtYSHBwVFVrQzc4ZTRZUDFwX09rZDU3d2NyRjNJYlczdVNNS2RqejlBcFVMUFE?oc=5"
+            },
+            {
+                "title": "学习·故事丨总书记回信里的誓词碑 让民族团结的佳话代代相传 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-17",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZVzRYeURCM0otNm5VTDV3N2pQQTdVMDQ0MktnYlo4N1VzaWZEb0tsY3RocnFiRG1LWkFja0xhZzJlN3NWaEppWEJiMGh0WVI5N1E?oc=5"
+            },
+            {
+                "title": "中方就建立中东无核武器区提出三点主张 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95M3ZseElzMDkxMXZxT2swa1d6a0l6ZjdLdFExNFdxcXRQdXRodXJmel9zb05KRmtlOHk5NVI4OTkxc1A1a1doWG83NlpBeDlEQUE?oc=5"
+            },
+            {
+                "title": "11月19日起床号 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-18",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4zMjhabzBKRDg2NjZWc0psbk1yaWl1QjFERzF1OFV1aTliWmRlTVNzTV9sX2JxaXN0S3N2MHVCOVdLNl9PS3JjdXhXZWxSSFhidmc?oc=5"
+            }
+        ],
+        "local": []
+    },
+    "last_updated": "2025-11-19T01:17:30.209211+00:00"
 }
