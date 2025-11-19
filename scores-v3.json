@@ -1,19 +1,24 @@
 {
-    "score": 0,
-    "total_indicators_possible": 14,
-    "active_indicators_count": 1,
+    "score": 4,
+    "total_indicators_possible": 10,
+    "active_indicators_count": 2,
     "active_indicators": {
         "POL-1": {
-            "base_weight": 40,
-            "current_weight": 2.2525405883789062,
+            "base_weight": 80,
+            "current_weight": 1.6894054412841797,
             "triggered_on": "2025-11-16"
+        },
+        "POL-2": {
+            "base_weight": 30,
+            "current_weight": 30,
+            "triggered_on": "2025-11-19"
         }
     },
     "category_reasoning": {
-        "econ": "情报源无内容明确触发预警指标，均为无关或一般性报道。",
-        "mil": "情报源中无内容涉及禁航区、非例行演习、军事集结或预备役征召，均为例行或无关事件。",
-        "pol": "官方信源均为例行记者会或常规报道，无极端措辞或战争动员；国际媒体标题虽强硬，但非官方且未涉及台湾旅行警告或撤侨。",
-        "local": "情报源描述防空警报测试为年度例行，非非例行；超市物资充足，无抢购或限购；未提及港口或机场征用。"
+        "econ": "情报源中没有明确提及经济金融领域的预警指标被触发。虽然提到了“中共或以能源围困台湾 瘫痪美供应链”，但这只是一个美国智库的报告，并非官方宣布的制裁或禁运，因此不符合ECON-3的触发条件。",
+        "mil": "情报源中没有明确触发军事后勤预警指标的信息。未发现大规模兵力集结，禁航通告或征召预备役等相关信息。",
+        "pol": "情报源显示，外交部发言人毛宁在记者会上要求日方给中国人民一个“明确的交代”。这符合POL-2中“外交部发表强硬声明（如‘严重后果’、‘明确交代’）”的描述。",
+        "local": "情报源显示防空警报测试为年度例行，物资供应充足，社会秩序正常，未提及大规模演习或人防工程启用，因此未触发预警指标 LOCAL-1。"
     },
     "news_sources": {
         "econ": [
@@ -118,6 +123,12 @@
         ],
         "pol": [
             {
+                "title": "波音、空客回应中国商飞 C919、C909 首次亮相中东：竞争对行业有益",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-18",
+                "url": "https://www.ithome.com/0/898/179.htm"
+            },
+            {
                 "title": "北京反射控制新战场已在东京开打(图)",
                 "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-18",
@@ -140,12 +151,6 @@
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-17",
                 "url": "https://www.ithome.com/0/898/152.htm"
-            },
-            {
-                "title": "国产大飞机 C919 首次亮相中东，迪拜航展将进行飞行表演",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-17",
-                "url": "https://www.ithome.com/0/898/149.htm"
             },
             {
                 "title": "毛宁：日方必须给中国人民一个明确的交代 - mfa.gov.cn",
@@ -186,5 +191,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-19T01:19:05.386916+00:00"
+    "last_updated": "2025-11-19T01:50:02.503803+00:00"
 }
