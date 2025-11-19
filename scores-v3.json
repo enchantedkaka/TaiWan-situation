@@ -1,13 +1,8 @@
 {
     "score": 4,
     "total_indicators_possible": 10,
-    "active_indicators_count": 2,
+    "active_indicators_count": 1,
     "active_indicators": {
-        "POL-1": {
-            "base_weight": 80,
-            "current_weight": 1.2670540809631348,
-            "triggered_on": "2025-11-16"
-        },
         "POL-2": {
             "base_weight": 30,
             "current_weight": 30,
@@ -15,45 +10,51 @@
         }
     },
     "category_reasoning": {
-        "econ": "情报源中未包含任何与预警指标清单相关的经济金融信息。主要内容为科技新闻和韩国公司利润增长，没有触发任何预警指标。",
-        "mil": "根据提供的情报源，没有明确触发军事后勤相关的预警指标。情报主要集中在国际新闻、商业新闻、外交部和国防部的例行声明，以及中国军网的日常信息，未提及大规模军事调动或异常的军事活动。",
-        "pol": "外交部发言人毛宁在例行记者会上，针对日方问题，使用了“必须给中国人民一个明确的交代”的表述，符合POL-2中“外交部发表强硬声明”的描述，因此触发该预警指标。",
-        "local": "情报源显示防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未提及大规模演习或人防工程启用，因此未触发LOCAL-1指标。"
+        "econ": "分析出错: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDuBZ2E8JZjNAETkVEuFCPjXyZ554TXC-s (Caused by ResponseError('too many 429 error responses'))",
+        "mil": "分析出错: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDuBZ2E8JZjNAETkVEuFCPjXyZ554TXC-s (Caused by ResponseError('too many 429 error responses'))",
+        "pol": "外交部发言人毛宁在例行记者会上使用了“日方必须给中国人民一个明确的交代”的措辞，符合POL-2中“外交部/国防部发表强硬声明（如“严重后果”、“明确交代”）”的描述，因此触发该预警指标。",
+        "local": "情报源显示厦门本周的防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "MWC 2026 进入倒计时阶段：以 AI 为主线，首次明确涉足太空技术及卫星通信",
+                "title": "为苹果 iPhone 18 生产图像传感器，消息称三星拟追加 19 亿美元升级奥斯汀晶圆厂",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-18",
-                "url": "https://www.ithome.com/0/898/260.htm"
+                "url": "https://www.ithome.com/0/898/388.htm"
             },
             {
-                "title": "安谋科技发布全新“周易” X3 NPU：算力达80 FP8 TFLOPS",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-18",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536820.htm"
-            },
-            {
-                "title": "我国快递包裹市场规模连续十一年保持全球第一，月均百亿件",
+                "title": "限时 13.29 万元起、搭载磁流变悬架系统，深蓝 L06 上市",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-18",
-                "url": "https://www.ithome.com/0/898/252.htm"
+                "url": "https://www.ithome.com/0/898/386.htm"
             },
             {
-                "title": "国产汽车芯片认证审查技术体系实现突破",
-                "source": "NewsAPI / 36kr.com",
+                "title": "高通骁龙 8 Gen5 首个跑分出炉：单核接近、多核超越骁龙 8 至尊版，一加 Ace 6T 首发",
+                "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-18",
-                "url": "https://36kr.com/newsflashes/3558174491098247"
+                "url": "https://www.ithome.com/0/898/360.htm"
             },
             {
-                "title": "韩国上市公司今年前9月净利润总额同比增长25.8%",
+                "title": "谷歌 CEO 皮查伊：若 AI 泡沫破裂，没有公司能够幸免",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-18",
+                "url": "https://www.ithome.com/0/898/357.htm"
+            },
+            {
+                "title": "巴西这个地方，情况太复杂了",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-18",
-                "url": "https://36kr.com/newsflashes/3558154434001792"
+                "url": "https://36kr.com/p/3558359792024450"
             }
         ],
         "mil": [
+            {
+                "title": "高市早苗“台湾有事”掀波澜 美国表态力挺同盟(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-18",
+                "url": "https://www.secretchina.com/news/gb/2025/11/18/1090872.html"
+            },
             {
                 "title": "X/Twitter检测到用户使用VPN时将不会显示具体国家或地区",
                 "source": "NewsAPI / Cnbeta.com.tw",
@@ -77,12 +78,6 @@
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-18",
                 "url": "https://www.ithome.com/0/898/187.htm"
-            },
-            {
-                "title": "8点1氪丨无需结婚证，多省实现生育津贴直发个人；刘强东承诺京东点评“永不商业化”；网红酸奶Blueglass部分产品降价60%",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-18",
-                "url": "https://36kr.com/p/3557820671589510"
             },
             {
                 "title": "毛宁：日方必须给中国人民一个明确的交代 - mfa.gov.cn",
@@ -123,34 +118,34 @@
         ],
         "pol": [
             {
-                "title": "奥特曼负责“改变世界”她负责“赚钱养家”：揭秘OpenAI的神秘女二号",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "叙利亚外长访华之际 消息人士称叙计划向中国移交维吾尔人",
+                "source": "NewsAPI / DW (English)",
                 "date": "2025-11-18",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536786.htm"
+                "url": "https://www.dw.com/zh/%E5%8F%99%E5%88%A9%E4%BA%9A%E5%A4%96%E9%95%BF%E8%AE%BF%E5%8D%8E%E4%B9%8B%E9%99%85-%E6%B6%88%E6%81%AF%E4%BA%BA%E5%A3%AB%E7%A7%B0%E5%8F%99%E8%AE%A1%E5%88%92%E5%90%91%E4%B8%AD%E5%9B%BD%E7%A7%BB%E4%BA%A4%E7%BB%B4%E5%90%BE%E5%B0%94%E4%BA%BA/a-74789382"
             },
             {
-                "title": "30秒做应用、实时写图文，「灵光」想用AI重塑创造力边界",
-                "source": "NewsAPI / Ifanr.com",
+                "title": "叙利亚外长访华之际 消息人士称叙计划向中国移交维吾尔人",
+                "source": "NewsAPI / DW (English)",
                 "date": "2025-11-18",
-                "url": "https://www.ifanr.com/1644854"
+                "url": "https://www.dw.com/zh/%E5%8F%99%E5%88%A9%E4%BA%9A%E5%A4%96%E9%95%BF%E8%AE%BF%E5%8D%8E%E4%B9%8B%E9%99%85-%E6%B6%88%E6%81%AF%E4%BA%BA%E5%A3%AB%E7%A7%B0%E5%8F%99%E8%AE%A1%E5%88%92%E5%90%91%E4%B8%AD%E5%9B%BD%E7%A7%BB%E4%BA%A4%E7%BB%B4%E5%90%BE%E5%B0%94%E4%BA%BA/a-74789382"
             },
             {
-                "title": "英伟达合作助力 Arm 定制芯片发展",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-18",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536766.htm"
-            },
-            {
-                "title": "14亿“输血”极星浮亏50%，吉利全球化梦碎？",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-18",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536762.htm"
-            },
-            {
-                "title": "微软 Win11 RP 预览版 26100.7296 和 26200.7296 更新发布，文件资源管理器深色更统一",
+                "title": "谷歌 CEO 皮查伊：若 AI 泡沫破裂，没有公司能够幸免",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-18",
-                "url": "https://www.ithome.com/0/898/187.htm"
+                "url": "https://www.ithome.com/0/898/357.htm"
+            },
+            {
+                "title": "为什么标称500公里续航的车 实际只能跑350公里？",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-18",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1536884.htm"
+            },
+            {
+                "title": "巴西这个地方，情况太复杂了",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-18",
+                "url": "https://36kr.com/p/3558359792024450"
             },
             {
                 "title": "毛宁：日方必须给中国人民一个明确的交代 - mfa.gov.cn",
@@ -191,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-19T06:25:59.064882+00:00"
+    "last_updated": "2025-11-19T12:37:20.167077+00:00"
 }
