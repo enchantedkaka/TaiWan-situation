@@ -10,92 +10,92 @@
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources primarily contain business and technology news. There's no information related to the economic or financial warning indicators listed, such as increased war insurance rates, mass panic buying, or economic sanctions against Taiwan. Therefore, no indicators are triggered.",
-        "mil": "The provided information contains news articles and official statements from the Chinese government. None of the information indicates the occurrence of events that trigger the pre-defined military logistics warning indicators. The news articles focus on international relations, technology, and business updates. The official statements cover routine press conferences and legal developments, and a medical mission in Niger. There is no mention of unusual military activity, large-scale mobilization, or maritime restrictions related to Taiwan.",
-        "pol": "外交部发言人毛宁在例行记者会上，使用了“日方必须给中国人民一个明确的交代”的表述，符合POL-2中“外交部/国防部发表强硬声明（如“严重后果”、“明确交代”）”的描述，因此触发该指标。",
-        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未提及非例行的大规模演习或人防工程启用，因此未触发预警指标 LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the economic or financial warning indicators. There is no mention of increased war insurance rates, large-scale panic buying, or economic sanctions against Taiwan.",
+        "mil": "The provided information primarily consists of news headlines and links to official sources. There's no explicit mention of large-scale military movements, mobilization of resources, or significant naval restrictions that would trigger any of the MIL series warning indicators. Therefore, no military logistics indicators are triggered.",
+        "pol": "情报源显示外交部有例行记者会，根据关键判断准则，需要假设外交部在记者会上发表了强硬声明。 虽然没有直接证据表明声明的内容，但宁可误报不可漏报，因此判断触发POL-2。",
+        "local": "情报源显示是年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "奥特曼都点赞 Google Gemini 3 Pro到底强在哪？",
+                "title": "雷军不再“沉默”",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536972.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537062.htm"
             },
             {
-                "title": "华硕推出专业 OLED 显示器 PA32UCDMR-K：UHD 分辨率，杜比视界认证",
-                "source": "NewsAPI / Ithome.com",
+                "title": "特朗普呼吁国会阻止各州层面的人工智能监管",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-19",
-                "url": "https://www.ithome.com/0/898/550.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537060.htm"
             },
             {
-                "title": "「比利信息」完成数千万A+轮融资，加速构建“人工智能+酒旅大消费”新场景 | 36氪首发",
+                "title": "德国统计局数据显示今年前三季度中国成为德国最大贸易伙伴",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-19",
-                "url": "https://36kr.com/p/3559275463392131"
+                "url": "https://36kr.com/newsflashes/3559960458640518"
             },
             {
-                "title": "纽约时报：Meta反垄断胜诉撬动硅谷禁忌 科技巨头或重启并购潮",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "假如中日开战 谁输谁赢？(组图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536968.htm"
+                "url": "https://www.secretchina.com/news/gb/2025/11/19/1090918.html"
             },
             {
-                "title": "小米手机收入与均价下滑 高管回应内存涨价影响",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "限时价 9.58 万元起：2026 款吉利银河星舰 7 EM-i 上市，入门款纯电续航 130km",
+                "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536956.htm"
+                "url": "https://www.ithome.com/0/898/672.htm"
             }
         ],
         "mil": [
             {
-                "title": "奥特曼都点赞 Google Gemini 3 Pro到底强在哪？",
+                "title": "雷军不再“沉默”",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536972.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537062.htm"
             },
             {
-                "title": "习近平三板斧 双标 封控 霸权 引爆中日台烽火(图)",
+                "title": "假如中日开战 谁输谁赢？(组图)",
                 "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-19",
-                "url": "https://www.secretchina.com/news/gb/2025/11/19/1090907.html"
+                "url": "https://www.secretchina.com/news/gb/2025/11/19/1090918.html"
             },
             {
-                "title": "8点1氪丨西贝回应门店一线全员涨薪；谷歌发布Gemini 3；苹果回应iPhone 17 Pro Max掉色；",
+                "title": "福建舰刚出海 日本即公开下战帖 美日台联手亮剑(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-19",
+                "url": "https://www.secretchina.com/news/gb/2025/11/19/1090917.html"
+            },
+            {
+                "title": "氪星晚报｜我国首个高压天然气长输管道余压发电项目正式投运；速卖通巴西站创下单日成交纪录；我国成功发射实践三十号A、B、C星",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-19",
-                "url": "https://36kr.com/p/3559252626242434"
+                "url": "https://36kr.com/p/3559777485798536"
             },
             {
-                "title": "谷歌最强 AI 模型 Gemini 3 正式登场：发布即登顶 LMArena，号称迄今最智能",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-18",
-                "url": "https://www.ithome.com/0/898/436.htm"
-            },
-            {
-                "title": "日相挺台令北京跳脚 意媒揭真正原因“中共最怕这件事”(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-18",
-                "url": "https://www.secretchina.com/news/gb/2025/11/19/1090893.html"
-            },
-            {
-                "title": "毛宁：日方必须给中国人民一个明确的交代 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-18",
-                "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMFh4QzBPMUY1d2s1dmlSMlRSdjc0SHdERHBBdC1BX2FkRzAzVU0xU2FMVFAzOVlVRmZaN2gtZ0JBcExxZ3gwcDl4S1MzUmMtZUNjNndxbHlIb3hqLW1nNDR6NGIxa2xCTjlpMXJjeGJWaG8xZ2RGajZXeGNzNE1ZTGlZT0txU1FqMWJj?oc=5"
-            },
-            {
-                "title": "2025年11月18日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-18",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsRmRaS1E5RkRMSFRldWd1NFJvOUkwSnF4SjBvQXZuMFk2UjhIaEl1TGdLLWJCOW1XYkVKSXdoZE51anZ4WjJkSnRaaTBDQjJMR18yaXU0TXAxakhqUXpKRlR0NTlJdjRjWWpSWXRBTWlWQllmYkE?oc=5"
+                "title": "玩不到「终末地」的我，感觉身上有蚂蚁在爬丨玩点好的",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-19",
+                "url": "https://36kr.com/p/3559607353277320"
             },
             {
                 "title": "2025年11月19日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-19",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LQzR6S3lnVEI2Zzlfa2U1MHpMNG00cVQ4Q1RSbGJrZWRBaHBxc0lqT1l5bWlFT1RkM21TVHRlVDZjeER5UnIySlVuQlFWMXd4RVBPUlRRTEU4RS1CX2FPZ2pEOVZnQ1ZKRFNDSkIweUp1WmplNnc?oc=5"
+            },
+            {
+                "title": "重要新闻_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-19",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96ZElUc3h2aTRPU0RBRHBOSFdoNXN0aHpTV19MMHdJMzZjSGxJVWNmXzBHX3lyb3A1T2pKRkdVQVpYZjNnWVdCakdFTGZTU1dtcmZMc211dWxpazVxaHRpMGo4UFlwR3FibVk4?oc=5"
+            },
+            {
+                "title": "驻外报道 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2021-12-03",
+                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
             },
             {
                 "title": "中国医疗队与尼日尔医院联合开展义诊活动 - 中国军网",
@@ -118,52 +118,52 @@
         ],
         "pol": [
             {
-                "title": "不再只买波音：迪拜航空打破 17 年传统，约 240 亿美元采购 150 架空客 A321neo 飞机",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-19",
-                "url": "https://www.ithome.com/0/898/552.htm"
-            },
-            {
-                "title": "云服务可靠性再敲警钟 Cloudflare披露5小时中断事故详情",
+                "title": "雷军不再“沉默”",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536974.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537062.htm"
             },
             {
-                "title": "奥特曼都点赞 Google Gemini 3 Pro到底强在哪？",
+                "title": "特朗普呼吁国会阻止各州层面的人工智能监管",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536972.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537060.htm"
             },
             {
-                "title": "「比利信息」完成数千万A+轮融资，加速构建“人工智能+酒旅大消费”新场景 | 36氪首发",
-                "source": "NewsAPI / 36kr.com",
+                "title": "好像这部电影有上译配音版本，上译也是很会挑的。 (评论: 本桑的最后警告)",
+                "source": "NewsAPI / Douban.com",
                 "date": "2025-11-19",
-                "url": "https://36kr.com/p/3559275463392131"
+                "url": "https://movie.douban.com/review/17208341/"
             },
             {
-                "title": "任正非：要敢于敞开胸怀，拥抱大量的科学家回到中国",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "假如中日开战 谁输谁赢？(组图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1536960.htm"
+                "url": "https://www.secretchina.com/news/gb/2025/11/19/1090918.html"
             },
             {
-                "title": "毛宁：日方必须给中国人民一个明确的交代 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-18",
-                "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMFh4QzBPMUY1d2s1dmlSMlRSdjc0SHdERHBBdC1BX2FkRzAzVU0xU2FMVFAzOVlVRmZaN2gtZ0JBcExxZ3gwcDl4S1MzUmMtZUNjNndxbHlIb3hqLW1nNDR6NGIxa2xCTjlpMXJjeGJWaG8xZ2RGajZXeGNzNE1ZTGlZT0txU1FqMWJj?oc=5"
-            },
-            {
-                "title": "2025年11月18日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-18",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsRmRaS1E5RkRMSFRldWd1NFJvOUkwSnF4SjBvQXZuMFk2UjhIaEl1TGdLLWJCOW1XYkVKSXdoZE51anZ4WjJkSnRaaTBDQjJMR18yaXU0TXAxakhqUXpKRlR0NTlJdjRjWWpSWXRBTWlWQllmYkE?oc=5"
+                "title": "中共警告无效算计落空？中国飞日本航班爆满(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-19",
+                "url": "https://www.secretchina.com/news/gb/2025/11/19/1090919.html"
             },
             {
                 "title": "2025年11月19日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-19",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LQzR6S3lnVEI2Zzlfa2U1MHpMNG00cVQ4Q1RSbGJrZWRBaHBxc0lqT1l5bWlFT1RkM21TVHRlVDZjeER5UnIySlVuQlFWMXd4RVBPUlRRTEU4RS1CX2FPZ2pEOVZnQ1ZKRFNDSkIweUp1WmplNnc?oc=5"
+            },
+            {
+                "title": "重要新闻_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-19",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96ZElUc3h2aTRPU0RBRHBOSFdoNXN0aHpTV19MMHdJMzZjSGxJVWNmXzBHX3lyb3A1T2pKRkdVQVpYZjNnWVdCakdFTGZTU1dtcmZMc211dWxpazVxaHRpMGo4UFlwR3FibVk4?oc=5"
+            },
+            {
+                "title": "驻外报道 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2021-12-03",
+                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
             },
             {
                 "title": "中国医疗队与尼日尔医院联合开展义诊活动 - 中国军网",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-20T06:26:11.919560+00:00"
+    "last_updated": "2025-11-20T12:35:55.228230+00:00"
 }
