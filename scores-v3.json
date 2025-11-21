@@ -1,95 +1,95 @@
 {
-    "score": 3,
+    "score": 2,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 22.5,
+            "current_weight": 16.875,
             "triggered_on": "2025-11-20"
         }
     },
     "category_reasoning": {
-        "econ": "情报源中未包含任何与经济金融预警指标相关的信息。主要内容为国际新闻、商业报道和科技信息，没有提及保险费率、物资抢购、经济制裁或贸易禁运等内容。",
-        "mil": "情报源中未发现直接触发军事后勤预警指标的信息。所有信息均为新闻报道或外交部/国防部的例行新闻，未提及大规模军事调动、禁航通告或预备役征召等情况。",
-        "pol": "根据提供的情报源，外交部发布了例行记者会信息，解放军报/军网发布了医疗队义诊和依法治国相关新闻。没有发现任何官方使用最后通牒式语言、战争动员、发表强硬声明或外交关系降级等情况。因此，没有明确触发任何预警指标。",
-        "local": "情报源显示防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标 LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the listed economic and financial warning indicators. There is no mention of increased war insurance rates, unusual stockpiling, or economic sanctions against Taiwan.",
+        "mil": "The provided information lacks specific details that would trigger any of the military logistics indicators. There is no mention of large-scale military mobilization, naval exercises encircling Taiwan, or requisition of civilian resources for military purposes. The news articles and official sources cited do not contain information related to military preparations or unusual activities that would indicate an imminent threat.",
+        "pol": "情报源中外交部和国防部仅提供了链接，没有实际内容，无法判断是否触发预警指标。新闻媒体内容与预警指标无关。",
+        "local": "情报源显示本周防空警报测试为年度例行测试，且社会秩序正常，未见异常情况。因此，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "美国、英国和澳大利亚对俄罗斯“防弹”网络主机服务提供商实施制裁",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537088.htm"
+                "title": "30 亿英镑 iCloud 诉讼案苹果反击：直指原告“金主”没钱了，其股价已跌去 99%",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-20",
+                "url": "https://www.ithome.com/0/898/734.htm"
             },
             {
-                "title": "卷入爱泼斯坦风暴 美前财长退出OpenAI董事会(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-19",
-                "url": "https://www.secretchina.com/news/gb/2025/11/20/1090933.html"
+                "title": "英伟达 CEO 黄仁勋：并没有看到 AI 泡沫，已进入良性循环期",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-20",
+                "url": "https://www.ithome.com/0/898/733.htm"
             },
             {
-                "title": "中国餐食企业出海美国：模式、问题与应对",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108254"
+                "title": "iFixit 剖析苹果 iPhone Air 的 USB-C 接口，首用 3D 打印金属部件",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-20",
+                "url": "https://www.ithome.com/0/898/730.htm"
             },
             {
-                "title": "深势科技孙伟杰：让科学发现像使用搜索引擎一样简单",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108244"
+                "title": "8点1氪丨胖东来50万年薪招聘翻译，中国仅8校毕业生符合条件；贾跃亭成立第二个债权人信托，称尽责到底早日回国；杭州取消灵隐寺门票",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-20",
+                "url": "https://36kr.com/p/3560652689063041"
             },
             {
-                "title": "每周时事分析：美国离间中日、中韩关系",
-                "source": "NewsAPI / Ftchinese.com",
+                "title": "科技昨夜今晨 1120：荷兰宣布暂停干预安世半导体；京东方三星 OLED 专利和解；余承东官宣华为 MatePad Edge...",
+                "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108250"
+                "url": "https://www.ithome.com/0/898/726.htm"
             }
         ],
         "mil": [
             {
-                "title": "中国餐食企业出海美国：模式、问题与应对",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108254"
+                "title": "8点1氪丨胖东来50万年薪招聘翻译，中国仅8校毕业生符合条件；贾跃亭成立第二个债权人信托，称尽责到底早日回国；杭州取消灵隐寺门票",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-20",
+                "url": "https://36kr.com/p/3560652689063041"
             },
             {
-                "title": "深势科技孙伟杰：让科学发现像使用搜索引擎一样简单",
-                "source": "NewsAPI / Ftchinese.com",
+                "title": "科技昨夜今晨 1120：荷兰宣布暂停干预安世半导体；京东方三星 OLED 专利和解；余承东官宣华为 MatePad Edge...",
+                "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108244"
+                "url": "https://www.ithome.com/0/898/726.htm"
             },
             {
-                "title": "每周时事分析：美国离间中日、中韩关系",
-                "source": "NewsAPI / Ftchinese.com",
+                "title": "原腾讯Robotics X算法研究员创业，4个月获3轮融资，要在3-5年将人形机器人送进家庭",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108250"
+                "url": "https://36kr.com/p/3559983402023814"
             },
             {
-                "title": "美国公民因涉嫌向中国提供情报在德国受审",
-                "source": "NewsAPI / DW (English)",
-                "date": "2025-11-19",
-                "url": "https://www.dw.com/zh/%E7%BE%8E%E5%9B%BD%E5%85%AC%E6%B0%91%E5%9B%A0%E6%B6%89%E5%AB%8C%E5%90%91%E4%B8%AD%E5%9B%BD%E6%8F%90%E4%BE%9B%E6%83%85%E6%8A%A5%E5%9C%A8%E5%BE%B7%E5%9B%BD%E5%8F%97%E5%AE%A1/a-74808524"
-            },
-            {
-                "title": "雷军不再“沉默”",
+                "title": "白宫正推动阻止限制人工智能芯片出口的法案",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537062.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537102.htm"
             },
             {
-                "title": "重要新闻_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
+                "title": "美国陆军部长在基辅会晤乌防长，了解乌军对俄无人机作战的创新成果",
+                "source": "NewsAPI / Voachinese.com",
                 "date": "2025-11-19",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96ZElUc3h2aTRPU0RBRHBOSFdoNXN0aHpTV19MMHdJMzZjSGxJVWNmXzBHX3lyb3A1T2pKRkdVQVpYZjNnWVdCakdFTGZTU1dtcmZMc211dWxpazVxaHRpMGo4UFlwR3FibVk4?oc=5"
+                "url": "https://www.voachinese.com/a/us-army-civilian-leader-meets-ukraine-defense-chief-in-kyiv-20251119/8083565.html"
             },
             {
                 "title": "2025年11月19日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-19",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LQzR6S3lnVEI2Zzlfa2U1MHpMNG00cVQ4Q1RSbGJrZWRBaHBxc0lqT1l5bWlFT1RkM21TVHRlVDZjeER5UnIySlVuQlFWMXd4RVBPUlRRTEU4RS1CX2FPZ2pEOVZnQ1ZKRFNDSkIweUp1WmplNnc?oc=5"
+            },
+            {
+                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2005-09-24",
+                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
                 "title": "驻外报道 - mfa.gov.cn",
@@ -118,46 +118,46 @@
         ],
         "pol": [
             {
-                "title": "反日民族主义：中国政治最廉价的兴奋剂(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-19",
-                "url": "https://www.secretchina.com/news/gb/2025/11/20/1090935.html"
+                "title": "8点1氪丨胖东来50万年薪招聘翻译，中国仅8校毕业生符合条件；贾跃亭成立第二个债权人信托，称尽责到底早日回国；杭州取消灵隐寺门票",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-20",
+                "url": "https://36kr.com/p/3560652689063041"
             },
             {
-                "title": "美国、英国和澳大利亚对俄罗斯“防弹”网络主机服务提供商实施制裁",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "美联储10月会议纪要揭示严重内部分歧，12月投票结果将非常胶着",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-19",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537088.htm"
+                "url": "https://36kr.com/newsflashes/3560632000511111"
             },
             {
-                "title": "卷入爱泼斯坦风暴 美前财长退出OpenAI董事会(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "原腾讯Robotics X算法研究员创业，4个月获3轮融资，要在3-5年将人形机器人送进家庭",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-19",
-                "url": "https://www.secretchina.com/news/gb/2025/11/20/1090933.html"
+                "url": "https://36kr.com/p/3559983402023814"
             },
             {
-                "title": "中国餐食企业出海美国：模式、问题与应对",
-                "source": "NewsAPI / Ftchinese.com",
+                "title": "证监会：中证、国证可持续指数产品规模合计约1250亿元，较2020年底增长两倍多",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108254"
+                "url": "https://36kr.com/newsflashes/3560098149055365"
             },
             {
-                "title": "深势科技孙伟杰：让科学发现像使用搜索引擎一样简单",
-                "source": "NewsAPI / Ftchinese.com",
+                "title": "小鹏汽车：未来两年将年产数千辆自动驾驶出租车消息不实",
+                "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-19",
-                "url": "https://www.ftchinese.com/story/001108244"
-            },
-            {
-                "title": "重要新闻_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-19",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE96ZElUc3h2aTRPU0RBRHBOSFdoNXN0aHpTV19MMHdJMzZjSGxJVWNmXzBHX3lyb3A1T2pKRkdVQVpYZjNnWVdCakdFTGZTU1dtcmZMc211dWxpazVxaHRpMGo4UFlwR3FibVk4?oc=5"
+                "url": "https://www.ithome.com/0/898/718.htm"
             },
             {
                 "title": "2025年11月19日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-19",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5LQzR6S3lnVEI2Zzlfa2U1MHpMNG00cVQ4Q1RSbGJrZWRBaHBxc0lqT1l5bWlFT1RkM21TVHRlVDZjeER5UnIySlVuQlFWMXd4RVBPUlRRTEU4RS1CX2FPZ2pEOVZnQ1ZKRFNDSkIweUp1WmplNnc?oc=5"
+            },
+            {
+                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2005-09-24",
+                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
                 "title": "驻外报道 - mfa.gov.cn",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-20T18:26:01.406579+00:00"
+    "last_updated": "2025-11-21T01:18:32.602854+00:00"
 }
