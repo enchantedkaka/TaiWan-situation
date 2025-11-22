@@ -1,51 +1,51 @@
 {
-    "score": 3,
+    "score": 2,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 22.5,
+            "current_weight": 16.875,
             "triggered_on": "2025-11-22"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the economic and financial warning indicators. There is no mention of increased war insurance rates, large-scale panic buying, strategic material hoarding, or economic sanctions against Taiwan.",
-        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators (MIL-1, MIL-2, MIL-3). There is no mention of NOTAMs surrounding Taiwan, troop/equipment buildup in Fujian, or mobilization of reserves/civilian assets.",
-        "pol": "The provided information contains routine news reports and official statements. There are no indications of escalated tensions, explicit threats, or warnings. Therefore, none of the listed indicators are triggered. The foreign ministry's routine press conference and the defense ministry's general information website do not contain information that would trigger any indicators. The joint statement is also a normal diplomatic activity.",
-        "local": "情报源显示，厦门本地居民反馈防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未见大规模非例行演习或人防工程启用，因此未触发预警指标 LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the economic and financial warning indicators. There is no mention of increased war insurance rates, panic buying, strategic resource stockpiling, or economic sanctions against Taiwan.",
+        "mil": "The provided intelligence sources do not contain any information that explicitly triggers the military logistics warning indicators. There is no mention of NOTAMs, military build-ups in Fujian, or mobilization of reserves or civilian resources.",
+        "pol": "虽然外交部发布了例行记者会信息，但根据提供的情报源，无法判断发言内容是否包含强硬声明或最后通牒式语言。其他信息主要为一般新闻报道和活动信息，未明确触发任何预警指标。",
+        "local": "情报源显示，厦门本周的防空警报测试为年度例行测试，物资供应充足，社会秩序正常。未提及大规模演习或人防工程启用，因此未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "氪星晚报｜阿斯塔纳航空签署谅解备忘录；雷军特别助理徐洁云，再次兼任公关部总经理；月之暗面计划于明年下半年进行首次公开募股",
-                "source": "NewsAPI / 36kr.com",
+                "title": "中日冲突意在测试川普？民族主义恐反噬(图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-21",
-                "url": "https://36kr.com/p/3562664663596163"
+                "url": "https://www.secretchina.com/news/gb/2025/11/22/1091028.html"
             },
             {
-                "title": "首款全国产训推一体 AI 芯片：中诚华隆 HL 系列发布，兼容 CUDA 生态",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-21",
-                "url": "https://www.ithome.com/0/899/268.htm"
-            },
-            {
-                "title": "消息称三星加大投入 2nm 产能，明年年底有望实现月产 21000 片晶圆",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-21",
-                "url": "https://www.ithome.com/0/899/240.htm"
-            },
-            {
-                "title": "宏碁董事长：中国大陆DDR5产能大量开出时 缺货现象将解除",
+                "title": "美国能源部裁撤可再生能源机构 重点支持核聚变领域重组",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537394.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537446.htm"
             },
             {
-                "title": "黄仁勋称NVIDIA完全退出中国市场：一切归零 这真的很遗憾",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "美国逮捕被控非法向中国出口英伟达GPU的两名中国公民和两名美国公民",
+                "source": "NewsAPI / Voachinese.com",
                 "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537390.htm"
+                "url": "https://www.voachinese.com/a/us-arrests-2-chinese-nationals-and-2-american-citizens-for-conspiring-to-illegally-export-nvidia-gpus-to-china-20251121/8084129.html"
+            },
+            {
+                "title": "开放原子开源基金会：我国活跃开源开发者达 227 万，开源鸿蒙与开源欧拉成为首批毕业项目",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-21",
+                "url": "https://www.ithome.com/0/899/330.htm"
+            },
+            {
+                "title": "2026 款长城炮皮卡焕新上市：乘用炮、商用炮、越野炮，9.98 万元起",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-21",
+                "url": "https://www.ithome.com/0/899/322.htm"
             }
         ],
         "mil": [
@@ -86,16 +86,16 @@
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pQTM3OE1MeFRsM2F1UlR1aGJ0TjBJYW9xVzVzWEdxOTlHUUpzV3BjNFdldkZXUVhvMmxkOHNBQS1tVDVMYTE5MmVjTnA5SzFIVkZ2dzhjdWdKTWJ1Wk1jRkJwb1Y3UTRMdDkyb0FTbW10OGp5MlE?oc=5"
             },
             {
-                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2005-09-24",
-                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
-            },
-            {
                 "title": "中华人民共和国、坦桑尼亚联合共和国、赞比亚共和国政府关于携手打造坦赞铁路繁荣带的联合声明 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-21",
                 "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcllqR3N2dkROQWlsWnM5blJqODF4Mi00djN4V0J4WU1CYlB6MzFjZzZad09QZFQtVHJxT0JsZ1ZxczRJWmREa0hZd1NrRElvMXA3clg1NDVmY1JTU0p6N2VYTVFMV1NQQUNZeG13OC04UHd0NkxNOFBBZzgzV20wZGM4UmtrNms?oc=5"
+            },
+            {
+                "title": "驻贝尔法斯特总领事李南出席总领馆举行的总领馆开放日活动 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-20",
+                "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdmFsRVlFRXY3WDN5a0NUT0pRb2ZJd0loemptVXlJUDJNSlJRR2doRjI2RGo3bGE1VUpybTVRVlh1TkltYTl5N0N2d25VNjRKREdqTVJNd29LNVdqYU5PdExSbkRDQVlMYThBMnMtLWZzMnNvcE9uSmtFZW9wMnM0bVZKQk4?oc=5"
             },
             {
                 "title": "二十四节气承载深厚的哲学思想、诗意表达与民俗传统 - 中国军网",
@@ -118,6 +118,18 @@
         ],
         "pol": [
             {
+                "title": "中日冲突意在测试川普？民族主义恐反噬(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-21",
+                "url": "https://www.secretchina.com/news/gb/2025/11/22/1091028.html"
+            },
+            {
+                "title": "开放原子开源基金会：我国活跃开源开发者达 227 万，开源鸿蒙与开源欧拉成为首批毕业项目",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-21",
+                "url": "https://www.ithome.com/0/899/330.htm"
+            },
+            {
                 "title": "氪星晚报｜阿斯塔纳航空签署谅解备忘录；雷军特别助理徐洁云，再次兼任公关部总经理；月之暗面计划于明年下半年进行首次公开募股",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-21",
@@ -136,34 +148,22 @@
                 "url": "https://www.cnbeta.com.tw/articles/tech/1537380.htm"
             },
             {
-                "title": "英特尔CEO粉碎“带走台积电机密”谣言 在先进制程“生死战”中强调尊重IP",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537372.htm"
-            },
-            {
-                "title": "月之暗面拟融资 估值剑指40亿美元",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537368.htm"
-            },
-            {
                 "title": "2025年11月21日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-21",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pQTM3OE1MeFRsM2F1UlR1aGJ0TjBJYW9xVzVzWEdxOTlHUUpzV3BjNFdldkZXUVhvMmxkOHNBQS1tVDVMYTE5MmVjTnA5SzFIVkZ2dzhjdWdKTWJ1Wk1jRkJwb1Y3UTRMdDkyb0FTbW10OGp5MlE?oc=5"
             },
             {
-                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2005-09-24",
-                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
-            },
-            {
                 "title": "中华人民共和国、坦桑尼亚联合共和国、赞比亚共和国政府关于携手打造坦赞铁路繁荣带的联合声明 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-21",
                 "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcllqR3N2dkROQWlsWnM5blJqODF4Mi00djN4V0J4WU1CYlB6MzFjZzZad09QZFQtVHJxT0JsZ1ZxczRJWmREa0hZd1NrRElvMXA3clg1NDVmY1JTU0p6N2VYTVFMV1NQQUNZeG13OC04UHd0NkxNOFBBZzgzV20wZGM4UmtrNms?oc=5"
+            },
+            {
+                "title": "驻贝尔法斯特总领事李南出席总领馆举行的总领馆开放日活动 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-20",
+                "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdmFsRVlFRXY3WDN5a0NUT0pRb2ZJd0loemptVXlJUDJNSlJRR2doRjI2RGo3bGE1VUpybTVRVlh1TkltYTl5N0N2d25VNjRKREdqTVJNd29LNVdqYU5PdExSbkRDQVlMYThBMnMtLWZzMnNvcE9uSmtFZW9wMnM0bVZKQk4?oc=5"
             },
             {
                 "title": "二十四节气承载深厚的哲学思想、诗意表达与民俗传统 - 中国军网",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-22T12:31:15.616535+00:00"
+    "last_updated": "2025-11-22T18:22:36.466479+00:00"
 }
