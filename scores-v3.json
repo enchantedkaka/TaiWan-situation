@@ -1,83 +1,83 @@
 {
-    "score": 4,
+    "score": 3,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 30,
+            "current_weight": 22.5,
             "triggered_on": "2025-11-22"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the specified economic and financial warning indicators. There is no mention of insurance rate hikes, supply chain disruptions, economic sanctions, or abnormal stockpiling.",
-        "mil": "情报源中未包含明确触发军事后勤预警指标的信息。虽然存在国防部和外交部的链接，但内容主要是新闻发布和国际合作声明，没有大规模军事调动或禁航通告的描述。",
-        "pol": "情报源中包含外交部发言人例行记者会信息，需进一步分析具体内容是否包含强硬声明。由于关键判断准则强调“宁可误报不可漏报”，且官方信源权重极高，故暂时判定触发POL-2，等待进一步信息确认。",
-        "local": "情报源表明防空警报测试为年度例行测试，社会秩序正常，未见异常，因此未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the economic and financial warning indicators. There is no mention of increased war insurance rates, large-scale panic buying, strategic material hoarding, or economic sanctions against Taiwan.",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators (MIL-1, MIL-2, MIL-3). There is no mention of NOTAMs surrounding Taiwan, troop/equipment buildup in Fujian, or mobilization of reserves/civilian assets.",
+        "pol": "The provided information contains routine news reports and official statements. There are no indications of escalated tensions, explicit threats, or warnings. Therefore, none of the listed indicators are triggered. The foreign ministry's routine press conference and the defense ministry's general information website do not contain information that would trigger any indicators. The joint statement is also a normal diplomatic activity.",
+        "local": "情报源显示，厦门本地居民反馈防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未见大规模非例行演习或人防工程启用，因此未触发预警指标 LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "最前线｜消费级激光雕刻机龙头xTool成立欧洲区域办公室，加速拓展全球化布局",
+                "title": "氪星晚报｜阿斯塔纳航空签署谅解备忘录；雷军特别助理徐洁云，再次兼任公关部总经理；月之暗面计划于明年下半年进行首次公开募股",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-21",
-                "url": "https://36kr.com/p/3562423716789121"
+                "url": "https://36kr.com/p/3562664663596163"
             },
             {
-                "title": "马云意外鼓励 蚂蚁又一个奇兵出现了",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537306.htm"
-            },
-            {
-                "title": "库克时代将落幕 英媒：苹果新CEO需跳出舒适区敢于冒险",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537298.htm"
-            },
-            {
-                "title": "英伟达打了一剂强心针 投资者却越来越恐慌",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537284.htm"
-            },
-            {
-                "title": "奇瑞“智能硬派大五座”SUV iCAR V27 中国首秀，明年 Q1 上市",
+                "title": "首款全国产训推一体 AI 芯片：中诚华隆 HL 系列发布，兼容 CUDA 生态",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-21",
-                "url": "https://www.ithome.com/0/899/135.htm"
+                "url": "https://www.ithome.com/0/899/268.htm"
+            },
+            {
+                "title": "消息称三星加大投入 2nm 产能，明年年底有望实现月产 21000 片晶圆",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-21",
+                "url": "https://www.ithome.com/0/899/240.htm"
+            },
+            {
+                "title": "宏碁董事长：中国大陆DDR5产能大量开出时 缺货现象将解除",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-21",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537394.htm"
+            },
+            {
+                "title": "黄仁勋称NVIDIA完全退出中国市场：一切归零 这真的很遗憾",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-21",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537390.htm"
             }
         ],
         "mil": [
+            {
+                "title": "氪星晚报｜阿斯塔纳航空签署谅解备忘录；雷军特别助理徐洁云，再次兼任公关部总经理；月之暗面计划于明年下半年进行首次公开募股",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-21",
+                "url": "https://36kr.com/p/3562664663596163"
+            },
+            {
+                "title": "吉利成立“中国星”车队，星瑞 TCR 赛车将接棒领克 03 TCR 征战国际赛事",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-21",
+                "url": "https://www.ithome.com/0/899/280.htm"
+            },
+            {
+                "title": "Gemini 3背后，一个带领谷歌AI翻盘的男人",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-21",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537380.htm"
+            },
+            {
+                "title": "英特尔CEO粉碎“带走台积电机密”谣言 在先进制程“生死战”中强调尊重IP",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-21",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537372.htm"
+            },
             {
                 "title": "一个烂尾的故事，成了今年最好的叙事游戏 | 玩点好的",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-21",
                 "url": "https://36kr.com/p/3562410688986248"
-            },
-            {
-                "title": "库克时代将落幕 英媒：苹果新CEO需跳出舒适区敢于冒险",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537298.htm"
-            },
-            {
-                "title": "英伟达打了一剂强心针 投资者却越来越恐慌",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537284.htm"
-            },
-            {
-                "title": "美国坠毁麦道-11 货机关键部件发现金属疲劳迹象，事故致 14 人遇难",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-21",
-                "url": "https://www.ithome.com/0/899/057.htm"
-            },
-            {
-                "title": "台湾有事就是日本有事 就是美日同盟有事(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-20",
-                "url": "https://www.secretchina.com/news/gb/2025/11/21/1090990.html"
             },
             {
                 "title": "2025年11月21日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
@@ -118,34 +118,34 @@
         ],
         "pol": [
             {
-                "title": "为节省专利费，PC 巨头惠普和戴尔禁用笔记本 HEVC 硬件解码支持",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-21",
-                "url": "https://www.ithome.com/0/899/161.htm"
-            },
-            {
-                "title": "最前线｜消费级激光雕刻机龙头xTool成立欧洲区域办公室，加速拓展全球化布局",
+                "title": "氪星晚报｜阿斯塔纳航空签署谅解备忘录；雷军特别助理徐洁云，再次兼任公关部总经理；月之暗面计划于明年下半年进行首次公开募股",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-21",
-                "url": "https://36kr.com/p/3562423716789121"
+                "url": "https://36kr.com/p/3562664663596163"
             },
             {
-                "title": "特斯拉要连亏两年？外媒曝出260亿美元＂大雷＂把股东都吓懵了",
+                "title": "天皇生日酒会 中共胁迫日本大使舘驱离台湾客(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-21",
+                "url": "https://www.secretchina.com/news/gb/2025/11/21/1091015.html"
+            },
+            {
+                "title": "Gemini 3背后，一个带领谷歌AI翻盘的男人",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537314.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537380.htm"
             },
             {
-                "title": "UE5+AI，蔡浩宇领队，米哈游下一款旗舰来了",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-21",
-                "url": "https://36kr.com/p/3562372800379779"
-            },
-            {
-                "title": "英伟达打了一剂强心针 投资者却越来越恐慌",
+                "title": "英特尔CEO粉碎“带走台积电机密”谣言 在先进制程“生死战”中强调尊重IP",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-21",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537284.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537372.htm"
+            },
+            {
+                "title": "月之暗面拟融资 估值剑指40亿美元",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-21",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537368.htm"
             },
             {
                 "title": "2025年11月21日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-22T06:23:38.222535+00:00"
+    "last_updated": "2025-11-22T12:31:15.616535+00:00"
 }
