@@ -1,54 +1,60 @@
 {
-    "score": 2,
+    "score": 1,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 12.65625,
+            "current_weight": 9.4921875,
             "triggered_on": "2025-11-23"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not explicitly trigger any of the economic and financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, strategic material stockpiling, or economic sanctions against Taiwan.",
-        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the defined military logistics warning indicators. There is no mention of NOTAMs surrounding Taiwan, troop/equipment buildup in Fujian, or mobilization of reserves/civilian resources.",
-        "pol": "分析情报源，未发现任何明确触发预警指标的信息。虽然有外交部新闻，但内容是常规会见和提醒撤离，不涉及强硬声明或最后通牒。军方信息也主要为新闻报道，没有显示战争动员或威胁。",
-        "local": "情报源显示厦门本周的防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发任何预警指标。"
+        "econ": "The provided intelligence sources do not contain information that triggers any of the economic and financial warning indicators. There is no mention of insurance rate hikes, suspension of shipping, unusual stockpiling, or economic sanctions.",
+        "mil": "根据提供的情报源，没有明确触发任何军事后勤预警指标。未发现关于禁航通告、军事集结或征召预备役的信息。",
+        "pol": "The provided information does not contain any explicit triggers for the listed political and public opinion warning indicators. There are no instances of ultimatum-like language, war mobilization, strong statements from the Ministry of Foreign Affairs/Defense, or diplomatic downgrading. The provided official sources include routine meetings, safety reminders for citizens abroad, and news about cultural events and military exercises, none of which directly correlate to the specified warning indicators.",
+        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未见异常情况，因此未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "一加 Ace 6T 手机确认支持《王者荣耀》144FPS 模式",
+                "title": "鸿海与英伟达合建的 140 亿美元超级计算中心将于 2026 年上半年完工",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/494.htm"
+                "url": "https://www.ithome.com/0/899/535.htm"
             },
             {
-                "title": "科技昨夜今晨 1123：视觉中国被摄影师起诉案宣判后公开致歉；华为乾崑 App 发布；《哪吒 2》不参评奥斯卡最佳动画长片...",
+                "title": "上海交大发布全球首个量子科学计算平台，9 维方程计算效率提高 1 万亿倍以上",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/492.htm"
+                "url": "https://www.ithome.com/0/899/527.htm"
             },
             {
-                "title": "2026年全球经济展望：在混沌中构建秩序",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-22",
-                "url": "https://www.ftchinese.com/story/001108263"
+                "title": "GSMA 称 6G 网络所需中频段频谱是当前 3 倍，呼吁各国立即行动",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-23",
+                "url": "https://www.ithome.com/0/899/522.htm"
             },
             {
-                "title": "专访袁瑛：气候大会上的化石能源巨额账单，谁来为失控的气候买单？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-22",
-                "url": "https://www.ftchinese.com/story/001108277"
+                "title": "网传小米汽车工厂内电池产线起火，小米官方澄清",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-23",
+                "url": "https://36kr.com/newsflashes/3565091979131777"
             },
             {
-                "title": "日本经济的尴尬",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-22",
-                "url": "https://www.ftchinese.com/story/001108278"
+                "title": "一加中国区总裁李杰汇总 Ace 6T 爆料，真机“周一见”",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-23",
+                "url": "https://www.ithome.com/0/899/513.htm"
             }
         ],
         "mil": [
+            {
+                "title": "上海交大发布全球首个量子科学计算平台，9 维方程计算效率提高 1 万亿倍以上",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-23",
+                "url": "https://www.ithome.com/0/899/527.htm"
+            },
             {
                 "title": "科技昨夜今晨 1123：视觉中国被摄影师起诉案宣判后公开致歉；华为乾崑 App 发布；《哪吒 2》不参评奥斯卡最佳动画长片...",
                 "source": "NewsAPI / Ithome.com",
@@ -74,13 +80,13 @@
                 "url": "https://www.cnbeta.com.tw/articles/tech/1537492.htm"
             },
             {
-                "title": "你的快递，是无人车送的",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-22",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537476.htm"
+                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2005-09-24",
+                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
-                "title": "李强会见意大利总理梅洛尼 - mfa.gov.cn",
+                "title": "李强会见意大利总理梅洛尼（2025-11-23） - 外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-23",
                 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbFIzdkFReUdXZkZab0sxSDFzWWJjLVBDSEpCMnkyTDgtSFVEYl9acEl3aGZUOE1vX0tNSTFqRWU0Y29ERDNfdGpxbzQycWZwZm5FVnRIMGJUOUkxUE1vR3JUWVg3bjExWk9DTVl0UXZhelpxenMzZjJKRXVjOUFZbXdwN1hnOG5MN3NsMDh3?oc=5"
@@ -92,22 +98,16 @@
                 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11MndoUWMzbmk1Nl91LVhKU21yRF9TOURsSkVCNWlPYjhNZmpQMV83M2dRU2FYcUZ5RG1Jam10ZFBqR25STElLWkptbmw5clIyUVAyakJPSlNrd25lclI3Y3ZBNm1IZ2dwV3R2QjJOZ3g4bWtUdnlz?oc=5"
             },
             {
-                "title": "李强出席二十国集团领导人第二十次峰会第一阶段会议并发表讲话 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-22",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUT0F3LXhtTkhUcnFXRGZBckVvZnRyN2lOcVI0SVRrY3VkMTRhZjlMSzNSZVZ4TnU3UHNpeFBNZnV1ckZkZVhqR1FOSFRGQVl4aVRKVm1FUTAzMkYxR3pLNDVRQm5jNWZYNVpJ?oc=5"
+                "title": "远征星河，家人欢迎神舟二十号航天员回家！ - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-24",
+                "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWXZUZ0RJVWYxSUw1OXd1a2JXM09wTjc5Y2dLYlRTSEFpXzVEVVNYUEpqN1dMWnYzYWR6bHFXNzcxM2E4Zm5IaUE0a0RrdjlaMkR2MjNJVEdud19SajQtVg?oc=5"
             },
             {
                 "title": "北约强化波罗的海反潜能力 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-11-23",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzaE0tQTRtS0dhMnV5bllsOTRJMnFqU0RObnZSVzZXbmR5WmZ6czRob204TVpxblpmeW1SREVZS1d3c0RXRFRvaUozVmw1WGItRWc?oc=5"
-            },
-            {
-                "title": "2025年11月24日解放军报第01版：要闻 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-23",
-                "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdTRZbU1NLVMtSFp1VGFQNGlENUNFTURRdjhtUDI2cE0zSUxMZDNtcVVrWF9tb3JPc0ZFa05fQ1NGdjl3bkxYQUYyNS1Ka0VxWktIU3pqaG5xOUsxYTI5Uy1JUjAzeWhITVVROXdXczVBRkw0VlBFRTZnbjNWclJPT1RpSHgtOWpyblVXR1hPUjhzdjVRdkFwb0hIbw?oc=5"
             },
             {
                 "title": "反映南京大屠杀史实舞剧《记忆深处》在巴黎上演 - 中国军网",
@@ -117,6 +117,18 @@
             }
         ],
         "pol": [
+            {
+                "title": "上海交大发布全球首个量子科学计算平台，9 维方程计算效率提高 1 万亿倍以上",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-23",
+                "url": "https://www.ithome.com/0/899/527.htm"
+            },
+            {
+                "title": "GSMA 称 6G 网络所需中频段频谱是当前 3 倍，呼吁各国立即行动",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-23",
+                "url": "https://www.ithome.com/0/899/522.htm"
+            },
             {
                 "title": "科技昨夜今晨 1123：视觉中国被摄影师起诉案宣判后公开致歉；华为乾崑 App 发布；《哪吒 2》不参评奥斯卡最佳动画长片...",
                 "source": "NewsAPI / Ithome.com",
@@ -136,19 +148,13 @@
                 "url": "https://www.ftchinese.com/story/001108277"
             },
             {
-                "title": "日本经济的尴尬",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-22",
-                "url": "https://www.ftchinese.com/story/001108278"
+                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2005-09-24",
+                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
-                "title": "台湾重返联合国还会远吗 2758号决议揭穿中共的谎言(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-22",
-                "url": "https://www.secretchina.com/news/gb/2025/11/22/1091075.html"
-            },
-            {
-                "title": "李强会见意大利总理梅洛尼 - mfa.gov.cn",
+                "title": "李强会见意大利总理梅洛尼（2025-11-23） - 外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-23",
                 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbFIzdkFReUdXZkZab0sxSDFzWWJjLVBDSEpCMnkyTDgtSFVEYl9acEl3aGZUOE1vX0tNSTFqRWU0Y29ERDNfdGpxbzQycWZwZm5FVnRIMGJUOUkxUE1vR3JUWVg3bjExWk9DTVl0UXZhelpxenMzZjJKRXVjOUFZbXdwN1hnOG5MN3NsMDh3?oc=5"
@@ -160,22 +166,16 @@
                 "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11MndoUWMzbmk1Nl91LVhKU21yRF9TOURsSkVCNWlPYjhNZmpQMV83M2dRU2FYcUZ5RG1Jam10ZFBqR25STElLWkptbmw5clIyUVAyakJPSlNrd25lclI3Y3ZBNm1IZ2dwV3R2QjJOZ3g4bWtUdnlz?oc=5"
             },
             {
-                "title": "李强出席二十国集团领导人第二十次峰会第一阶段会议并发表讲话 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-22",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBUT0F3LXhtTkhUcnFXRGZBckVvZnRyN2lOcVI0SVRrY3VkMTRhZjlMSzNSZVZ4TnU3UHNpeFBNZnV1ckZkZVhqR1FOSFRGQVl4aVRKVm1FUTAzMkYxR3pLNDVRQm5jNWZYNVpJ?oc=5"
+                "title": "远征星河，家人欢迎神舟二十号航天员回家！ - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-24",
+                "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWXZUZ0RJVWYxSUw1OXd1a2JXM09wTjc5Y2dLYlRTSEFpXzVEVVNYUEpqN1dMWnYzYWR6bHFXNzcxM2E4Zm5IaUE0a0RrdjlaMkR2MjNJVEdud19SajQtVg?oc=5"
             },
             {
                 "title": "北约强化波罗的海反潜能力 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-11-23",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzaE0tQTRtS0dhMnV5bllsOTRJMnFqU0RObnZSVzZXbmR5WmZ6czRob204TVpxblpmeW1SREVZS1d3c0RXRFRvaUozVmw1WGItRWc?oc=5"
-            },
-            {
-                "title": "2025年11月24日解放军报第01版：要闻 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-23",
-                "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdTRZbU1NLVMtSFp1VGFQNGlENUNFTURRdjhtUDI2cE0zSUxMZDNtcVVrWF9tb3JPc0ZFa05fQ1NGdjl3bkxYQUYyNS1Ka0VxWktIU3pqaG5xOUsxYTI5Uy1JUjAzeWhITVVROXdXczVBRkw0VlBFRTZnbjNWclJPT1RpSHgtOWpyblVXR1hPUjhzdjVRdkFwb0hIbw?oc=5"
             },
             {
                 "title": "反映南京大屠杀史实舞剧《记忆深处》在巴黎上演 - 中国军网",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-24T01:24:08.705745+00:00"
+    "last_updated": "2025-11-24T06:27:44.651201+00:00"
 }
