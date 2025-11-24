@@ -5,79 +5,79 @@
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 9.4921875,
+            "current_weight": 7.119140625,
             "triggered_on": "2025-11-23"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that triggers any of the economic and financial warning indicators. There is no mention of insurance rate hikes, suspension of shipping, unusual stockpiling, or economic sanctions.",
-        "mil": "根据提供的情报源，没有明确触发任何军事后勤预警指标。未发现关于禁航通告、军事集结或征召预备役的信息。",
-        "pol": "The provided information does not contain any explicit triggers for the listed political and public opinion warning indicators. There are no instances of ultimatum-like language, war mobilization, strong statements from the Ministry of Foreign Affairs/Defense, or diplomatic downgrading. The provided official sources include routine meetings, safety reminders for citizens abroad, and news about cultural events and military exercises, none of which directly correlate to the specified warning indicators.",
-        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未见异常情况，因此未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not explicitly trigger any of the economic and financial warning indicators. There is no mention of increased war insurance rates, large-scale panic buying, or economic sanctions against Taiwan.",
+        "mil": "情报源中没有明确提及与军事后勤相关的预警指标。未发现禁航通告、兵力集结、预备役征召等信息。",
+        "pol": "The provided information does not contain any explicit triggers for the defined warning indicators. There are no instances of official use of ultimatum language, strong diplomatic statements, or reports of diplomatic personnel withdrawals.",
+        "local": "情报源显示防空警报为年度例行测试，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "鸿海与英伟达合建的 140 亿美元超级计算中心将于 2026 年上半年完工",
-                "source": "NewsAPI / Ithome.com",
+                "title": "ASML在美首建技术学院 年培训千名芯片设备工程师",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/535.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537618.htm"
             },
             {
-                "title": "上海交大发布全球首个量子科学计算平台，9 维方程计算效率提高 1 万亿倍以上",
-                "source": "NewsAPI / Ithome.com",
+                "title": "中国洗钱网络令人咋舌 连结富豪、贩毒及朝鲜骇客(图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/527.htm"
+                "url": "https://www.secretchina.com/news/gb/2025/11/23/1091095.html"
             },
             {
-                "title": "GSMA 称 6G 网络所需中频段频谱是当前 3 倍，呼吁各国立即行动",
-                "source": "NewsAPI / Ithome.com",
+                "title": "川普松口“非最终方案” 俄乌28点和平计划面临关键转折(图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/522.htm"
+                "url": "https://www.secretchina.com/news/gb/2025/11/23/1091094.html"
             },
             {
-                "title": "网传小米汽车工厂内电池产线起火，小米官方澄清",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-23",
-                "url": "https://36kr.com/newsflashes/3565091979131777"
-            },
-            {
-                "title": "一加中国区总裁李杰汇总 Ace 6T 爆料，真机“周一见”",
+                "title": "长鑫存储发布全新 DDR5 内存新品：最高速率 8000 MT/s，覆盖服务器、工作站及 PC 全场景领域",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/513.htm"
+                "url": "https://www.ithome.com/0/899/584.htm"
+            },
+            {
+                "title": "Joby航空超长航程eVTOL实现首飞 为国防客户定制",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-23",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537602.htm"
             }
         ],
         "mil": [
             {
+                "title": "川普松口“非最终方案” 俄乌28点和平计划面临关键转折(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-23",
+                "url": "https://www.secretchina.com/news/gb/2025/11/23/1091094.html"
+            },
+            {
+                "title": "英国正用《使命召唤》提升士兵“战备能力”，还招玩家入伍",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-23",
+                "url": "https://www.ithome.com/0/899/582.htm"
+            },
+            {
+                "title": "俞敏洪深夜再写全员信 用绿色字体向员工道歉",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-23",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537558.htm"
+            },
+            {
+                "title": "多次发现无人机 埃因霍温机场交通受阻",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-23",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537542.htm"
+            },
+            {
                 "title": "上海交大发布全球首个量子科学计算平台，9 维方程计算效率提高 1 万亿倍以上",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-23",
                 "url": "https://www.ithome.com/0/899/527.htm"
-            },
-            {
-                "title": "科技昨夜今晨 1123：视觉中国被摄影师起诉案宣判后公开致歉；华为乾崑 App 发布；《哪吒 2》不参评奥斯卡最佳动画长片...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/492.htm"
-            },
-            {
-                "title": "中国对宗教自由的恐惧 大于对核武器的恐惧(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-22",
-                "url": "https://www.secretchina.com/news/gb/2025/11/23/1091082.html"
-            },
-            {
-                "title": "下层军心不稳 中共如何开战(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-22",
-                "url": "https://www.secretchina.com/news/gb/2025/11/23/1091080.html"
-            },
-            {
-                "title": "印度国产光辉战机在迪拜航展坠毁 专家剖析事故原因",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-22",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537492.htm"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -92,10 +92,10 @@
                 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbFIzdkFReUdXZkZab0sxSDFzWWJjLVBDSEpCMnkyTDgtSFVEYl9acEl3aGZUOE1vX0tNSTFqRWU0Y29ERDNfdGpxbzQycWZwZm5FVnRIMGJUOUkxUE1vR3JUWVg3bjExWk9DTVl0UXZhelpxenMzZjJKRXVjOUFZbXdwN1hnOG5MN3NsMDh3?oc=5"
             },
             {
-                "title": "安全提醒：驻留刚果（金）东部地区中国公民应立即撤离 - 中国领事服务网",
+                "title": "驻外报道 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-23",
-                "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11MndoUWMzbmk1Nl91LVhKU21yRF9TOURsSkVCNWlPYjhNZmpQMV83M2dRU2FYcUZ5RG1Jam10ZFBqR25STElLWkptbmw5clIyUVAyakJPSlNrd25lclI3Y3ZBNm1IZ2dwV3R2QjJOZ3g4bWtUdnlz?oc=5"
+                "date": "2021-12-03",
+                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
             },
             {
                 "title": "远征星河，家人欢迎神舟二十号航天员回家！ - 中国军网",
@@ -110,42 +110,42 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzaE0tQTRtS0dhMnV5bllsOTRJMnFqU0RObnZSVzZXbmR5WmZ6czRob204TVpxblpmeW1SREVZS1d3c0RXRFRvaUozVmw1WGItRWc?oc=5"
             },
             {
-                "title": "反映南京大屠杀史实舞剧《记忆深处》在巴黎上演 - 中国军网",
+                "title": "Sanae Takaichi's fallacies on Taiwan trample international law and will ultimately backfire - China Military Online",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-22",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EclVWdGxCdk9HOEMzdldPcUNocV9LdEFzdS0xZnFVMGpoeXhJWlQxM1pzcGN3d3BoZGYwbUdZRVFVenE5RFZVUTRhc1k4S21qY0E?oc=5"
+                "date": "2025-11-24",
+                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xWlZKbEwxbnZTTUp6RHNpV2ZWWW53d1lqbnBrZ19relY1TmxWSG45UTVEQVdORVlOeGhtSTdkX3BWa016SzhMRndEa2tyTzVsZHZCVkJBT2RLUFhFX2c?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "上海交大发布全球首个量子科学计算平台，9 维方程计算效率提高 1 万亿倍以上",
-                "source": "NewsAPI / Ithome.com",
+                "title": "川普松口“非最终方案” 俄乌28点和平计划面临关键转折(图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/527.htm"
+                "url": "https://www.secretchina.com/news/gb/2025/11/23/1091094.html"
             },
             {
-                "title": "GSMA 称 6G 网络所需中频段频谱是当前 3 倍，呼吁各国立即行动",
-                "source": "NewsAPI / Ithome.com",
+                "title": "不管你愿不愿意，中国在引领全球绿色转型",
+                "source": "NewsAPI / DW (English)",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/522.htm"
+                "url": "https://www.dw.com/zh/%E4%B8%8D%E7%AE%A1%E4%BD%A0%E6%84%BF%E4%B8%8D%E6%84%BF%E6%84%8F%E4%B8%AD%E5%9B%BD%E5%9C%A8%E5%BC%95%E9%A2%86%E5%85%A8%E7%90%83%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B/a-74840196"
             },
             {
-                "title": "科技昨夜今晨 1123：视觉中国被摄影师起诉案宣判后公开致歉；华为乾崑 App 发布；《哪吒 2》不参评奥斯卡最佳动画长片...",
-                "source": "NewsAPI / Ithome.com",
+                "title": "创新败给了实用性 iPhone Air销量仅苹果预期三分之一",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-23",
-                "url": "https://www.ithome.com/0/899/492.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537570.htm"
             },
             {
-                "title": "2026年全球经济展望：在混沌中构建秩序",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-22",
-                "url": "https://www.ftchinese.com/story/001108263"
+                "title": "Meta隐瞒社交媒体危害心理健康的“因果”证据遭起诉",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-23",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537554.htm"
             },
             {
-                "title": "专访袁瑛：气候大会上的化石能源巨额账单，谁来为失控的气候买单？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-22",
-                "url": "https://www.ftchinese.com/story/001108277"
+                "title": "贝莱德比特币 ETF 单日成交突破 80 亿美元",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-23",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537548.htm"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -160,10 +160,10 @@
                 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbFIzdkFReUdXZkZab0sxSDFzWWJjLVBDSEpCMnkyTDgtSFVEYl9acEl3aGZUOE1vX0tNSTFqRWU0Y29ERDNfdGpxbzQycWZwZm5FVnRIMGJUOUkxUE1vR3JUWVg3bjExWk9DTVl0UXZhelpxenMzZjJKRXVjOUFZbXdwN1hnOG5MN3NsMDh3?oc=5"
             },
             {
-                "title": "安全提醒：驻留刚果（金）东部地区中国公民应立即撤离 - 中国领事服务网",
+                "title": "驻外报道 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-23",
-                "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11MndoUWMzbmk1Nl91LVhKU21yRF9TOURsSkVCNWlPYjhNZmpQMV83M2dRU2FYcUZ5RG1Jam10ZFBqR25STElLWkptbmw5clIyUVAyakJPSlNrd25lclI3Y3ZBNm1IZ2dwV3R2QjJOZ3g4bWtUdnlz?oc=5"
+                "date": "2021-12-03",
+                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
             },
             {
                 "title": "远征星河，家人欢迎神舟二十号航天员回家！ - 中国军网",
@@ -178,13 +178,13 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzaE0tQTRtS0dhMnV5bllsOTRJMnFqU0RObnZSVzZXbmR5WmZ6czRob204TVpxblpmeW1SREVZS1d3c0RXRFRvaUozVmw1WGItRWc?oc=5"
             },
             {
-                "title": "反映南京大屠杀史实舞剧《记忆深处》在巴黎上演 - 中国军网",
+                "title": "Sanae Takaichi's fallacies on Taiwan trample international law and will ultimately backfire - China Military Online",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-22",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EclVWdGxCdk9HOEMzdldPcUNocV9LdEFzdS0xZnFVMGpoeXhJWlQxM1pzcGN3d3BoZGYwbUdZRVFVenE5RFZVUTRhc1k4S21qY0E?oc=5"
+                "date": "2025-11-24",
+                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xWlZKbEwxbnZTTUp6RHNpV2ZWWW53d1lqbnBrZ19relY1TmxWSG45UTVEQVdORVlOeGhtSTdkX3BWa016SzhMRndEa2tyTzVsZHZCVkJBT2RLUFhFX2c?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-11-24T06:27:44.651201+00:00"
+    "last_updated": "2025-11-24T12:37:14.613279+00:00"
 }
