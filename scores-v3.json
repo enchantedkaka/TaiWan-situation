@@ -1,54 +1,66 @@
 {
-    "score": 4,
+    "score": 3,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 30,
+            "current_weight": 22.5,
             "triggered_on": "2025-11-24"
         }
     },
     "category_reasoning": {
-        "econ": "情报源中未包含任何与预警指标清单相关的经济金融事件信息，因此没有触发任何预警指标。",
-        "mil": "根据提供的情报源，没有明确的信息表明触发了任何预警指标。虽然有解放军报和外交部的信息，但都是常规新闻，没有关于大规模军事调动或强硬外交声明的迹象。",
-        "pol": "情报源显示外交部在2025年11月24日有例行记者会。根据关键判断准则，即使是例行记者会，如果发言人使用了强硬词汇，应视为触发外交强硬声明类指标。虽然没有直接引述发言内容，但鉴于'宁可误报不可漏报'的原则，以及'官方信源权重极高'，假设记者会有强硬表态的可能性较高，因此触发POL-2。",
-        "local": "情报源显示防空警报为年度例行测试，社会秩序正常，物资供应充足，未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the economic/financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, strategic material stockpiling, or economic sanctions/embargos against Taiwan.",
+        "mil": "根据提供的情报源，没有明确的信息表明触发了任何军事后勤预警指标。虽然解放军报提到了“远征星河，家人欢迎神舟二十号航天员回家！”，但这是航天任务，不属于大规模军事调动或后勤准备。其他信息主要涉及外交活动、国际新闻和商业新闻，与军事后勤预警指标无关。",
+        "pol": "Although the provided information includes official sources such as the MFA and PLA, there are no explicit indications of the use of strong language or actions such as ultimatums, war mobilization, strong warnings, or diplomatic downgrades. Therefore, none of the specified indicators are triggered based solely on this information.",
+        "local": "情报源显示防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "当欧洲发现自己在人工智能竞赛中选错赛道时",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-23",
-                "url": "https://www.ftchinese.com/story/001108283"
+                "title": "“创新设计”未能换来大量订单，IDC 称 iPhone Air 销量仅苹果预期三分之一",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-24",
+                "url": "https://www.ithome.com/0/899/648.htm"
             },
             {
-                "title": "比特币的未来",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-23",
-                "url": "https://www.ftchinese.com/story/001108279"
+                "title": "奥尔特曼预警 OpenAI“艰难时刻”到来：AI 领先优势缩小，将聚焦“超级智能”",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-24",
+                "url": "https://www.ithome.com/0/899/639.htm"
             },
             {
-                "title": "COP30特稿: “1.3万亿美元”路线图，中国在其中的角色是什么？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-23",
-                "url": "https://www.ftchinese.com/story/001108281"
+                "title": "2026经济前景如何？美财长回应 提醒这些行业最吃紧(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-24",
+                "url": "https://www.secretchina.com/news/gb/2025/11/24/1091111.html"
             },
             {
-                "title": "苹果首席执行官Tim Cook不会在2026年退休",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-23",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537630.htm"
+                "title": "华泰证券港股策略：港股正在进入布局区",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-24",
+                "url": "https://36kr.com/newsflashes/3566328231574662"
             },
             {
-                "title": "【CDT报告汇】人权观察批评土耳其政府，减少对在土维吾尔人的保护（外二篇）",
-                "source": "NewsAPI / Chinadigitaltimes.net",
-                "date": "2025-11-23",
-                "url": "https://chinadigitaltimes.net/chinese/722818.html"
+                "title": "8点1氪｜霸王茶姬创始人发朋友圈辟谣；俞敏洪再发全员信道歉，回应被叫“老登”；《哪吒之魔童闹海》未入围奥斯卡大名单",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-24",
+                "url": "https://36kr.com/p/3566311519796104"
             }
         ],
         "mil": [
+            {
+                "title": "8点1氪｜霸王茶姬创始人发朋友圈辟谣；俞敏洪再发全员信道歉，回应被叫“老登”；《哪吒之魔童闹海》未入围奥斯卡大名单",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-24",
+                "url": "https://36kr.com/p/3566311519796104"
+            },
+            {
+                "title": "距章程到期仅剩8个月 美国政府效率部已“不复存在”",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-23",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537642.htm"
+            },
             {
                 "title": "90亿全售股权，龙腾半导体借殻中联发展上市",
                 "source": "NewsAPI / Ftchinese.com",
@@ -68,16 +80,10 @@
                 "url": "https://www.ithome.com/0/899/582.htm"
             },
             {
-                "title": "俞敏洪深夜再写全员信 用绿色字体向员工道歉",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-23",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537558.htm"
-            },
-            {
-                "title": "多次发现无人机 埃因霍温机场交通受阻",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-23",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537542.htm"
+                "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-24",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ockhscjc0dGVjdDE1Z1dkMUhtckR0bTVhSFo0RXU2dUJxaXBySUlqVzdOZW1UdUpsTTk1QUJ6dHBxS1NLQ1E1VEhybVEyODM5eGJROUJaRm1pWkw0d0l0VmxKUWhoMVNPMDZn?oc=5"
             },
             {
                 "title": "2025年11月24日外交部发言人毛宁主持例行记者会 - mfa.gov.cn",
@@ -90,12 +96,6 @@
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-24",
                 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkFGUzlkSE11ZkV4czhLUHNpY01XY3gtNkNMZlhiUzBYUjFIOFVYenpWVDd2WXBEc0lBcDBaR2p3Y3didWxYam05NjB1QU54LXNGdEpUYnpzdkR0OXlWOEZJZXV1WTlOdlYtWmtxYzJqWW8tNktiZWxGUGdQdEFHV0tEUTFxUU9Ob0NJZ1ln?oc=5"
-            },
-            {
-                "title": "重要新闻_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-23",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tbmdJNDZSVWNQVU1VUXZ2aXZFc2NRUDk2MnR2UGt3SlM4Mlo4Y2VUWHYxZGhidmc0ZnQtbnJKYjlWdWtGRm9rRDdhbFE3cU9ES1c2ODdtTlNvRGEzVUN4enFPZjMwcE5CZ0dB?oc=5"
             },
             {
                 "title": "远征星河，家人欢迎神舟二十号航天员回家！ - 中国军网",
@@ -118,34 +118,40 @@
         ],
         "pol": [
             {
-                "title": "比特币的未来",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-23",
-                "url": "https://www.ftchinese.com/story/001108279"
+                "title": "“创新设计”未能换来大量订单，IDC 称 iPhone Air 销量仅苹果预期三分之一",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-24",
+                "url": "https://www.ithome.com/0/899/648.htm"
             },
             {
-                "title": "当欧洲发现自己在人工智能竞赛中选错赛道时",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-23",
-                "url": "https://www.ftchinese.com/story/001108283"
+                "title": "8位具身智能顶流聊起“非共识”：数据、世界模型、花钱之道",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-24",
+                "url": "https://36kr.com/p/3566363100674944"
             },
             {
-                "title": "COP30特稿: “1.3万亿美元”路线图，中国在其中的角色是什么？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-23",
-                "url": "https://www.ftchinese.com/story/001108281"
+                "title": "京东工业通过港交所聆讯，刘强东有望迎第六家上市公司",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-24",
+                "url": "https://www.ithome.com/0/899/642.htm"
             },
             {
-                "title": "90亿全售股权，龙腾半导体借殻中联发展上市",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-23",
-                "url": "https://www.ftchinese.com/story/001108284"
+                "title": "奥尔特曼预警 OpenAI“艰难时刻”到来：AI 领先优势缩小，将聚焦“超级智能”",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-24",
+                "url": "https://www.ithome.com/0/899/639.htm"
             },
             {
-                "title": "苹果首席执行官Tim Cook不会在2026年退休",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-23",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537630.htm"
+                "title": "科技昨夜今晨 1124：央视揭秘商家加装“巨型吊牌”；多地交管否认将试点“老头乐”驾照；小米澄清“小米汽车工厂内电池产线起火” ...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-24",
+                "url": "https://www.ithome.com/0/899/635.htm"
+            },
+            {
+                "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-24",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ockhscjc0dGVjdDE1Z1dkMUhtckR0bTVhSFo0RXU2dUJxaXBySUlqVzdOZW1UdUpsTTk1QUJ6dHBxS1NLQ1E1VEhybVEyODM5eGJROUJaRm1pWkw0d0l0VmxKUWhoMVNPMDZn?oc=5"
             },
             {
                 "title": "2025年11月24日外交部发言人毛宁主持例行记者会 - mfa.gov.cn",
@@ -158,12 +164,6 @@
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-24",
                 "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkFGUzlkSE11ZkV4czhLUHNpY01XY3gtNkNMZlhiUzBYUjFIOFVYenpWVDd2WXBEc0lBcDBaR2p3Y3didWxYam05NjB1QU54LXNGdEpUYnpzdkR0OXlWOEZJZXV1WTlOdlYtWmtxYzJqWW8tNktiZWxGUGdQdEFHV0tEUTFxUU9Ob0NJZ1ln?oc=5"
-            },
-            {
-                "title": "重要新闻_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-23",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tbmdJNDZSVWNQVU1VUXZ2aXZFc2NRUDk2MnR2UGt3SlM4Mlo4Y2VUWHYxZGhidmc0ZnQtbnJKYjlWdWtGRm9rRDdhbFE3cU9ES1c2ODdtTlNvRGEzVUN4enFPZjMwcE5CZ0dB?oc=5"
             },
             {
                 "title": "远征星河，家人欢迎神舟二十号航天员回家！ - 中国军网",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-24T18:26:55.676629+00:00"
+    "last_updated": "2025-11-25T01:19:23.703343+00:00"
 }
