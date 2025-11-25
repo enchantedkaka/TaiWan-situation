@@ -1,54 +1,66 @@
 {
-    "score": 2,
+    "score": 1,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 12.65625,
+            "current_weight": 9.4921875,
             "triggered_on": "2025-11-24"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources consist of general business and technology news. None of the economic/financial warning indicators appear to be triggered based on this information. There's no mention of increased war insurance rates, unusual stockpiling, or economic sanctions.",
-        "mil": "The provided information does not contain any data that triggers the specified military logistics indicators. There are no NOTAMs, troop movements, or mobilization of reserves or resources mentioned in the provided text. All information revolves around routine diplomatic activity, space program updates, and general news.",
-        "pol": "The provided intelligence sources do not contain information that explicitly triggers any of the listed warning indicators. There are no mentions of '悬崖勒马', '勿谓言之不预', war mobilization, strong statements like '严重后果' or '明确交代', or any actions like diplomatic personnel withdrawal or travel warnings from the US, Japan, or Europe. The provided texts primarily consist of routine diplomatic activities, news reports, and military-related articles without any explicit threat or warning.",
-        "local": "情报源显示厦门本周的防空警报测试为年度例行测试，超市物资供应充足，未见抢购，社会秩序正常。因此，未触发“厦门及沿海地区进行非例行的大规模防空、疏散演习或人防工程启用”的预警指标（LOCAL-1）。"
+        "econ": "The provided intelligence sources do not indicate any events that explicitly trigger the listed economic and financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, strategic resource hoarding, or economic sanctions against Taiwan.",
+        "mil": "情报源中未发现与军事后勤相关的明确预警指标触发信息。未见海事局禁航通告、大规模兵力集结或征召预备役等相关信息。",
+        "pol": "目前提供的情报源中，外交部信息仅包含领导人会见和例行记者会，未发现包含强硬措辞的声明或最后通牒式语言，因此未触发预警指标。",
+        "local": "情报源显示防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "我们最近又去试了一下苹果的 Trade In 换购计划，看看这次有什么新的感受",
-                "source": "NewsAPI / Toodaylab.com",
+                "title": "中国经济七大系统性危机全面爆发 2026最惨烈(图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-24",
-                "url": "https://www.toodaylab.com/83808"
+                "url": "https://www.secretchina.com/news/gb/2025/11/25/1091071.html"
             },
             {
-                "title": "氪星晚报 ｜幸运咖全球门店数突破10000家；消息人士称京东工业计划下周启动IPO，拟募资至多5亿美元；",
-                "source": "NewsAPI / 36kr.com",
+                "title": "两年内放弃中国零件 特斯拉做得到吗？",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-24",
-                "url": "https://36kr.com/p/3566944929807234"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537760.htm"
             },
             {
-                "title": "腾讯 11.6 亿欧元入股育碧 Vantage 工作室，后者股价一度飙升 15%",
+                "title": "谷歌回怼美国司法部，称不可能出售其广告交易平台 Ad Manager",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-24",
-                "url": "https://www.ithome.com/0/899/854.htm"
+                "url": "https://www.ithome.com/0/899/897.htm"
             },
             {
-                "title": "小米公布 6G 前沿技术系列成果，展示卫星通信等原型样机",
+                "title": "12 月 17 日发布，一加 15R 手机与 Pad Go 2 平板官宣",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-24",
-                "url": "https://www.ithome.com/0/899/828.htm"
+                "url": "https://www.ithome.com/0/899/896.htm"
             },
             {
-                "title": "刘扬伟用 6 年让富士康系统性转向，AI 服务器收入已超 iPhone",
-                "source": "NewsAPI / Ithome.com",
+                "title": "毫末智行北京总部已人去楼空 有员工抱着显示器离开",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-24",
-                "url": "https://www.ithome.com/0/899/812.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537750.htm"
             }
         ],
         "mil": [
+            {
+                "title": "毫末智行北京总部已人去楼空 有员工抱着显示器离开",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-24",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537750.htm"
+            },
+            {
+                "title": "比特币基金遭遇35亿美元资金撤离 恐迎来最差单月表现",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-24",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537748.htm"
+            },
             {
                 "title": "缅甸妙瓦底 KK 电诈园区被爆破拆除",
                 "source": "NewsAPI / Ithome.com",
@@ -68,34 +80,22 @@
                 "url": "https://www.secretchina.com/news/gb/2025/11/24/1091112.html"
             },
             {
-                "title": "英国 DragonFire 激光武器精准击落 650 km/h 高速无人机，单次发射成本 10 英镑",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-24",
-                "url": "https://www.ithome.com/0/899/707.htm"
-            },
-            {
-                "title": "拓竹几近完成新一轮融资，大厂参投，估值或达100亿美金｜36氪独家",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-24",
-                "url": "https://36kr.com/p/3566526394481543"
-            },
-            {
                 "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-24",
                 "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ockhscjc0dGVjdDE1Z1dkMUhtckR0bTVhSFo0RXU2dUJxaXBySUlqVzdOZW1UdUpsTTk1QUJ6dHBxS1NLQ1E1VEhybVEyODM5eGJROUJaRm1pWkw0d0l0VmxKUWhoMVNPMDZn?oc=5"
             },
             {
-                "title": "李强会见南非副总统马沙蒂莱 - mfa.gov.cn",
+                "title": "2025年11月25日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-24",
-                "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkFGUzlkSE11ZkV4czhLUHNpY01XY3gtNkNMZlhiUzBYUjFIOFVYenpWVDd2WXBEc0lBcDBaR2p3Y3didWxYam05NjB1QU54LXNGdEpUYnpzdkR0OXlWOEZJZXV1WTlOdlYtWmtxYzJqWW8tNktiZWxGUGdQdEFHV0tEUTFxUU9Ob0NJZ1ln?oc=5"
+                "date": "2025-11-25",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Lbk94aHRBVDZFUnFNcTd2NDVGbDhQYWU1a21QSnNENnBlSHpjNlRURmJWdVVBbVZjcm5iUnRBckFKcGl3ckhjeGZLaE11LXVUN2hDX05aUXQxeU0zRDZMeGdrbHoxZkV0a2FHS0dlN2dRMnotWkE?oc=5"
             },
             {
-                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
+                "title": "习近平会见汤加国王图普六世 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2005-09-24",
-                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
+                "date": "2025-11-25",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jbkE5ZjlwMkFlc2FRUVVLVWxHWXVseHZxSlhjbnA3SEJSd3NMQ3hfS0VsenlycGlhM2hRcmFkTFZhTFVSZG5TSnNnNlZqa2lZN3YteElEM2FIeFNyUEMxVDA3a2RuUEVtT1Jn?oc=5"
             },
             {
                 "title": "震撼原声！多角度观看神舟二十二号飞船发射 - 中国军网",
@@ -118,34 +118,34 @@
         ],
         "pol": [
             {
-                "title": "【旧文重温】OhMyMedia｜南风窗：中国要崛起，必须告别革命外交",
-                "source": "NewsAPI / Chinadigitaltimes.net",
+                "title": "国产大飞机公司商飞获440亿注资：C919订单超千架 洲际C929已启动",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-24",
-                "url": "https://chinadigitaltimes.net/chinese/722876.html"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537754.htm"
             },
             {
-                "title": "我们最近又去试了一下苹果的 Trade In 换购计划，看看这次有什么新的感受",
-                "source": "NewsAPI / Toodaylab.com",
-                "date": "2025-11-24",
-                "url": "https://www.toodaylab.com/83808"
-            },
-            {
-                "title": "客座评论：习近平的“千秋功业”——“收复台湾”还是“解放思想”？",
+                "title": "德国企业：为什么对中国难舍难分？",
                 "source": "NewsAPI / DW (English)",
                 "date": "2025-11-24",
-                "url": "https://www.dw.com/zh/%E5%AE%A2%E5%BA%A7%E8%AF%84%E8%AE%BA%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%9A%84%E5%8D%83%E7%A7%8B%E5%8A%9F%E4%B8%9A%E6%94%B6%E5%A4%8D%E5%8F%B0%E6%B9%BE%E8%BF%98%E6%98%AF%E8%A7%A3%E6%94%BE%E6%80%9D%E6%83%B3/a-74860117"
+                "url": "https://www.dw.com/zh/%E5%BE%B7%E5%9B%BD%E4%BC%81%E4%B8%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AF%B9%E4%B8%AD%E5%9B%BD%E9%9A%BE%E8%88%8D%E9%9A%BE%E5%88%86/a-74866198"
             },
             {
-                "title": "习近平的千秋功业：“收复台湾”还是“解放思想”？",
-                "source": "NewsAPI / DW (English)",
+                "title": "毫末智行北京总部已人去楼空 有员工抱着显示器离开",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-24",
-                "url": "https://www.dw.com/zh/%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%9A%84%E5%8D%83%E7%A7%8B%E5%8A%9F%E4%B8%9A%E6%94%B6%E5%A4%8D%E5%8F%B0%E6%B9%BE%E8%BF%98%E6%98%AF%E8%A7%A3%E6%94%BE%E6%80%9D%E6%83%B3/a-74860117"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537750.htm"
             },
             {
-                "title": "氪星晚报 ｜幸运咖全球门店数突破10000家；消息人士称京东工业计划下周启动IPO，拟募资至多5亿美元；",
-                "source": "NewsAPI / 36kr.com",
+                "title": "比特币基金遭遇35亿美元资金撤离 恐迎来最差单月表现",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-24",
-                "url": "https://36kr.com/p/3566944929807234"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537748.htm"
+            },
+            {
+                "title": "2030 年起禁售燃油车，英国追加 13 亿英镑电动汽车补贴",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-24",
+                "url": "https://www.ithome.com/0/899/880.htm"
             },
             {
                 "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
@@ -154,16 +154,16 @@
                 "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ockhscjc0dGVjdDE1Z1dkMUhtckR0bTVhSFo0RXU2dUJxaXBySUlqVzdOZW1UdUpsTTk1QUJ6dHBxS1NLQ1E1VEhybVEyODM5eGJROUJaRm1pWkw0d0l0VmxKUWhoMVNPMDZn?oc=5"
             },
             {
-                "title": "李强会见南非副总统马沙蒂莱 - mfa.gov.cn",
+                "title": "2025年11月25日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-24",
-                "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkFGUzlkSE11ZkV4czhLUHNpY01XY3gtNkNMZlhiUzBYUjFIOFVYenpWVDd2WXBEc0lBcDBaR2p3Y3didWxYam05NjB1QU54LXNGdEpUYnpzdkR0OXlWOEZJZXV1WTlOdlYtWmtxYzJqWW8tNktiZWxGUGdQdEFHV0tEUTFxUU9Ob0NJZ1ln?oc=5"
+                "date": "2025-11-25",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Lbk94aHRBVDZFUnFNcTd2NDVGbDhQYWU1a21QSnNENnBlSHpjNlRURmJWdVVBbVZjcm5iUnRBckFKcGl3ckhjeGZLaE11LXVUN2hDX05aUXQxeU0zRDZMeGdrbHoxZkV0a2FHS0dlN2dRMnotWkE?oc=5"
             },
             {
-                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
+                "title": "习近平会见汤加国王图普六世 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2005-09-24",
-                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
+                "date": "2025-11-25",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jbkE5ZjlwMkFlc2FRUVVLVWxHWXVseHZxSlhjbnA3SEJSd3NMQ3hfS0VsenlycGlhM2hRcmFkTFZhTFVSZG5TSnNnNlZqa2lZN3YteElEM2FIeFNyUEMxVDA3a2RuUEVtT1Jn?oc=5"
             },
             {
                 "title": "震撼原声！多角度观看神舟二十二号飞船发射 - 中国军网",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-25T12:37:22.219972+00:00"
+    "last_updated": "2025-11-25T18:27:18.950089+00:00"
 }
