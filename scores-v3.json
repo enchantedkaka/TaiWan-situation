@@ -1,88 +1,88 @@
 {
-    "score": 14,
+    "score": 11,
     "total_indicators_possible": 10,
     "active_indicators_count": 2,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 5.33935546875,
+            "current_weight": 4.0045166015625,
             "triggered_on": "2025-11-24"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 100,
+            "current_weight": 75.0,
             "triggered_on": "2025-11-26"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not explicitly trigger any of the economic and financial warning indicators. There is no mention of increased insurance rates, unusual stockpiling, or economic sanctions related to Taiwan.",
-        "mil": "中国军网报道全军统一制发《中国人民解放军预备役人员证》，表明正在进行预备役的动员准备，符合大规模征召预备役的描述，触发MIL-3。",
-        "pol": "The provided information includes routine diplomatic activities such as phone calls between leaders, press conferences, and meetings with foreign dignitaries. There are also reports on military activities like space launches and the issuance of reserve personnel certificates. Critically, there is no evidence of '悬崖勒马', '勿谓言之不预', strong warnings, or ultimatums from official sources. Thus, no pre-warning indicators are triggered based on the current information.",
-        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未触发预警指标 LOCAL-1。"
+        "econ": "The provided news snippets do not contain any information related to the defined economic/financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, strategic resource stockpiling, or economic sanctions against Taiwan. Therefore, no economic/financial indicators are triggered.",
+        "mil": "当前情报源主要为新闻报道和官方的公开信息，包括外交部例行记者会、领导人会见、以及军事相关的新闻报道。其中，军网提到了预备役人员证的发放，但根据预警指标，需要大规模征召预备役才能触发预警。因此，没有明确触发任何预警指标。",
+        "pol": "The provided information contains routine diplomatic activities (习近平同美国总统特朗普通电话, 习近平会见汤加国王图普六世, 2025年11月25日外交部发言人毛宁主持例行记者会) and standard military news (神舟二十二号飞船发射, 全军统一制发《中国人民解放军预备役人员证》, 国际观察丨军国主义余毒未除才是“日本有事”). No explicit warning signals or strong statements like '悬崖勒马', '勿谓言之不预', '严重后果', or indications of diplomatic personnel withdrawal are present. Therefore, no pre-warning indicators are triggered based on the provided information.",
+        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未见异常情况。未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "一本新书的猛料让ASML陷入国际舆论漩涡 多次下场“对线”",
+                "title": "WISE2025 DAY2剧透：对话商业之王，求解商业生存法则！",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-25",
+                "url": "https://36kr.com/p/3568392753740678"
+            },
+            {
+                "title": "杨震原：2021 年字节团队曾训出大语言模型，但当时 “没眼光”",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-25",
+                "url": "https://36kr.com/p/3568362445405060"
+            },
+            {
+                "title": "史上首次：欧洲插电式混合动力汽车销量超过柴油车",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-25",
+                "url": "https://www.ithome.com/0/900/190.htm"
+            },
+            {
+                "title": "苹果因应用追踪透明度问题面临波兰反垄断调查",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537802.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537928.htm"
             },
             {
-                "title": "马斯克开始用 Grok 替代员工了！最惨部门裁员 90%",
+                "title": "阿里巴巴 2026 财年第二季度营收 2478.0 亿元，同比增长 4.8%",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/900/032.htm"
-            },
-            {
-                "title": "把AI送上天，打造全国产太空超算，「中科天算」完成数千万元天使轮融资｜36氪首发",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3567928505433217"
-            },
-            {
-                "title": "本周在哪儿投资你的「商业注意力」？WISE 2025为你划重点！",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3567918330870920"
-            },
-            {
-                "title": "德国 Mindfactory 平台第 47 周数据：AMD 处理器销量是英特尔 10 倍多",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/899/979.htm"
+                "url": "https://www.ithome.com/0/900/183.htm"
             }
         ],
         "mil": [
             {
-                "title": "年营收超3000万美元，前华为人掘金中东AI浪潮｜Insight全球",
+                "title": "杨震原：2021 年字节团队曾训出大语言模型，但当时 “没眼光”",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-25",
-                "url": "https://36kr.com/p/3567842595175296"
+                "url": "https://36kr.com/p/3568362445405060"
             },
             {
-                "title": "8点1氪｜屈臣氏CEO在香港跳海救人；三只松鼠回应员工入职要改姓“鼠”；“潜水员水下关闭他人气瓶”，PADI回应",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-24",
-                "url": "https://36kr.com/p/3567724136922246"
+                "title": "从日内瓦到阿联酋秘密穿梭 揭秘美俄乌三方关键谈判 川普政府力推和平(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-25",
+                "url": "https://www.secretchina.com/news/gb/2025/11/25/1091166.html"
             },
             {
-                "title": "科技昨夜今晨 1125：华为 Mate 80/X7 系列机型今日线上发布；缅甸 KK 电诈园区被爆破拆除；2699 元起荣耀 500 系列手机发布...",
+                "title": "【IT之家评测室】华为 WATCH Ultimate 2 非凡探索体验：成为“全能表王”的自我修养",
                 "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-24",
-                "url": "https://www.ithome.com/0/899/921.htm"
+                "date": "2025-11-25",
+                "url": "https://www.ithome.com/0/900/129.htm"
             },
             {
-                "title": "特斯拉在华销量跌至三年新低 背后发生了什么？",
+                "title": "为什么乒乓球运动员老是摸球台？",
                 "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-24",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537772.htm"
+                "date": "2025-11-25",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537906.htm"
             },
             {
-                "title": "毫末智行北京总部已人去楼空 有员工抱着显示器离开",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-24",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537750.htm"
+                "title": "月订单破千台，「灵心巧手」完成数亿元A+轮融资｜智能涌现首发",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-25",
+                "url": "https://36kr.com/p/3568200976055175"
             },
             {
                 "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
@@ -123,34 +123,34 @@
         ],
         "pol": [
             {
-                "title": "一本新书的猛料让ASML陷入国际舆论漩涡 多次下场“对线”",
+                "title": "国际密码研究协会选举 却因遗失私钥无法得出结果",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537802.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537936.htm"
             },
             {
-                "title": "马斯克开始用 Grok 替代员工了！最惨部门裁员 90%",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/900/032.htm"
-            },
-            {
-                "title": "媒體：習近平罕見致電川普 美國介入中日僵局？",
-                "source": "NewsAPI / DW (English)",
-                "date": "2025-11-25",
-                "url": "https://www.dw.com/zh/%E5%AA%92%E4%BD%93%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%BD%95%E8%A7%81%E8%87%B4%E7%94%B5%E7%89%B9%E6%9C%97%E6%99%AE-%E7%BE%8E%E5%9B%BD%E4%BB%8B%E5%85%A5%E4%B8%AD%E6%97%A5%E5%83%B5%E5%B1%80/a-74874770"
-            },
-            {
-                "title": "京东“国民好车”埃安 UT super 全面开启交付，整车 8.99 万 / 租电 4.99 万元",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/899/963.htm"
-            },
-            {
-                "title": "年营收超3000万美元，前华为人掘金中东AI浪潮｜Insight全球",
+                "title": "WISE2025 DAY2剧透：对话商业之王，求解商业生存法则！",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-25",
-                "url": "https://36kr.com/p/3567842595175296"
+                "url": "https://36kr.com/p/3568392753740678"
+            },
+            {
+                "title": "杨震原：2021 年字节团队曾训出大语言模型，但当时 “没眼光”",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-25",
+                "url": "https://36kr.com/p/3568362445405060"
+            },
+            {
+                "title": "万科清仓贝壳",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-25",
+                "url": "https://36kr.com/p/3568372158119040"
+            },
+            {
+                "title": "国安警报 双重国籍风暴引爆台湾政坛国会攻防(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-25",
+                "url": "https://www.secretchina.com/news/gb/2025/11/25/1091168.html"
             },
             {
                 "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
@@ -191,5 +191,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-26T06:27:54.784508+00:00"
+    "last_updated": "2025-11-26T12:38:01.606581+00:00"
 }
