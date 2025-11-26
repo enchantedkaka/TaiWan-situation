@@ -1,59 +1,77 @@
 {
-    "score": 11,
+    "score": 8,
     "total_indicators_possible": 10,
     "active_indicators_count": 2,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 4.0045166015625,
+            "current_weight": 3.003387451171875,
             "triggered_on": "2025-11-24"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 75.0,
+            "current_weight": 56.25,
             "triggered_on": "2025-11-26"
         }
     },
     "category_reasoning": {
-        "econ": "The provided news snippets do not contain any information related to the defined economic/financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, strategic resource stockpiling, or economic sanctions against Taiwan. Therefore, no economic/financial indicators are triggered.",
-        "mil": "当前情报源主要为新闻报道和官方的公开信息，包括外交部例行记者会、领导人会见、以及军事相关的新闻报道。其中，军网提到了预备役人员证的发放，但根据预警指标，需要大规模征召预备役才能触发预警。因此，没有明确触发任何预警指标。",
-        "pol": "The provided information contains routine diplomatic activities (习近平同美国总统特朗普通电话, 习近平会见汤加国王图普六世, 2025年11月25日外交部发言人毛宁主持例行记者会) and standard military news (神舟二十二号飞船发射, 全军统一制发《中国人民解放军预备役人员证》, 国际观察丨军国主义余毒未除才是“日本有事”). No explicit warning signals or strong statements like '悬崖勒马', '勿谓言之不预', '严重后果', or indications of diplomatic personnel withdrawal are present. Therefore, no pre-warning indicators are triggered based on the provided information.",
-        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未见异常情况。未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that triggers any of the specified economic and financial warning indicators. There is no mention of insurance rate hikes, shipping disruptions, mass purchasing, strategic material stockpiling, economic sanctions, trade embargoes, or energy supply cuts related to Taiwan.",
+        "mil": "根据提供的情报源，未发现明确触发军事后勤预警指标的信息。虽然军网提到了预备役人员证，但这是全军统一制发，属于正常行为，不构成大规模征召预备役的证据。其他信息主要集中在外交活动、科技新闻和国际关系评论，与军事后勤预警指标无关。",
+        "pol": "The provided information does not contain any explicit mentions of '悬崖勒马', '勿谓言之不预', war mobilization, strong statements (like '严重后果', '明确交代'), or evacuation of diplomatic personnel. While the military issued a document for reservists, and the MFA held a press conference, these activities in themselves are insufficient to trigger the specified warning indicators without additional context indicating escalating tensions or threats.",
+        "local": "情报源显示厦门本周防空警报测试为年度例行测试，物资供应充足，社会秩序正常。未提及非例行的大规模防空、疏散演习或人防工程启用，因此未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "WISE2025 DAY2剧透：对话商业之王，求解商业生存法则！",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568392753740678"
-            },
-            {
-                "title": "杨震原：2021 年字节团队曾训出大语言模型，但当时 “没眼光”",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568362445405060"
-            },
-            {
-                "title": "史上首次：欧洲插电式混合动力汽车销量超过柴油车",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/900/190.htm"
-            },
-            {
-                "title": "苹果因应用追踪透明度问题面临波兰反垄断调查",
+                "title": "特斯拉10月欧洲销量暴跌近50%",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537928.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537984.htm"
             },
             {
-                "title": "阿里巴巴 2026 财年第二季度营收 2478.0 亿元，同比增长 4.8%",
+                "title": "新措施收紧规管 奇富科技业绩难复旧观",
+                "source": "NewsAPI / Ftchinese.com",
+                "date": "2025-11-25",
+                "url": "https://www.ftchinese.com/story/001108297"
+            },
+            {
+                "title": "华为 Mate 80 系列 | X7 发布会一文汇总：麒麟 9030 / Pro 首曝、非凡大师首搭 eSIM 技术",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/900/183.htm"
+                "url": "https://www.ithome.com/0/900/198.htm"
+            },
+            {
+                "title": "日本重返芯片竞赛 押注2纳米工艺实现“王者归来”",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-25",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537968.htm"
+            },
+            {
+                "title": "英伟达否认“安然式”财务造假指控 回应AI泡沫担忧",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-25",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537962.htm"
             }
         ],
         "mil": [
+            {
+                "title": "华为 Mate 80 系列 | X7 发布会一文汇总：麒麟 9030 / Pro 首曝、非凡大师首搭 eSIM 技术",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-25",
+                "url": "https://www.ithome.com/0/900/198.htm"
+            },
+            {
+                "title": "德语媒体：中国新航母的致命瑕疵",
+                "source": "NewsAPI / DW (English)",
+                "date": "2025-11-25",
+                "url": "https://www.dw.com/zh/%E5%BE%B7%E8%AF%AD%E5%AA%92%E4%BD%93%E4%B8%AD%E5%9B%BD%E6%96%B0%E8%88%AA%E6%AF%8D%E7%9A%84%E8%87%B4%E5%91%BD%E7%91%95%E7%96%B5/a-74894216"
+            },
+            {
+                "title": "氪星晚报 ｜新加坡国家AI计划放弃Meta模型，转向阿里千问；《疯狂动物城2》预售票房突破3亿；阿里巴巴：2026财年第二财季电商客户管理收入同比增长10%",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-25",
+                "url": "https://36kr.com/p/3568482022292609"
+            },
             {
                 "title": "杨震原：2021 年字节团队曾训出大语言模型，但当时 “没眼光”",
                 "source": "NewsAPI / 36kr.com",
@@ -67,30 +85,6 @@
                 "url": "https://www.secretchina.com/news/gb/2025/11/25/1091166.html"
             },
             {
-                "title": "【IT之家评测室】华为 WATCH Ultimate 2 非凡探索体验：成为“全能表王”的自我修养",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/900/129.htm"
-            },
-            {
-                "title": "为什么乒乓球运动员老是摸球台？",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537906.htm"
-            },
-            {
-                "title": "月订单破千台，「灵心巧手」完成数亿元A+轮融资｜智能涌现首发",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568200976055175"
-            },
-            {
-                "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-24",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ockhscjc0dGVjdDE1Z1dkMUhtckR0bTVhSFo0RXU2dUJxaXBySUlqVzdOZW1UdUpsTTk1QUJ6dHBxS1NLQ1E1VEhybVEyODM5eGJROUJaRm1pWkw0d0l0VmxKUWhoMVNPMDZn?oc=5"
-            },
-            {
                 "title": "2025年11月25日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-25",
@@ -101,6 +95,12 @@
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-25",
                 "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jbkE5ZjlwMkFlc2FRUVVLVWxHWXVseHZxSlhjbnA3SEJSd3NMQ3hfS0VsenlycGlhM2hRcmFkTFZhTFVSZG5TSnNnNlZqa2lZN3YteElEM2FIeFNyUEMxVDA3a2RuUEVtT1Jn?oc=5"
+            },
+            {
+                "title": "国家主席习近平任免驻外大使 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-26",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jdnF0R1B0cjBzOVVIbFdOdm1xdlN3dUdDMXN0QUh6ekZYSl8tMEVKMzMzTGtxb3hpYVhsYmlNOXRITGF5TFZtU0Fydl9MQWJLRllPVkNEZWo2RXlKNTZ6cEUxWThpNGRPbVhj?oc=5"
             },
             {
                 "title": "震撼原声！多角度观看神舟二十二号飞船发射 - 中国军网",
@@ -123,40 +123,34 @@
         ],
         "pol": [
             {
-                "title": "国际密码研究协会选举 却因遗失私钥无法得出结果",
+                "title": "华为 Mate 80 系列 | X7 发布会一文汇总：麒麟 9030 / Pro 首曝、非凡大师首搭 eSIM 技术",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-25",
+                "url": "https://www.ithome.com/0/900/198.htm"
+            },
+            {
+                "title": "日本重返芯片竞赛 押注2纳米工艺实现“王者归来”",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537936.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537968.htm"
             },
             {
-                "title": "WISE2025 DAY2剧透：对话商业之王，求解商业生存法则！",
+                "title": "客座评论：习近平特朗普通话，中方真正想传递的信号是什么？",
+                "source": "NewsAPI / DW (English)",
+                "date": "2025-11-25",
+                "url": "https://www.dw.com/zh/%E5%AE%A2%E5%BA%A7%E8%AF%84%E8%AE%BA%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%89%B9%E6%9C%97%E6%99%AE%E9%80%9A%E8%AF%9D%E4%B8%AD%E6%96%B9%E7%9C%9F%E6%AD%A3%E6%83%B3%E4%BC%A0%E9%80%92%E7%9A%84%E4%BF%A1%E5%8F%B7%E6%98%AF%E4%BB%80%E4%B9%88/a-74887887"
+            },
+            {
+                "title": "反击大空头 英伟达致信华尔街分析师反驳会计丑闻等指控",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-25",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537940.htm"
+            },
+            {
+                "title": "尊界明年将推6款车，江淮大整合“一切为了尊界”｜36氪独家",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568392753740678"
-            },
-            {
-                "title": "杨震原：2021 年字节团队曾训出大语言模型，但当时 “没眼光”",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568362445405060"
-            },
-            {
-                "title": "万科清仓贝壳",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568372158119040"
-            },
-            {
-                "title": "国安警报 双重国籍风暴引爆台湾政坛国会攻防(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-25",
-                "url": "https://www.secretchina.com/news/gb/2025/11/25/1091168.html"
-            },
-            {
-                "title": "习近平同美国总统特朗普通电话 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-24",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Ockhscjc0dGVjdDE1Z1dkMUhtckR0bTVhSFo0RXU2dUJxaXBySUlqVzdOZW1UdUpsTTk1QUJ6dHBxS1NLQ1E1VEhybVEyODM5eGJROUJaRm1pWkw0d0l0VmxKUWhoMVNPMDZn?oc=5"
+                "url": "https://36kr.com/p/3568510405213318"
             },
             {
                 "title": "2025年11月25日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
@@ -169,6 +163,12 @@
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-25",
                 "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9jbkE5ZjlwMkFlc2FRUVVLVWxHWXVseHZxSlhjbnA3SEJSd3NMQ3hfS0VsenlycGlhM2hRcmFkTFZhTFVSZG5TSnNnNlZqa2lZN3YteElEM2FIeFNyUEMxVDA3a2RuUEVtT1Jn?oc=5"
+            },
+            {
+                "title": "国家主席习近平任免驻外大使 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-26",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jdnF0R1B0cjBzOVVIbFdOdm1xdlN3dUdDMXN0QUh6ekZYSl8tMEVKMzMzTGtxb3hpYVhsYmlNOXRITGF5TFZtU0Fydl9MQWJLRllPVkNEZWo2RXlKNTZ6cEUxWThpNGRPbVhj?oc=5"
             },
             {
                 "title": "震撼原声！多角度观看神舟二十二号飞船发射 - 中国军网",
@@ -191,5 +191,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-26T12:38:01.606581+00:00"
+    "last_updated": "2025-11-26T18:21:36.895755+00:00"
 }
