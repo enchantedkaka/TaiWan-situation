@@ -1,59 +1,71 @@
 {
-    "score": 8,
+    "score": 6,
     "total_indicators_possible": 10,
     "active_indicators_count": 2,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 3.003387451171875,
+            "current_weight": 2.2525405883789062,
             "triggered_on": "2025-11-24"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 56.25,
+            "current_weight": 42.1875,
             "triggered_on": "2025-11-26"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that triggers any of the specified economic and financial warning indicators. There is no mention of insurance rate hikes, shipping disruptions, mass purchasing, strategic material stockpiling, economic sanctions, trade embargoes, or energy supply cuts related to Taiwan.",
-        "mil": "根据提供的情报源，未发现明确触发军事后勤预警指标的信息。虽然军网提到了预备役人员证，但这是全军统一制发，属于正常行为，不构成大规模征召预备役的证据。其他信息主要集中在外交活动、科技新闻和国际关系评论，与军事后勤预警指标无关。",
-        "pol": "The provided information does not contain any explicit mentions of '悬崖勒马', '勿谓言之不预', war mobilization, strong statements (like '严重后果', '明确交代'), or evacuation of diplomatic personnel. While the military issued a document for reservists, and the MFA held a press conference, these activities in themselves are insufficient to trigger the specified warning indicators without additional context indicating escalating tensions or threats.",
-        "local": "情报源显示厦门本周防空警报测试为年度例行测试，物资供应充足，社会秩序正常。未提及非例行的大规模防空、疏散演习或人防工程启用，因此未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources consist of news articles related to technology, business, and aviation. None of them explicitly mention events related to the economic and financial warning indicators concerning Taiwan, war risk insurance, mass purchasing, or economic sanctions. Therefore, no warning indicators are triggered.",
+        "mil": "The provided information does not indicate any specific military logistics activities that would trigger the defined indicators. The news relates to routine military activities, such as the launch of a spacecraft and the issuance of reserve personnel certificates, with no indications of unusual mobilization or restrictions. No large-scale military exercises or unusual activity near Taiwan is reported. Therefore, no military logistics pre-warning indicators are triggered.",
+        "pol": "The provided information does not contain any explicit triggers for the defined warning indicators. The news articles focus on technology, business, and domestic events. The official sources include routine diplomatic activities, military announcements without aggressive tones, and space program updates. No 'last ultimatum' style language (POL-1), strong diplomatic statements (POL-2), or evacuation advisories (POL-3) are present.",
+        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未见异常。因此，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "特斯拉10月欧洲销量暴跌近50%",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537984.htm"
-            },
-            {
-                "title": "新措施收紧规管 奇富科技业绩难复旧观",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-25",
-                "url": "https://www.ftchinese.com/story/001108297"
-            },
-            {
-                "title": "华为 Mate 80 系列 | X7 发布会一文汇总：麒麟 9030 / Pro 首曝、非凡大师首搭 eSIM 技术",
+                "title": "助力 DDR5 内存量产：三星苏州工厂签订 191 亿韩元合同，采购 DI 老化测试设备",
                 "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-25",
-                "url": "https://www.ithome.com/0/900/198.htm"
+                "date": "2025-11-26",
+                "url": "https://www.ithome.com/0/900/263.htm"
             },
             {
-                "title": "日本重返芯片竞赛 押注2纳米工艺实现“王者归来”",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537968.htm"
+                "title": "特斯联半年报：营收增长77%，迈入空间智能时代",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-26",
+                "url": "https://36kr.com/p/3552360997141633"
             },
             {
-                "title": "英伟达否认“安然式”财务造假指控 回应AI泡沫担忧",
+                "title": "8点1氪｜充电宝新规将落地，原3C认证将全面失效；上海地铁试点“站票车厢” ；超级猩猩客服回应“闭店潮”",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-26",
+                "url": "https://36kr.com/p/3569142279224197"
+            },
+            {
+                "title": "奇特的无襟翼X-65菱形翼飞机组装完成",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537962.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538000.htm"
+            },
+            {
+                "title": "市场调研机构：苹果今年有望重登全球最大手机厂商宝座",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-25",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1537998.htm"
             }
         ],
         "mil": [
+            {
+                "title": "特斯联半年报：营收增长77%，迈入空间智能时代",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-26",
+                "url": "https://36kr.com/p/3552360997141633"
+            },
+            {
+                "title": "8点1氪｜充电宝新规将落地，原3C认证将全面失效；上海地铁试点“站票车厢” ；超级猩猩客服回应“闭店潮”",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-26",
+                "url": "https://36kr.com/p/3569142279224197"
+            },
             {
                 "title": "华为 Mate 80 系列 | X7 发布会一文汇总：麒麟 9030 / Pro 首曝、非凡大师首搭 eSIM 技术",
                 "source": "NewsAPI / Ithome.com",
@@ -73,18 +85,6 @@
                 "url": "https://36kr.com/p/3568482022292609"
             },
             {
-                "title": "杨震原：2021 年字节团队曾训出大语言模型，但当时 “没眼光”",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568362445405060"
-            },
-            {
-                "title": "从日内瓦到阿联酋秘密穿梭 揭秘美俄乌三方关键谈判 川普政府力推和平(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-25",
-                "url": "https://www.secretchina.com/news/gb/2025/11/25/1091166.html"
-            },
-            {
                 "title": "2025年11月25日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-25",
@@ -115,13 +115,31 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rLWhGUU44QmIyWHpmVmdpTExzODNSSFZvcW80cFlySWJ3YzRzd3NKUUtmQVBmMkxoWXRFaV9IS3BvVzRpdklXSGpMX1k0TzlyUEE?oc=5"
             },
             {
-                "title": "国际观察丨军国主义余毒未除才是“日本有事” - 中国军网",
+                "title": "2025年11月25日解放军报第10版：法治军营 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-24",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJTlpmam9fWkpsdWJMN1FTQkM0R25LSWRNelhtbDRKSXkzcExvT2hjcm1NcW9mQjBvTXNmSVpkWlRSTmdCb05YUmFESmhPMHAxUVE?oc=5"
+                "date": "2025-11-25",
+                "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcDgxNDdSQXNBMHIwOExIYlJrcUtrMUpMU0VlOXNaaERQaHhFaHRpSFNoajRHdHhpekl0RjJreERBUnN0NUZEeThkYmhMTjU0QlUyUFVyTUlFX21LbWZQQ2VkaEx1TkN2eU16Nmt1dXlVa2JOUkFmajVYUDlTVnNqMVBYblBIdzN4NGVnLU5NWDhvSUJBQUtiNUhUTQ?oc=5"
             }
         ],
         "pol": [
+            {
+                "title": "科技昨夜今晨 1126：4699 元起华为 Mate 80 系列手机发布；“史上最严”充电宝安全标准曝光；国家安全部解析境外游戏三大安全隐患...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-26",
+                "url": "https://www.ithome.com/0/900/254.htm"
+            },
+            {
+                "title": "8点1氪｜充电宝新规将落地，原3C认证将全面失效；上海地铁试点“站票车厢” ；超级猩猩客服回应“闭店潮”",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-26",
+                "url": "https://36kr.com/p/3569142279224197"
+            },
+            {
+                "title": "起火 Model 3 车门打不开：特斯拉致命事故再引诉讼，路人曾尝试用棒球棍击碎车窗未能成功",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-25",
+                "url": "https://www.ithome.com/0/900/244.htm"
+            },
             {
                 "title": "华为 Mate 80 系列 | X7 发布会一文汇总：麒麟 9030 / Pro 首曝、非凡大师首搭 eSIM 技术",
                 "source": "NewsAPI / Ithome.com",
@@ -135,24 +153,6 @@
                 "url": "https://www.cnbeta.com.tw/articles/tech/1537968.htm"
             },
             {
-                "title": "客座评论：习近平特朗普通话，中方真正想传递的信号是什么？",
-                "source": "NewsAPI / DW (English)",
-                "date": "2025-11-25",
-                "url": "https://www.dw.com/zh/%E5%AE%A2%E5%BA%A7%E8%AF%84%E8%AE%BA%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%89%B9%E6%9C%97%E6%99%AE%E9%80%9A%E8%AF%9D%E4%B8%AD%E6%96%B9%E7%9C%9F%E6%AD%A3%E6%83%B3%E4%BC%A0%E9%80%92%E7%9A%84%E4%BF%A1%E5%8F%B7%E6%98%AF%E4%BB%80%E4%B9%88/a-74887887"
-            },
-            {
-                "title": "反击大空头 英伟达致信华尔街分析师反驳会计丑闻等指控",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-25",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1537940.htm"
-            },
-            {
-                "title": "尊界明年将推6款车，江淮大整合“一切为了尊界”｜36氪独家",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-25",
-                "url": "https://36kr.com/p/3568510405213318"
-            },
-            {
                 "title": "2025年11月25日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-25",
@@ -183,13 +183,13 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rLWhGUU44QmIyWHpmVmdpTExzODNSSFZvcW80cFlySWJ3YzRzd3NKUUtmQVBmMkxoWXRFaV9IS3BvVzRpdklXSGpMX1k0TzlyUEE?oc=5"
             },
             {
-                "title": "国际观察丨军国主义余毒未除才是“日本有事” - 中国军网",
+                "title": "2025年11月25日解放军报第10版：法治军营 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-24",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJTlpmam9fWkpsdWJMN1FTQkM0R25LSWRNelhtbDRKSXkzcExvT2hjcm1NcW9mQjBvTXNmSVpkWlRSTmdCb05YUmFESmhPMHAxUVE?oc=5"
+                "date": "2025-11-25",
+                "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcDgxNDdSQXNBMHIwOExIYlJrcUtrMUpMU0VlOXNaaERQaHhFaHRpSFNoajRHdHhpekl0RjJreERBUnN0NUZEeThkYmhMTjU0QlUyUFVyTUlFX21LbWZQQ2VkaEx1TkN2eU16Nmt1dXlVa2JOUkFmajVYUDlTVnNqMVBYblBIdzN4NGVnLU5NWDhvSUJBQUtiNUhUTQ?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-11-26T18:21:36.895755+00:00"
+    "last_updated": "2025-11-27T01:18:23.020203+00:00"
 }
