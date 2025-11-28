@@ -1,59 +1,71 @@
 {
-    "score": 14,
+    "score": 11,
     "total_indicators_possible": 10,
     "active_indicators_count": 2,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 30,
+            "current_weight": 22.5,
             "triggered_on": "2025-11-28"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 75.0,
+            "current_weight": 56.25,
             "triggered_on": "2025-11-28"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain any information related to the economic and financial warning indicators. The news articles focus on AI, technology, and financial performance of companies, but none mention topics like war insurance rates, unusual stockpiling, or economic sanctions against Taiwan.",
-        "mil": "情报源中未发现与军事后勤相关的明确预警指标。没有关于禁航通告、军事集结或征召预备役/民用运力的信息。",
-        "pol": "情报源中提到“商务部：中方对‘马美对等贸易协议’部分内容有严正关切 - 中国军网”，虽然是商务部，但使用了“严正关切”这种相对强硬的措辞，符合POL-2中外交部/国防部发表强硬声明的描述。虽然不如“严重后果”、“明确交代”等词语强烈，但属于需要关注的信号。",
-        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未见异常情况，因此未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain any information related to the economic and financial warning indicators. There is no mention of increased war insurance rates, unusual stockpiling, or economic sanctions against Taiwan. Therefore, no economic indicators are triggered.",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the defined military logistics warning indicators. There is no mention of NOTAMs, troop movements, or mobilization of resources.",
+        "pol": "The provided intelligence sources contain routine diplomatic activities and news reports. There's no clear indication of escalating tensions, ultimatums, or significant diplomatic actions like recalling ambassadors or issuing high-level travel warnings. Although there's a report on China's concern about the '马美对等贸易协议', it doesn't constitute a strong warning or demand.",
+        "local": "情报源显示防空警报测试为年度例行，物资供应充足，社会秩序正常，未触发大规模防空、疏散演习或人防工程启用的预警指标。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "世界首位AI部长“生下”83个孩子；一家只有人工没有智能的AI公司，融资超4.5亿美元 | AI离谱新闻大赏",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-27",
-                "url": "https://36kr.com/p/3570790165609606"
-            },
-            {
-                "title": "OpenAI预测：ChatGPT订阅用户5年后翻6倍、订阅累积收入达1.91万亿",
+                "title": "iPhone Air销量惨淡引发同行纷纷搁置自家超薄手机项目",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538224.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538308.htm"
             },
             {
-                "title": "汇丰银行称 OpenAI 成数据中心最大“打工人”，2030 年前 AI 资金缺口预估 2070 亿美元",
+                "title": "消息称谷歌重启 AI 眼镜：富士康代工、三星设计，最快明年四季度发布",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-27",
-                "url": "https://www.ithome.com/0/900/645.htm"
+                "url": "https://www.ithome.com/0/900/813.htm"
             },
             {
-                "title": "净亏112亿、广告收入跌19% 百度交出史上最差季度报",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "氪星晚报｜韩国政府与三星、现代等成立AI工作组，制定26万块英伟达GPU部署规划；法国总统府：马克龙将访华；商务部：愿与美方共同做好有关经贸磋商成果落实工作",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538216.htm"
+                "url": "https://36kr.com/p/3571097429621635"
             },
             {
-                "title": "韩国成立工作组推进英伟达GPU部署工作",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "谷歌重启AI眼镜：富士康代工，三星设计，或于2026Q4发布",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538212.htm"
+                "url": "https://36kr.com/newsflashes/3571225229737090"
+            },
+            {
+                "title": "谷歌重启AI眼镜：富士康代工，三星设计，或2026Q4发布丨智能涌现独家",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-27",
+                "url": "https://36kr.com/p/3571198300289921"
             }
         ],
         "mil": [
+            {
+                "title": "氪星晚报｜韩国政府与三星、现代等成立AI工作组，制定26万块英伟达GPU部署规划；法国总统府：马克龙将访华；商务部：愿与美方共同做好有关经贸磋商成果落实工作",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-27",
+                "url": "https://36kr.com/p/3571097429621635"
+            },
+            {
+                "title": "从被唱衰到逆袭，谷歌搜索副总裁揭秘AI搜索翻身内幕",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-27",
+                "url": "https://36kr.com/p/3571005407263623"
+            },
             {
                 "title": "世界首位AI部长“生下”83个孩子；一家只有人工没有智能的AI公司，融资超4.5亿美元 | AI离谱新闻大赏",
                 "source": "NewsAPI / 36kr.com",
@@ -73,22 +85,10 @@
                 "url": "https://36kr.com/p/3570759177796743"
             },
             {
-                "title": "1000个AI王子围攻我：今年最阴间的Steam礼物",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-27",
-                "url": "https://36kr.com/p/3570747592342658"
-            },
-            {
-                "title": "法轮功群体是目前中国反共事业的主力军(组图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-26",
-                "url": "https://www.secretchina.com/news/gb/2025/11/27/1091231.html"
-            },
-            {
-                "title": "2025年11月26日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "title": "​王毅同法国总统外事顾问博纳通电话 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-26",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtSm9DRElzeTR0enJqRzNRdTAzTURES3hEdm9jQ0JJQTRHLTBmbG5LVWo2bXFqbm1sbDY2X3pxNEhOaFZPN3FJYThDWUhmMDY2VEVCcWlLZERLRkhOM3kwcDl0WENBNTlKMzllVkdJVDQxLVhaX2c?oc=5"
+                "date": "2025-11-27",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82eHVQZEppOEI1QlVkUE43N2w1T1BmOERfTk1MUS1WQ0t3UlVVNFJzUXdKQmEwODY3NkJWTkh0M2NHTktoOEZST1JqT1phVzV1QzhFTjdQb2NobEVyYWh2QzFVOHB1cEN6Tmpr?oc=5"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -123,40 +123,40 @@
         ],
         "pol": [
             {
-                "title": "汇丰银行：OpenAI 到 2030 年都难以盈利，同时还要再砸至少 2070 亿美元",
+                "title": "氪星晚报｜韩国政府与三星、现代等成立AI工作组，制定26万块英伟达GPU部署规划；法国总统府：马克龙将访华；商务部：愿与美方共同做好有关经贸磋商成果落实工作",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-27",
+                "url": "https://36kr.com/p/3571097429621635"
+            },
+            {
+                "title": "中国首颗 5nm MR 芯片“极智 G-X100”发布：前苹果大牛打造，设备可对标 Vision Pro、整机重量不到百克",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-27",
-                "url": "https://www.ithome.com/0/900/690.htm"
+                "url": "https://www.ithome.com/0/900/796.htm"
             },
             {
-                "title": "我用AI生成流浪汉骗我爸，结果他摇来了特警",
+                "title": "从手办到试穿，最适合普通人的Nano Banana玩法",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://36kr.com/p/3570926644067200"
+                "url": "https://36kr.com/p/3571140464950401"
             },
             {
-                "title": "世界首位AI部长“生下”83个孩子；一家只有人工没有智能的AI公司，融资超4.5亿美元 | AI离谱新闻大赏",
+                "title": "扎克伯格聊新款Ray-Ban：眼镜会成下一代计算平台？Neural Band才是真的「疯狂」",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://36kr.com/p/3570790165609606"
+                "url": "https://36kr.com/p/3571124605008769"
             },
             {
-                "title": "施耐德电气警告美国电力短缺或拖累AI竞赛 恐落后中国",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "你还在晒AI图，有人已经在靠“提示词”收款了",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538238.htm"
+                "url": "https://36kr.com/p/3571119249144706"
             },
             {
-                "title": "雷军一个月掉粉近70万 小米市值较高点蒸发超5500亿港元",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538236.htm"
-            },
-            {
-                "title": "2025年11月26日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "title": "​王毅同法国总统外事顾问博纳通电话 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-26",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtSm9DRElzeTR0enJqRzNRdTAzTURES3hEdm9jQ0JJQTRHLTBmbG5LVWo2bXFqbm1sbDY2X3pxNEhOaFZPN3FJYThDWUhmMDY2VEVCcWlLZERLRkhOM3kwcDl0WENBNTlKMzllVkdJVDQxLVhaX2c?oc=5"
+                "date": "2025-11-27",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82eHVQZEppOEI1QlVkUE43N2w1T1BmOERfTk1MUS1WQ0t3UlVVNFJzUXdKQmEwODY3NkJWTkh0M2NHTktoOEZST1JqT1phVzV1QzhFTjdQb2NobEVyYWh2QzFVOHB1cEN6Tmpr?oc=5"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -191,5 +191,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-28T06:27:59.236735+00:00"
+    "last_updated": "2025-11-28T12:36:09.846776+00:00"
 }
