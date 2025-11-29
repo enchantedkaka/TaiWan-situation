@@ -1,88 +1,88 @@
 {
-    "score": 4,
+    "score": 3,
     "total_indicators_possible": 10,
     "active_indicators_count": 2,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 9.4921875,
+            "current_weight": 7.119140625,
             "triggered_on": "2025-11-28"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 23.73046875,
+            "current_weight": 17.7978515625,
             "triggered_on": "2025-11-28"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that triggers any of the listed economic and financial warning indicators. There is no mention of insurance rate increases, hoarding, strategic material stockpiling, or economic sanctions related to Taiwan.",
-        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators. There is no mention of NOTAMs, troop movements, or mobilization of resources related to military activities near Taiwan.",
-        "pol": "The provided intelligence sources contain routine diplomatic activities (Wang Yi's visit to Russia, phone call with French advisor) and standard rhetoric expressing concerns over trade agreements and military developments. There are no instances of 'last warning' language (POL-1), explicit strong warnings/demands (POL-2) from official sources or indications of diplomatic personnel withdrawals (POL-3). Therefore, no pre-warning indicators are triggered.",
-        "local": "情报源表明防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
+        "econ": "情报源中没有明确提及经济金融相关的预警指标。主要内容集中在科技新闻、商业报道和投资机构名册等方面，未涉及战争险费率、物资抢购、经济制裁或贸易禁运等信息。",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the military logistics warning indicators (MIL-1, MIL-2, or MIL-3). There is no mention of NOTAMs related to Taiwan, troop movements in Fujian, or mobilization of reserves or civilian resources.",
+        "pol": "The provided information does not contain explicit triggers for any of the listed political and public opinion warning indicators. No official sources are using ultimatum language or engaging in war mobilization (POL-1). While the Ministry of Foreign Affairs is mentioned, there are no strong statements or downgrading of diplomatic relations reported (POL-2). There's no evidence of US/Japan/EU diplomatic personnel evacuations or high-level travel warnings (POL-3).",
+        "local": "情报源显示是年度例行防空警报测试，社会秩序正常，未触发预警指标。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "数据裸奔16天浑然不知 OpenAI被“猪队友”坑惨，泄密只因一条短信？",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "氪星晚报｜雷军：未来5年，人形机器人将大面积在小米工厂上岗；淘宝闪购将全面取消超时扣款，以正向激励提升骑士保障与用户体验；美永久停止接收所谓第三世界移民",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538378.htm"
+                "url": "https://36kr.com/p/3571098005847170"
             },
             {
-                "title": "网店3个月内遭遇9起AI造假退款 强制标识背后的两难困局",
+                "title": "iPhone 16 Pro Max主动散热实测：A18 Pro比A19 Pro跑分还高",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538376.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538462.htm"
             },
             {
-                "title": "消息称华为、中兴获得越南合同供应5G设备",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "2025「中国最佳ESG投资机构」系列名册发布",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538370.htm"
+                "url": "https://36kr.com/p/3572325766020230"
             },
             {
-                "title": "黄仁勋剑桥授奖仪式演讲：想要一锅多元的“炖菜” 而不是一碗“清汤”",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "欧陆风云5的游玩笔记",
+                "source": "NewsAPI / Codingnow.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538368.htm"
+                "url": "https://blog.codingnow.com/2025/11/eu5_notes.html"
             },
             {
-                "title": "特斯拉前高管透露曾拆解中国电动汽车：他们“超级聪明”",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "从贴牌到品牌出海，速卖通清洁家电类目跑出85%加速度丨最前线",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538360.htm"
+                "url": "https://36kr.com/p/3572600269536392"
             }
         ],
         "mil": [
             {
-                "title": "黄仁勋剑桥授奖仪式演讲：想要一锅多元的“炖菜” 而不是一碗“清汤”",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538368.htm"
-            },
-            {
-                "title": "资深高管窃密“投敌” 台积电点名炮轰英特尔",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538354.htm"
-            },
-            {
-                "title": "科技昨夜今晨 1128：市监总局开展手机行业反不正当竞争合规指导；多家手机厂商取消 Air 机型；9.28 万元起零跑 Lafa5 上市...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-27",
-                "url": "https://www.ithome.com/0/900/868.htm"
-            },
-            {
-                "title": "8点1氪｜罗永浩称没有被威胁，会公布录音；宗馥莉卸任娃哈哈董事长；多家手机厂商取消Air机型",
+                "title": "氪星晚报｜雷军：未来5年，人形机器人将大面积在小米工厂上岗；淘宝闪购将全面取消超时扣款，以正向激励提升骑士保障与用户体验；美永久停止接收所谓第三世界移民",
                 "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-27",
-                "url": "https://36kr.com/p/3571962907704457"
+                "date": "2025-11-28",
+                "url": "https://36kr.com/p/3571098005847170"
             },
             {
-                "title": "“作为美国人我在中国艰难谋生”——一位在华美国人的讲述",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-27",
-                "url": "https://www.ftchinese.com/story/001108312"
+                "title": "印方回应航展坠毁“光辉”战机：只是意外 其安全记录堪称全球最佳",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-28",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538464.htm"
+            },
+            {
+                "title": "欧陆风云5的游玩笔记",
+                "source": "NewsAPI / Codingnow.com",
+                "date": "2025-11-28",
+                "url": "https://blog.codingnow.com/2025/11/eu5_notes.html"
+            },
+            {
+                "title": "AI争霸下一战场？Google皮查伊：希望2027年前将TPU送上太空",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-28",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538432.htm"
+            },
+            {
+                "title": "清华系团队攻克AI触觉感知核心技术，占据全球人形机器人80%市场丨36氪首发",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-28",
+                "url": "https://36kr.com/p/3572321789688704"
             },
             {
                 "title": "王毅将赴俄罗斯举行中俄第二十轮战略安全磋商 - mfa.gov.cn",
@@ -103,12 +103,6 @@
                 "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
-                "title": "商务部：中方对“马美对等贸易协议”部分内容有严正关切 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-27",
-                "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBVaEd3WlR0VUVxX0M4VVhXY1hENV84UUkxTjU5a25mUjFYaTFOcWVXSGJPR0NhNjNUc2VidkRjdW5ieFpfQVJTT1p3?oc=5"
-            },
-            {
                 "title": "高市政府谋求打造远程打击体系 日本过量囤积核材料暗藏“核武野心” - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-11-27",
@@ -119,38 +113,44 @@
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-11-27",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qcUE4bU14Qm56bkpqczVWbHhNVWtoZHFPbXpuQTN0dGRzNnIxb0ZZSWV4UmpYMEtPVHRlTzlrOEhRN2h5ZzBGZ0FkMmlNS2Zsbnc?oc=5"
+            },
+            {
+                "title": "为国际军控、裁军与防扩散事业贡献中国力量 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-28",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04VmU3WG5DNlkyOWRCcTBsaVM0b25PRzQ3S2ZkTmw0MXh1UnM0NEt6azFlQUt6aWJFY09CbkFFekRKby1QNnNtVEY0Y0FFcjN4ZUE?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "数据裸奔16天浑然不知 OpenAI被“猪队友”坑惨，泄密只因一条短信？",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "“斩首”狂言震怒日本 大阪府议会跨党派一致谴责薛剑 知事宣布永不同台(图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538378.htm"
+                "url": "https://www.secretchina.com/news/gb/2025/11/28/1091305.html"
             },
             {
-                "title": "网店3个月内遭遇9起AI造假退款 强制标识背后的两难困局",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "氪星晚报｜雷军：未来5年，人形机器人将大面积在小米工厂上岗；淘宝闪购将全面取消超时扣款，以正向激励提升骑士保障与用户体验；美永久停止接收所谓第三世界移民",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538376.htm"
+                "url": "https://36kr.com/p/3571098005847170"
             },
             {
-                "title": "消息称华为、中兴获得越南合同供应5G设备",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "2025「中国最佳ESG投资机构」系列名册发布",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538370.htm"
+                "url": "https://36kr.com/p/3572325766020230"
             },
             {
-                "title": "黄仁勋剑桥授奖仪式演讲：想要一锅多元的“炖菜” 而不是一碗“清汤”",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "文化交流黑五：滨崎步等日星大陆演出同日取消的政治密码(图)",
+                "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538368.htm"
+                "url": "https://www.secretchina.com/news/gb/2025/11/28/1091307.html"
             },
             {
-                "title": "马斯克与卡梅隆互赞：撇开政治不谈 我们在太空探索和AI领域观点一致",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "欧陆风云5的游玩笔记",
+                "source": "NewsAPI / Codingnow.com",
                 "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538358.htm"
+                "url": "https://blog.codingnow.com/2025/11/eu5_notes.html"
             },
             {
                 "title": "王毅将赴俄罗斯举行中俄第二十轮战略安全磋商 - mfa.gov.cn",
@@ -171,12 +171,6 @@
                 "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
-                "title": "商务部：中方对“马美对等贸易协议”部分内容有严正关切 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-27",
-                "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBVaEd3WlR0VUVxX0M4VVhXY1hENV84UUkxTjU5a25mUjFYaTFOcWVXSGJPR0NhNjNUc2VidkRjdW5ieFpfQVJTT1p3?oc=5"
-            },
-            {
                 "title": "高市政府谋求打造远程打击体系 日本过量囤积核材料暗藏“核武野心” - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-11-27",
@@ -187,9 +181,15 @@
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-11-27",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qcUE4bU14Qm56bkpqczVWbHhNVWtoZHFPbXpuQTN0dGRzNnIxb0ZZSWV4UmpYMEtPVHRlTzlrOEhRN2h5ZzBGZ0FkMmlNS2Zsbnc?oc=5"
+            },
+            {
+                "title": "为国际军控、裁军与防扩散事业贡献中国力量 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-28",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04VmU3WG5DNlkyOWRCcTBsaVM0b25PRzQ3S2ZkTmw0MXh1UnM0NEt6azFlQUt6aWJFY09CbkFFekRKby1QNnNtVEY0Y0FFcjN4ZUE?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-11-29T06:24:43.839035+00:00"
+    "last_updated": "2025-11-29T12:33:07.044309+00:00"
 }
