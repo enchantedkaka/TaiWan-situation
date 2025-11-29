@@ -1,59 +1,71 @@
 {
-    "score": 8,
+    "score": 6,
     "total_indicators_possible": 10,
     "active_indicators_count": 2,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 16.875,
+            "current_weight": 12.65625,
             "triggered_on": "2025-11-28"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 42.1875,
+            "current_weight": 31.640625,
             "triggered_on": "2025-11-28"
         }
     },
     "category_reasoning": {
-        "econ": "The provided information contains general news articles and does not explicitly trigger any of the defined economic and financial warning indicators. There is no evidence of increased war insurance rates, mass purchasing, strategic material stockpiling, or economic sanctions against Taiwan.",
-        "mil": "The provided intelligence sources do not explicitly trigger any of the specified military logistics warning indicators. There is no mention of NOTAMs, military build-up, or mobilization of reserves or civilian resources.",
-        "pol": "The provided information includes routine diplomatic activities (Wang Yi's visit to Russia, phone call with French advisor) and standard statements regarding trade concerns. There are no instances of '悬崖勒马', '勿谓言之不预', war mobilization, explicit threats of severe consequences, or diplomatic downgrades. Therefore, no political舆论预警指标 are triggered. Although the information contains the phrase '严正关切', this is not strong enough to trigger the POL-2.",
-        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain any information related to the economic and financial warning indicators. There are no mentions of increased insurance rates, mass purchasing, strategic material reserves, or economic sanctions related to Taiwan.",
+        "mil": "根据提供的情报源，没有明确触发任何军事后勤预警指标。情报主要集中在国际商业新闻、外交活动和一些国内事件的报道，未发现任何关于大规模军事调动、禁航通告或预备役征召的信息。",
+        "pol": "The provided intelligence sources do not contain any explicit triggers for the defined warning indicators related to political rhetoric, war mobilization, diplomatic escalations or evacuation orders. Although there are reports from official sources, they relate to routine strategic consultations, phone calls, disaster relief, trade concerns and criticisms of other countries' military policies, none of which constitutes a trigger based on the criteria.",
+        "local": "情报源显示防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "SK海力士将在ISSCC 2026展示48 Gb/s的24 Gb GDDR7显存",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538336.htm"
+                "title": "一加 Ace 6T 全球首发 8300mAh 冰川电池，号称“全球电池容量最大的性能旗舰”",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-28",
+                "url": "https://www.ithome.com/0/900/885.htm"
             },
             {
-                "title": "“作为美国人我在中国艰难谋生”——一位在华美国人的讲述",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-27",
-                "url": "https://www.ftchinese.com/story/001108312"
+                "title": "「瑞云冷链」完成近亿元A+轮融资，搭建“网络化+数字化+国际化”冷链综合服务平台 | 36氪首发",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-28",
+                "url": "https://36kr.com/p/3569392468032649"
             },
             {
-                "title": "德语媒体：欧洲必须保住自己的核心工业",
-                "source": "NewsAPI / DW (English)",
+                "title": "AIGC智能体驱动UGC游戏赛道，反舌鸟科技完成A轮融资",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://www.dw.com/zh/%E5%BE%B7%E8%AF%AD%E5%AA%92%E4%BD%93%E6%AC%A7%E6%B4%B2%E5%BF%85%E9%A1%BB%E4%BF%9D%E4%BD%8F%E8%87%AA%E5%B7%B1%E7%9A%84%E6%A0%B8%E5%BF%83%E5%B7%A5%E4%B8%9A/a-74928036"
+                "url": "https://36kr.com/p/3571720787884928"
             },
             {
-                "title": "为人不识李丰田，阅尽网剧也枉然",
-                "source": "NewsAPI / Huxiu.com",
+                "title": "科技昨夜今晨 1128：市监总局开展手机行业反不正当竞争合规指导；多家手机厂商取消 Air 机型；9.28 万元起零跑 Lafa5 上市...",
+                "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-27",
-                "url": "https://www.huxiu.com/article/4810683.html"
+                "url": "https://www.ithome.com/0/900/868.htm"
             },
             {
-                "title": "iPhone Air销量惨淡引发同行纷纷搁置自家超薄手机项目",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "8点1氪｜罗永浩称没有被威胁，会公布录音；宗馥莉卸任娃哈哈董事长；多家手机厂商取消Air机型",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538308.htm"
+                "url": "https://36kr.com/p/3571962907704457"
             }
         ],
         "mil": [
+            {
+                "title": "科技昨夜今晨 1128：市监总局开展手机行业反不正当竞争合规指导；多家手机厂商取消 Air 机型；9.28 万元起零跑 Lafa5 上市...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-27",
+                "url": "https://www.ithome.com/0/900/868.htm"
+            },
+            {
+                "title": "8点1氪｜罗永浩称没有被威胁，会公布录音；宗馥莉卸任娃哈哈董事长；多家手机厂商取消Air机型",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-27",
+                "url": "https://36kr.com/p/3571962907704457"
+            },
             {
                 "title": "“作为美国人我在中国艰难谋生”——一位在华美国人的讲述",
                 "source": "NewsAPI / Ftchinese.com",
@@ -73,22 +85,10 @@
                 "url": "https://36kr.com/p/3571097429621635"
             },
             {
-                "title": "从被唱衰到逆袭，谷歌搜索副总裁揭秘AI搜索翻身内幕",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-27",
-                "url": "https://36kr.com/p/3571005407263623"
-            },
-            {
-                "title": "世界首位AI部长“生下”83个孩子；一家只有人工没有智能的AI公司，融资超4.5亿美元 | AI离谱新闻大赏",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-11-27",
-                "url": "https://36kr.com/p/3570790165609606"
-            },
-            {
                 "title": "王毅将赴俄罗斯举行中俄第二十轮战略安全磋商 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-28",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPanprR1ZsX0t3R0hMVGpqOURjN1ppS1pCSmRwUmstMEEtelpHZVJqUENQNlVfakV0elhDQW05YjluRGxERzB3UGZLTVNqUW1yVGU4eDlOU0VMSk51NHR0bFAwMVNJd2kxcTRtbDlKY1hLM0xScTRnTWtvdDdmOG1MWEE3bXU4alp2U0E?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVW5GRjU0RTJ1aEs0YWd0WmNNVVBoRWZ2X2s5aE44QVcyV1NVSGpNbFljUHRGenB5YWtad1NZYjBEdUl1Mk8tX3R0SXh5OVdyemFvSF9jV3prTzJXSGdtVS1PS0F2aEFDYVo5aWFJWm00cEs5Rl9ieS1hblR5cDVBMUNMN0M?oc=5"
             },
             {
                 "title": "​王毅同法国总统外事顾问博纳通电话 - mfa.gov.cn",
@@ -123,40 +123,40 @@
         ],
         "pol": [
             {
-                "title": "BlackSky发射新卫星不到一天就拍摄到了高质量的地球照片",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538338.htm"
+                "title": "China Institute for Innovation & Development Strategy2025年中国理解会議（2025 Understanding China Conference）が広州で開幕、中国の現代化とグローバルガバナンスのビジョンを明らかに",
+                "source": "NewsAPI / CNET",
+                "date": "2025-11-28",
+                "url": "https://japan.cnet.com/release/31131340/"
             },
             {
-                "title": "从注射到口服 GLP-1减肥药进入下一时代",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-27",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538326.htm"
+                "title": "「瑞云冷链」完成近亿元A+轮融资，搭建“网络化+数字化+国际化”冷链综合服务平台 | 36氪首发",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-28",
+                "url": "https://36kr.com/p/3569392468032649"
             },
             {
-                "title": "“作为美国人我在中国艰难谋生”——一位在华美国人的讲述",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-27",
-                "url": "https://www.ftchinese.com/story/001108312"
-            },
-            {
-                "title": "为人不识李丰田，阅尽网剧也枉然",
-                "source": "NewsAPI / Huxiu.com",
-                "date": "2025-11-27",
-                "url": "https://www.huxiu.com/article/4810683.html"
-            },
-            {
-                "title": "氪星晚报｜韩国政府与三星、现代等成立AI工作组，制定26万块英伟达GPU部署规划；法国总统府：马克龙将访华；商务部：愿与美方共同做好有关经贸磋商成果落实工作",
+                "title": "8点1氪｜罗永浩称没有被威胁，会公布录音；宗馥莉卸任娃哈哈董事长；多家手机厂商取消Air机型",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-27",
-                "url": "https://36kr.com/p/3571097429621635"
+                "url": "https://36kr.com/p/3571962907704457"
+            },
+            {
+                "title": "美加关税战一周年 2/3加人对美国负面观感(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-27",
+                "url": "https://www.secretchina.com/news/gb/2025/11/28/1091282.html"
+            },
+            {
+                "title": "美副总统批加拿大移民疯狂 生活水平下滑(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-27",
+                "url": "https://www.secretchina.com/news/gb/2025/11/28/1091281.html"
             },
             {
                 "title": "王毅将赴俄罗斯举行中俄第二十轮战略安全磋商 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-11-28",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPanprR1ZsX0t3R0hMVGpqOURjN1ppS1pCSmRwUmstMEEtelpHZVJqUENQNlVfakV0elhDQW05YjluRGxERzB3UGZLTVNqUW1yVGU4eDlOU0VMSk51NHR0bFAwMVNJd2kxcTRtbDlKY1hLM0xScTRnTWtvdDdmOG1MWEE3bXU4alp2U0E?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVW5GRjU0RTJ1aEs0YWd0WmNNVVBoRWZ2X2s5aE44QVcyV1NVSGpNbFljUHRGenB5YWtad1NZYjBEdUl1Mk8tX3R0SXh5OVdyemFvSF9jV3prTzJXSGdtVS1PS0F2aEFDYVo5aWFJWm00cEs5Rl9ieS1hblR5cDVBMUNMN0M?oc=5"
             },
             {
                 "title": "​王毅同法国总统外事顾问博纳通电话 - mfa.gov.cn",
@@ -191,5 +191,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-28T18:24:46.466364+00:00"
+    "last_updated": "2025-11-29T01:18:04.460826+00:00"
 }
