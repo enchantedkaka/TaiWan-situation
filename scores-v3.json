@@ -1,59 +1,77 @@
 {
-    "score": 3,
+    "score": 2,
     "total_indicators_possible": 10,
     "active_indicators_count": 2,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 5.33935546875,
+            "current_weight": 4.0045166015625,
             "triggered_on": "2025-11-28"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 13.348388671875,
+            "current_weight": 10.01129150390625,
             "triggered_on": "2025-11-28"
         }
     },
     "category_reasoning": {
-        "econ": "根据提供的情报源，没有明确的信息表明触发了预警指标清单中的任何经济金融指标。虽然有“外资撤离”的新闻，但并未构成“大规模、非市场驱动的物资抢购潮”或“国家级战略物资异常储备”，也不涉及经济制裁或战争险费率的变动。",
-        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators. There is no mention of NOTAMs, military build-up in Fujian, or mobilization of reserves or civilian resources.",
-        "pol": "根据提供的情报源，没有明确的信息表明触发了任何预警指标。虽然新闻提到了薛剑的言论，但没有官方信源证实或回应，因此不构成外交部/国防部的强硬声明。官方信源主要集中在中俄战略安全磋商和军队建设方面，没有出现最后通牒或战争动员等高危信号。因此，未触发任何指标。",
-        "local": "情报源表明本周防空警报测试为年度例行测试，超市物资供应充足，社会秩序正常，因此没有触发预警指标。"
+        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the listed economic and financial warning indicators. There is no mention of insurance rate hikes, shipping disruptions, unusual stockpiling, or economic sanctions related to Taiwan.",
+        "mil": "情报源中未发现与军事后勤相关的明确预警指标。没有关于禁航通告、兵力集结、预备役征召等信息的直接证据。",
+        "pol": "情报源中未发现明确触发预警指标的信息。虽然有外交部和国防部的消息，但内容是例行活动和一般性新闻，没有强硬声明或最后通牒式的表述。未发现撤侨或旅行警告。",
+        "local": "情报源显示厦门本周防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发大规模防空、疏散演习或人防工程启用的预警指标。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "第五代骁龙 8 发布了，高通说它是又一款旗舰方案，新手机们马上就来",
-                "source": "NewsAPI / Toodaylab.com",
-                "date": "2025-11-28",
-                "url": "https://www.toodaylab.com/83813"
+                "title": "9点1氪｜北京快递外卖用车将发放专用号牌；雷军称所有产业都值得用AI再做一遍；淘宝闪购骑手超时扣款将全面取消",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-29",
+                "url": "https://36kr.com/p/3573448466480002"
             },
             {
-                "title": "苹果英特尔再牵手？郭明錤称预计最快 2027 年出货 M 系列最低端处理器",
+                "title": "马斯克起诉苹果、OpenAI 新动作，全球摇人把韩国公司拉入战团",
                 "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-28",
-                "url": "https://www.ithome.com/0/901/137.htm"
+                "date": "2025-11-29",
+                "url": "https://www.ithome.com/0/901/149.htm"
             },
             {
-                "title": "不只内存涨价，消息称松下部分钽电容型号价格上涨 15~30%",
+                "title": "科技昨夜今晨 1129：京东宣布 2026 年起调整京豆规则；淘宝闪购将取消超时扣款；华为 Mate 80 系列设计师回应“双环”...",
                 "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-28",
-                "url": "https://www.ithome.com/0/901/129.htm"
+                "date": "2025-11-29",
+                "url": "https://www.ithome.com/0/901/147.htm"
             },
             {
-                "title": "又一外资撤离 专家警示经济“三明治”困境加剧(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "美国制造：英特尔或将于2027年采用18A-P节点生产苹果M系列芯片",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-28",
-                "url": "https://www.secretchina.com/news/gb/2025/11/28/1091289.html"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538496.htm"
             },
             {
-                "title": "地平线余凯：HSD 进入大规模量产阶段",
-                "source": "NewsAPI / Ithome.com",
+                "title": "别再骂苹果三星挤牙膏了 电池小真不是技术不行……",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-28",
-                "url": "https://www.ithome.com/0/901/119.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538492.htm"
             }
         ],
         "mil": [
+            {
+                "title": "9点1氪｜北京快递外卖用车将发放专用号牌；雷军称所有产业都值得用AI再做一遍；淘宝闪购骑手超时扣款将全面取消",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-29",
+                "url": "https://36kr.com/p/3573448466480002"
+            },
+            {
+                "title": "山下有松“上山”，慢即是快｜厚雪公司",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-29",
+                "url": "https://36kr.com/p/3570653778705540"
+            },
+            {
+                "title": "科技昨夜今晨 1129：京东宣布 2026 年起调整京豆规则；淘宝闪购将取消超时扣款；华为 Mate 80 系列设计师回应“双环”...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-29",
+                "url": "https://www.ithome.com/0/901/147.htm"
+            },
             {
                 "title": "不只内存涨价，消息称松下部分钽电容型号价格上涨 15~30%",
                 "source": "NewsAPI / Ithome.com",
@@ -65,24 +83,6 @@
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-11-28",
                 "url": "https://36kr.com/p/3571098005847170"
-            },
-            {
-                "title": "印方回应航展坠毁“光辉”战机：只是意外 其安全记录堪称全球最佳",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538464.htm"
-            },
-            {
-                "title": "欧陆风云5的游玩笔记",
-                "source": "NewsAPI / Codingnow.com",
-                "date": "2025-11-28",
-                "url": "https://blog.codingnow.com/2025/11/eu5_notes.html"
-            },
-            {
-                "title": "AI争霸下一战场？Google皮查伊：希望2027年前将TPU送上太空",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-28",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538432.htm"
             },
             {
                 "title": "王毅将赴俄罗斯举行中俄第二十轮战略安全磋商 - mfa.gov.cn",
@@ -123,34 +123,34 @@
         ],
         "pol": [
             {
-                "title": "薛剑“斩首”狂言震怒日本 大阪府议会跨党派一致谴责(图)",
+                "title": "9点1氪｜北京快递外卖用车将发放专用号牌；雷军称所有产业都值得用AI再做一遍；淘宝闪购骑手超时扣款将全面取消",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-29",
+                "url": "https://36kr.com/p/3573448466480002"
+            },
+            {
+                "title": "山下有松“上山”，慢即是快｜厚雪公司",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-11-29",
+                "url": "https://36kr.com/p/3570653778705540"
+            },
+            {
+                "title": "暴雪来袭扰动假期出行 美国4600万人处冬季警报中(图)",
                 "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-28",
-                "url": "https://www.secretchina.com/news/gb/2025/11/29/1091305.html"
+                "date": "2025-11-29",
+                "url": "https://www.secretchina.com/news/gb/2025/11/29/1091331.html"
             },
             {
-                "title": "中印边境争端的新镜像(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-28",
-                "url": "https://www.secretchina.com/news/gb/2025/11/29/1091326.html"
+                "title": "马斯克起诉苹果、OpenAI 新动作，全球摇人把韩国公司拉入战团",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-29",
+                "url": "https://www.ithome.com/0/901/149.htm"
             },
             {
-                "title": "第五代骁龙 8 发布了，高通说它是又一款旗舰方案，新手机们马上就来",
-                "source": "NewsAPI / Toodaylab.com",
+                "title": "苹果携手 (RED) 启动 2025 抗艾捐赠：每笔 Apple Pay 支付自动捐 5 美元",
+                "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-28",
-                "url": "https://www.toodaylab.com/83813"
-            },
-            {
-                "title": "“不要独裁要民主” 纽约中领馆遭政治投影(组图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-28",
-                "url": "https://www.secretchina.com/news/gb/2025/11/28/1091321.html"
-            },
-            {
-                "title": "高市早苗民调支持率高 面临对华关系、通胀挑战",
-                "source": "NewsAPI / DW (English)",
-                "date": "2025-11-28",
-                "url": "https://www.dw.com/zh/%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E6%B0%91%E8%B0%83%E6%94%AF%E6%8C%81%E7%8E%87%E9%AB%98-%E9%9D%A2%E4%B8%B4%E5%AF%B9%E5%8D%8E%E5%85%B3%E7%B3%BB%E9%80%9A%E8%83%80%E6%8C%91%E6%88%98/a-74944161"
+                "url": "https://www.ithome.com/0/901/146.htm"
             },
             {
                 "title": "王毅将赴俄罗斯举行中俄第二十轮战略安全磋商 - mfa.gov.cn",
@@ -191,5 +191,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-29T18:23:29.770132+00:00"
+    "last_updated": "2025-11-30T01:28:31.316861+00:00"
 }
