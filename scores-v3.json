@@ -5,23 +5,35 @@
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 2.2525405883789062,
+            "current_weight": 1.6894054412841797,
             "triggered_on": "2025-11-28"
         },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 5.631351470947266,
+            "current_weight": 4.223513603210449,
             "triggered_on": "2025-11-28"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the economic or financial warning indicators. There is no mention of increased war insurance rates, mass purchasing, economic sanctions, or trade embargoes.",
-        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the military logistics warning indicators (MIL-1, MIL-2, MIL-3). There is no mention of large-scale naval exercises encircling Taiwan, unusual military buildup in Fujian, or large-scale mobilization of reserves, civilian transport, or medical resources. The news articles are related to civilian topics, and the official sources are routine postings. Thus, no indicators are triggered.",
-        "pol": "情报源中没有直接提及官方使用最后通牒式语言、进行战争动员、发表强硬声明或外交关系降级。虽然提到了一些官方信源，但没有具体内容表明触发了预警指标。因此，没有明确触发任何预警指标。",
-        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未见异常情况，因此未触发任何预警指标。"
+        "econ": "情报源中未包含与预警指标清单中经济金融相关的明确触发信息，例如保险费率提高、物资抢购、经济制裁等。新闻主要涉及宏观经济展望、商业活动和旅游调整，不构成经济金融预警触发。",
+        "mil": "The provided intelligence sources contain news articles and official statements. The news articles are general in nature and do not indicate any military activity related to the defined warning indicators. The official sources primarily consist of routine announcements and reports, with no indications of unusual military mobilization, large-scale drills near Taiwan, or significant diplomatic escalations. Therefore, none of the listed military logistics warning indicators (MIL-1, MIL-2, MIL-3) are triggered.",
+        "pol": "根据提供的情报源，未发现明确触发预警指标的信息。虽然列出了一些官方信源，但没有具体的声明或行动符合预警指标中的描述，例如最后通牒式语言、强硬声明或外交关系降级。新闻报道主要集中在国际关系、经济和技术方面，没有直接涉及可能触发预警的政治舆论。",
+        "local": "情报源显示，本周防空警报测试是年度例行测试，物资供应充足，社会秩序正常，未见大规模非例行演习或人防工程启用，因此未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
+            {
+                "title": "2026年宏观经济和金融市场展望：忙趁东风放纸鸢",
+                "source": "NewsAPI / Ftchinese.com",
+                "date": "2025-11-29",
+                "url": "https://www.ftchinese.com/story/001108315"
+            },
+            {
+                "title": "川普团队与俄方商谈“经济换和平”计划(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-29",
+                "url": "https://www.secretchina.com/news/gb/2025/11/29/1091351.html"
+            },
             {
                 "title": "【神州大地系列】汴京富丽天下无：开封(图)",
                 "source": "NewsAPI / Secretchina.com",
@@ -39,21 +51,15 @@
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-29",
                 "url": "https://www.ithome.com/0/901/213.htm"
-            },
-            {
-                "title": "昔日尖子生“考砸” 400亿李想“认错”",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538504.htm"
-            },
-            {
-                "title": "消息称三星 Galaxy S Ultra 旗舰手机主摄“硬件停滞”，至 S29U 恐无实质改进",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-29",
-                "url": "https://www.ithome.com/0/901/168.htm"
             }
         ],
         "mil": [
+            {
+                "title": "若遭美国军事打击 委内瑞拉军方如何应对？(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-11-29",
+                "url": "https://www.secretchina.com/news/gb/2025/11/30/1091361.html"
+            },
             {
                 "title": "制造出速度7马赫的高超音速导弹民企称已完成实际试射",
                 "source": "NewsAPI / Cnbeta.com.tw",
@@ -77,12 +83,6 @@
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-11-29",
                 "url": "https://www.cnbeta.com.tw/articles/tech/1538518.htm"
-            },
-            {
-                "title": "昔日尖子生“考砸” 400亿李想“认错”",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538504.htm"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -123,34 +123,34 @@
         ],
         "pol": [
             {
-                "title": "【神州大地系列】汴京富丽天下无：开封(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "石破茂稱「日本一向理解尊重中國對台立場」矢板明夫：立刻被利用",
+                "source": "NewsAPI / Yahoo Entertainment",
                 "date": "2025-11-29",
-                "url": "https://www.secretchina.com/news/gb/2025/11/29/1090611.html"
+                "url": "https://tw.news.yahoo.com/%E7%9F%B3%E7%A0%B4%E8%8C%82%E7%A8%B1-%E6%97%A5%E6%9C%AC-%E5%90%91%E7%90%86%E8%A7%A3%E5%B0%8A%E9%87%8D%E4%B8%AD%E5%9C%8B%E5%B0%8D%E5%8F%B0%E7%AB%8B%E5%A0%B4-%E7%9F%A2%E6%9D%BF%E6%98%8E%E5%A4%AB-%E7%AB%8B%E5%88%BB%E8%A2%AB%E5%88%A9%E7%94%A8-011538065.html"
             },
             {
-                "title": "爱达邮轮取消日本目的地 聚焦韩国及东南亚",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "2026年宏观经济和金融市场展望：忙趁东风放纸鸢",
+                "source": "NewsAPI / Ftchinese.com",
                 "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538546.htm"
+                "url": "https://www.ftchinese.com/story/001108315"
             },
             {
-                "title": "贾跃亭称生命中最重要的事是还债回国",
-                "source": "NewsAPI / Cnbeta.com.tw",
+                "title": "高市引爆中日新冷战？僵局恐难破",
+                "source": "NewsAPI / DW (English)",
                 "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538526.htm"
+                "url": "https://www.dw.com/zh/%E9%AB%98%E5%B8%82%E5%BC%95%E7%88%86%E4%B8%AD%E6%97%A5%E6%96%B0%E5%86%B7%E6%88%98%E5%83%B5%E5%B1%80%E6%81%90%E9%9A%BE%E7%A0%B4/a-74951192"
             },
             {
-                "title": "多地叫停网约车“一口价”，行业价格下滑待破局",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538518.htm"
-            },
-            {
-                "title": "Meta 被指 AI 生成广告泛滥，多名英国消费者称花高价买到“假英国品牌”",
+                "title": "研究揭示 OpenAI Sora2 监管漏洞：13 岁账号即可轻易生成“校园枪击”视频",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-29",
-                "url": "https://www.ithome.com/0/901/211.htm"
+                "url": "https://www.ithome.com/0/901/283.htm"
+            },
+            {
+                "title": "特斯拉登陆印度市场两个多月，仅卖出 100 多辆车",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-29",
+                "url": "https://www.ithome.com/0/901/281.htm"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -191,5 +191,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-11-30T12:33:06.331411+00:00"
+    "last_updated": "2025-11-30T18:23:29.062078+00:00"
 }
