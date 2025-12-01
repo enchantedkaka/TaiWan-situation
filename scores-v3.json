@@ -5,50 +5,56 @@
     "active_indicators": {
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 2.3757264018058777,
+            "current_weight": 1.7817948013544083,
             "triggered_on": "2025-11-28"
         }
     },
     "category_reasoning": {
-        "econ": "情报源中没有明确提及任何与经济金融预警指标相关的信息。主要内容是关于科技、消费和汽车领域的新闻，不涉及台海战争险费率、物资抢购、经济制裁或贸易禁运等内容。",
-        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators (MIL-1, MIL-2, MIL-3). There's no mention of NOTAMs, troop/equipment movements, or mobilization of reserves/civilian resources.",
-        "pol": "虽然情报源中包含外交部的信息，但仅为常规新闻和活动，没有发现强硬声明或最后通牒式言论。因此，没有明确触发预警指标。",
-        "local": "情报源表明防空警报测试为年度例行测试，社会秩序正常，未见异常情况，因此未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that explicitly triggers any of the listed economic and financial warning indicators. There are no reports of increased war insurance rates, mass panic buying, or announcements of economic sanctions against Taiwan.",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the defined military logistics warning indicators. There's no mention of NOTAMs, military buildup in Fujian, or mobilization of reserves/civilian resources towards the front lines. The information consists of news articles, routine military announcements, and diplomatic visits, none of which indicate an imminent military operation or logistical preparation for such an operation.",
+        "pol": "根据提供的情报源，未发现任何明确触发预警指标的信息。外交部和国防部的信息均为常规新闻，解放军报/军网的信息也未显示任何异常情况。因此，没有触发任何预警指标。",
+        "local": "情报源显示防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未提及大规模非例行演习或人防工程启用，因此未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
+            {
+                "title": "全球首个具身智能本科专业：上海交大公告，联合华为培养，李飞飞高徒带队",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/381.htm"
+            },
+            {
+                "title": "美光斥资96亿美元在日建厂",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-30",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538608.htm"
+            },
+            {
+                "title": "Google逆袭 OpenAI面临ChatGPT推出以来最大压力",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-30",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538606.htm"
+            },
+            {
+                "title": "0.5 克重可承载 200 公斤载荷，高性能碳纤维项目在大同竣工投产",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/362.htm"
+            },
             {
                 "title": "全球唯一量产 IMG DXD 架构产品：国产象帝先自研 GPU 伏羲 A0 亮相，支持光追、超分辨率等技术",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-11-30",
                 "url": "https://www.ithome.com/0/901/332.htm"
-            },
-            {
-                "title": "一加 Ace 6T 手机升级游戏主机手柄同规格陀螺仪：200Hz 采样率、时延降低 11%",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-30",
-                "url": "https://www.ithome.com/0/901/324.htm"
-            },
-            {
-                "title": "男子手部植入芯片后忘记密码，只能靠“暴力破解”",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-30",
-                "url": "https://www.ithome.com/0/901/315.htm"
-            },
-            {
-                "title": "F-150 Lightning 宣传的前向感知系统没装，福特在美被起诉",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-30",
-                "url": "https://www.ithome.com/0/901/307.htm"
-            },
-            {
-                "title": "今日消费资讯：Fritz Hansen 在上海带来七号椅 70 周年主题展、阿维塔进入非洲市场",
-                "source": "NewsAPI / Toodaylab.com",
-                "date": "2025-11-30",
-                "url": "https://www.toodaylab.com/83814"
             }
         ],
         "mil": [
+            {
+                "title": "【CDTV】1989年徐勤先违抗戒严命令案庭审实录（完整文字版 二）",
+                "source": "NewsAPI / Chinadigitaltimes.net",
+                "date": "2025-11-30",
+                "url": "https://chinadigitaltimes.net/chinese/723013.html"
+            },
             {
                 "title": "【CDTV】1989年徐勤先违抗戒严命令案庭审实录（完整文字版 一）",
                 "source": "NewsAPI / Chinadigitaltimes.net",
@@ -74,10 +80,10 @@
                 "url": "https://www.secretchina.com/news/gb/2025/11/30/1091361.html"
             },
             {
-                "title": "制造出速度7马赫的高超音速导弹民企称已完成实际试射",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538558.htm"
+                "title": "法国总统马克龙将访华 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-01",
+                "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb2dYeTVBMmI4MjJZUWJERURMSmdrRTdQaXUzRzdpYU5pSjJpeHFiUldUc0NzOE1BcE53WDhRX0swcVZLTUMyc3h3RWJkVlVDa1RUOUxaMVhXOWFQN1VycTJoNllfamNxNzBtWnk2b01LcC1BWjRzRVg3VXA2cW1pVno2QVg?oc=5"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -86,16 +92,16 @@
                 "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
-                "title": "- mfa.gov.cn",
+                "title": "驻外报道 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeGxBQzU5NnRTR0FOa3F1WmxEeFRXQmxuYnBOOGc0X09hM1VmTDFkdzhFSUJxTjdRZ0tEYklwcXpNNmdWenc1cUdDYXVJenY0SmxYdnM3WEwwRWlsR0hoczVfZlR0VDZ3MUQyeDY4akRfc2JwMUpFRXVRNnpaWDdkUHl2X2Q2LTV2amc?oc=5"
+                "date": "2021-12-03",
+                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
             },
             {
-                "title": "驻瑞士大使钱敏坚出席中瑞建交75周年视频发布会（2025-11-27） - 外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3dLcFFWTXZFN1ZfRzZzdWxTMTlYeHI0QmFPTUtNS1NNM3Y0NlRBRHlKMUFJQVVqaVhlVHQ1bldjTWRvX0plcUw2ZVFnNlVCNENCRVlzczNqREdGeXhHV1FtSWFrUHpPWlBETDcxX1U4eXZEVEtKMDNsMjZyRF9uV3g3YzExalYyUGc?oc=5"
+                "title": "向新而行｜两只翅膀都要硬起来 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-01",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xbC11ay0zUkNiQWxaWWRkTGp1M1BiclowVU9MQ1hjUURBY2JlMmZEVmpmRjJoZFlKUnl5bzk4eTIzNDN2X3dOS25xWi1iTUhmdWc?oc=5"
             },
             {
                 "title": "联勤保障部队2025年专业技能类文职人员公开招考公告 - 军队人才网",
@@ -104,19 +110,31 @@
                 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcWNJUkJEOWFQdy1LZzlUWWJEWFI1LTJpTTI4TDNlNzBaSGhqSVAyZWZhYWlUOUg5Wjg0UlFhb1lGaXBQaXJZOFoycVpaclNLNWV5U2YtcldkZw?oc=5"
             },
             {
-                "title": "学习规划建议每日问答丨怎样理解完善区域创新体系 - 中国军网",
+                "title": "越南海军“陈兴道”号护卫舰访问青岛 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-01",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KOEJ5Wm1rOGpudHBFZEE0aXVrR2V6VEVRUGRCcHE1ejJNYUozM0VVYm5aZWd4ckd1TE5Vek9zNDZscFZ3LXNHUTQ5aDhtY1NqUkE?oc=5"
-            },
-            {
-                "title": "您的位置： 通知公告 - 军队人才网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2023-02-07",
-                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rQTRuQUxXZl9UdzhiVmp3cTFTNEVjWk1MUHVuMWM3c1R1ZW1oVFl4U0RaaTFPZlNIUFpQcVdsdzZKdlRxZTZmbmZxc3lsSHZ6YkdsYlZR?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kNEV5RWZQUkRadUhuVWdORmQxeEtEQWJySVhBQnM4SEVPdEVvMGdsSWlzU0h0TUNQXzk1ZTZ6NmQtbTFnMUZ4NFhzSU4?oc=5"
             }
         ],
         "pol": [
+            {
+                "title": "首次打破35岁门槛 2026年国考今日开考",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-30",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538634.htm"
+            },
+            {
+                "title": "全球首个具身智能本科专业：上海交大公告，联合华为培养，李飞飞高徒带队",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/381.htm"
+            },
+            {
+                "title": "美光斥资96亿美元在日建厂",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-11-30",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538608.htm"
+            },
             {
                 "title": "韩国史上最大规模网络攻击？电商巨头 Coupang 约 3370 万账户信息泄露",
                 "source": "NewsAPI / Ithome.com",
@@ -130,22 +148,10 @@
                 "url": "https://www.ithome.com/0/901/346.htm"
             },
             {
-                "title": "耗资 270 亿美元，Meta 超大规模数据中心正给美国一小镇带来严重破坏",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-30",
-                "url": "https://www.ithome.com/0/901/338.htm"
-            },
-            {
-                "title": "中国两年内爆发史上最大“因果清算潮”！于朦胧灵魂曝：正国级到基层帮凶都逃不掉！(视频)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-30",
-                "url": "https://www.secretchina.com/news/gb/2025/11/30/1091344.html"
-            },
-            {
-                "title": "科技昨夜今晨 1130：中国电影单日票房再破 6 亿；华为客服解释“5A”标识；苹果 10 月全球手机份额飙至 24.2% 刷新单月纪录...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-29",
-                "url": "https://www.ithome.com/0/901/301.htm"
+                "title": "法国总统马克龙将访华 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-01",
+                "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb2dYeTVBMmI4MjJZUWJERURMSmdrRTdQaXUzRzdpYU5pSjJpeHFiUldUc0NzOE1BcE53WDhRX0swcVZLTUMyc3h3RWJkVlVDa1RUOUxaMVhXOWFQN1VycTJoNllfamNxNzBtWnk2b01LcC1BWjRzRVg3VXA2cW1pVno2QVg?oc=5"
             },
             {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
@@ -154,16 +160,16 @@
                 "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
-                "title": "- mfa.gov.cn",
+                "title": "驻外报道 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeGxBQzU5NnRTR0FOa3F1WmxEeFRXQmxuYnBOOGc0X09hM1VmTDFkdzhFSUJxTjdRZ0tEYklwcXpNNmdWenc1cUdDYXVJenY0SmxYdnM3WEwwRWlsR0hoczVfZlR0VDZ3MUQyeDY4akRfc2JwMUpFRXVRNnpaWDdkUHl2X2Q2LTV2amc?oc=5"
+                "date": "2021-12-03",
+                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
             },
             {
-                "title": "驻瑞士大使钱敏坚出席中瑞建交75周年视频发布会（2025-11-27） - 外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3dLcFFWTXZFN1ZfRzZzdWxTMTlYeHI0QmFPTUtNS1NNM3Y0NlRBRHlKMUFJQVVqaVhlVHQ1bldjTWRvX0plcUw2ZVFnNlVCNENCRVlzczNqREdGeXhHV1FtSWFrUHpPWlBETDcxX1U4eXZEVEtKMDNsMjZyRF9uV3g3YzExalYyUGc?oc=5"
+                "title": "向新而行｜两只翅膀都要硬起来 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-01",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xbC11ay0zUkNiQWxaWWRkTGp1M1BiclowVU9MQ1hjUURBY2JlMmZEVmpmRjJoZFlKUnl5bzk4eTIzNDN2X3dOS25xWi1iTUhmdWc?oc=5"
             },
             {
                 "title": "联勤保障部队2025年专业技能类文职人员公开招考公告 - 军队人才网",
@@ -172,19 +178,13 @@
                 "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcWNJUkJEOWFQdy1LZzlUWWJEWFI1LTJpTTI4TDNlNzBaSGhqSVAyZWZhYWlUOUg5Wjg0UlFhb1lGaXBQaXJZOFoycVpaclNLNWV5U2YtcldkZw?oc=5"
             },
             {
-                "title": "学习规划建议每日问答丨怎样理解完善区域创新体系 - 中国军网",
+                "title": "越南海军“陈兴道”号护卫舰访问青岛 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-01",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KOEJ5Wm1rOGpudHBFZEE0aXVrR2V6VEVRUGRCcHE1ejJNYUozM0VVYm5aZWd4ckd1TE5Vek9zNDZscFZ3LXNHUTQ5aDhtY1NqUkE?oc=5"
-            },
-            {
-                "title": "您的位置： 通知公告 - 军队人才网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2023-02-07",
-                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rQTRuQUxXZl9UdzhiVmp3cTFTNEVjWk1MUHVuMWM3c1R1ZW1oVFl4U0RaaTFPZlNIUFpQcVdsdzZKdlRxZTZmbmZxc3lsSHZ6YkdsYlZR?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9kNEV5RWZQUkRadUhuVWdORmQxeEtEQWJySVhBQnM4SEVPdEVvMGdsSWlzU0h0TUNQXzk1ZTZ6NmQtbTFnMUZ4NFhzSU4?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-01T06:29:23.233034+00:00"
+    "last_updated": "2025-12-01T12:38:15.213921+00:00"
 }
