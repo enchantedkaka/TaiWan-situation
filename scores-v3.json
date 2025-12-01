@@ -1,27 +1,40 @@
 {
-    "score": 1,
+    "score": 0,
     "total_indicators_possible": 10,
-    "active_indicators_count": 2,
+    "active_indicators_count": 1,
     "active_indicators": {
-        "POL-2": {
-            "base_weight": 30,
-            "current_weight": 1.2670540809631348,
-            "triggered_on": "2025-11-28"
-        },
         "MIL-3": {
             "base_weight": 100,
-            "current_weight": 3.167635202407837,
+            "current_weight": 2.3757264018058777,
             "triggered_on": "2025-11-28"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources primarily contain general news and financial market outlooks. There is no indication of economic sanctions, war insurance rate hikes, unusual commodity hoarding, or any other events that would trigger the defined economic and financial warning indicators.",
-        "mil": "The provided intelligence sources do not contain information that clearly triggers any of the military logistics warning indicators (MIL-1, MIL-2, MIL-3). There's no mention of NOTAMs covering Taiwan, troop/equipment buildup in Fujian, or mobilization of reserves/civilian assets. The news articles are related to entertainment, space exploration, and hypothetical military scenarios, which do not directly correspond to the defined indicators.",
-        "pol": "The provided intelligence sources lack specific evidence to trigger any of the defined warning indicators. There are no explicit mentions of '悬崖勒马', '勿谓言之不预', war mobilization, strong diplomatic statements like '严重后果' or '明确交代', or any actions related to the withdrawal of diplomatic personnel or travel warnings from the US, Japan, or Europe. The news articles are related to general economic forecasts, airline issues, and media coverage, none of which directly correlate with the provided political/opinion-based indicators. Official sources appear to be routine publications.",
-        "local": "情报源显示防空警报测试为年度例行测试，超市物资供应充足，社会秩序正常。未提及非例行的大规模演习或人防工程启用，因此未触发预警指标LOCAL-1。"
+        "econ": "情报源中没有明确提及任何与经济金融预警指标相关的信息。主要内容是关于科技、消费和汽车领域的新闻，不涉及台海战争险费率、物资抢购、经济制裁或贸易禁运等内容。",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators (MIL-1, MIL-2, MIL-3). There's no mention of NOTAMs, troop/equipment movements, or mobilization of reserves/civilian resources.",
+        "pol": "虽然情报源中包含外交部的信息，但仅为常规新闻和活动，没有发现强硬声明或最后通牒式言论。因此，没有明确触发预警指标。",
+        "local": "情报源表明防空警报测试为年度例行测试，社会秩序正常，未见异常情况，因此未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
+            {
+                "title": "全球唯一量产 IMG DXD 架构产品：国产象帝先自研 GPU 伏羲 A0 亮相，支持光追、超分辨率等技术",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/332.htm"
+            },
+            {
+                "title": "一加 Ace 6T 手机升级游戏主机手柄同规格陀螺仪：200Hz 采样率、时延降低 11%",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/324.htm"
+            },
+            {
+                "title": "男子手部植入芯片后忘记密码，只能靠“暴力破解”",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/315.htm"
+            },
             {
                 "title": "F-150 Lightning 宣传的前向感知系统没装，福特在美被起诉",
                 "source": "NewsAPI / Ithome.com",
@@ -33,27 +46,15 @@
                 "source": "NewsAPI / Toodaylab.com",
                 "date": "2025-11-30",
                 "url": "https://www.toodaylab.com/83814"
-            },
-            {
-                "title": "科技昨夜今晨 1130：中国电影单日票房再破 6 亿；华为客服解释“5A”标识；苹果 10 月全球手机份额飙至 24.2% 刷新单月纪录...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-29",
-                "url": "https://www.ithome.com/0/901/301.htm"
-            },
-            {
-                "title": "美国“黑色星期五”线上销售额达118亿美元 创历史纪录",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538568.htm"
-            },
-            {
-                "title": "2026年宏观经济和金融市场展望：忙趁东风放纸鸢",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-29",
-                "url": "https://www.ftchinese.com/story/001108315"
             }
         ],
         "mil": [
+            {
+                "title": "【CDTV】1989年徐勤先违抗戒严命令案庭审实录（完整文字版 一）",
+                "source": "NewsAPI / Chinadigitaltimes.net",
+                "date": "2025-11-30",
+                "url": "https://chinadigitaltimes.net/chinese/723008.html"
+            },
             {
                 "title": "迪士尼《疯狂动物城 2》票房超第一部，成为中国影史进口动画票房冠军",
                 "source": "NewsAPI / Ithome.com",
@@ -79,22 +80,10 @@
                 "url": "https://www.cnbeta.com.tw/articles/tech/1538558.htm"
             },
             {
-                "title": "爱达邮轮取消日本目的地 聚焦韩国及东南亚",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538546.htm"
-            },
-            {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2005-09-24",
                 "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
-            },
-            {
-                "title": "权威发布 - 中华人民共和国国防部",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2023-02-10",
-                "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rS0FCUzNPbDNHdFVmdS1fbF9kSTdHZXpJVE5vR3E4Yk95dzRSTVZFWFlaUkFGVHptdXBGOWJMRWd5ZTZGbHdYY2d0WlhBN0E5cnB4ZA?oc=5"
             },
             {
                 "title": "- mfa.gov.cn",
@@ -103,25 +92,49 @@
                 "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeGxBQzU5NnRTR0FOa3F1WmxEeFRXQmxuYnBOOGc0X09hM1VmTDFkdzhFSUJxTjdRZ0tEYklwcXpNNmdWenc1cUdDYXVJenY0SmxYdnM3WEwwRWlsR0hoczVfZlR0VDZ3MUQyeDY4akRfc2JwMUpFRXVRNnpaWDdkUHl2X2Q2LTV2amc?oc=5"
             },
             {
+                "title": "驻瑞士大使钱敏坚出席中瑞建交75周年视频发布会（2025-11-27） - 外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-30",
+                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3dLcFFWTXZFN1ZfRzZzdWxTMTlYeHI0QmFPTUtNS1NNM3Y0NlRBRHlKMUFJQVVqaVhlVHQ1bldjTWRvX0plcUw2ZVFnNlVCNENCRVlzczNqREdGeXhHV1FtSWFrUHpPWlBETDcxX1U4eXZEVEtKMDNsMjZyRF9uV3g3YzExalYyUGc?oc=5"
+            },
+            {
+                "title": "联勤保障部队2025年专业技能类文职人员公开招考公告 - 军队人才网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-30",
+                "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcWNJUkJEOWFQdy1LZzlUWWJEWFI1LTJpTTI4TDNlNzBaSGhqSVAyZWZhYWlUOUg5Wjg0UlFhb1lGaXBQaXJZOFoycVpaclNLNWV5U2YtcldkZw?oc=5"
+            },
+            {
+                "title": "学习规划建议每日问答丨怎样理解完善区域创新体系 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-01",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KOEJ5Wm1rOGpudHBFZEE0aXVrR2V6VEVRUGRCcHE1ejJNYUozM0VVYm5aZWd4ckd1TE5Vek9zNDZscFZ3LXNHUTQ5aDhtY1NqUkE?oc=5"
+            },
+            {
                 "title": "您的位置： 通知公告 - 军队人才网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2023-02-07",
                 "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rQTRuQUxXZl9UdzhiVmp3cTFTNEVjWk1MUHVuMWM3c1R1ZW1oVFl4U0RaaTFPZlNIUFpQcVdsdzZKdlRxZTZmbmZxc3lsSHZ6YkdsYlZR?oc=5"
-            },
-            {
-                "title": "学习贯彻四中全会精神丨加快先进战斗力建设 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiSmhFTGxqVWFjTldSSGMtODNmZklXNHJqRl9CZWxyNW54OVk3ODhQOFdfb1EtX3JKQTJPNGc4UUNEWXdNMzNTdExPSzAwb1ZvbHc?oc=5"
-            },
-            {
-                "title": "陆军某旅：基层指挥员跨军兵种编组力量 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZYlJiODNLNGJPUTQ2b0Z5N1RSVU1uaURiNmlRVUhPQWxJSHd3SWxkdEtMODU5YXdtdFJSektjZWhDYW9MY3NhQjJKVTYydkY0eEE?oc=5"
             }
         ],
         "pol": [
+            {
+                "title": "韩国史上最大规模网络攻击？电商巨头 Coupang 约 3370 万账户信息泄露",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/349.htm"
+            },
+            {
+                "title": "特斯拉 FSD 加速在欧洲推进，已获准在西班牙进行测试",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/346.htm"
+            },
+            {
+                "title": "耗资 270 亿美元，Meta 超大规模数据中心正给美国一小镇带来严重破坏",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-11-30",
+                "url": "https://www.ithome.com/0/901/338.htm"
+            },
             {
                 "title": "中国两年内爆发史上最大“因果清算潮”！于朦胧灵魂曝：正国级到基层帮凶都逃不掉！(视频)",
                 "source": "NewsAPI / Secretchina.com",
@@ -135,34 +148,10 @@
                 "url": "https://www.ithome.com/0/901/301.htm"
             },
             {
-                "title": "空客就A320系列机型召回致歉 全球航司紧急开展飞机维修",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-29",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538570.htm"
-            },
-            {
-                "title": "石破茂稱「日本一向理解尊重中國對台立場」矢板明夫：立刻被利用",
-                "source": "NewsAPI / Yahoo Entertainment",
-                "date": "2025-11-29",
-                "url": "https://tw.news.yahoo.com/%E7%9F%B3%E7%A0%B4%E8%8C%82%E7%A8%B1-%E6%97%A5%E6%9C%AC-%E5%90%91%E7%90%86%E8%A7%A3%E5%B0%8A%E9%87%8D%E4%B8%AD%E5%9C%8B%E5%B0%8D%E5%8F%B0%E7%AB%8B%E5%A0%B4-%E7%9F%A2%E6%9D%BF%E6%98%8E%E5%A4%AB-%E7%AB%8B%E5%88%BB%E8%A2%AB%E5%88%A9%E7%94%A8-011538065.html"
-            },
-            {
-                "title": "2026年宏观经济和金融市场展望：忙趁东风放纸鸢",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-29",
-                "url": "https://www.ftchinese.com/story/001108315"
-            },
-            {
                 "title": "中华人民共和国国防部 - 中华人民共和国国防部",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2005-09-24",
                 "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
-            },
-            {
-                "title": "权威发布 - 中华人民共和国国防部",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2023-02-10",
-                "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rS0FCUzNPbDNHdFVmdS1fbF9kSTdHZXpJVE5vR3E4Yk95dzRSTVZFWFlaUkFGVHptdXBGOWJMRWd5ZTZGbHdYY2d0WlhBN0E5cnB4ZA?oc=5"
             },
             {
                 "title": "- mfa.gov.cn",
@@ -171,25 +160,31 @@
                 "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeGxBQzU5NnRTR0FOa3F1WmxEeFRXQmxuYnBOOGc0X09hM1VmTDFkdzhFSUJxTjdRZ0tEYklwcXpNNmdWenc1cUdDYXVJenY0SmxYdnM3WEwwRWlsR0hoczVfZlR0VDZ3MUQyeDY4akRfc2JwMUpFRXVRNnpaWDdkUHl2X2Q2LTV2amc?oc=5"
             },
             {
+                "title": "驻瑞士大使钱敏坚出席中瑞建交75周年视频发布会（2025-11-27） - 外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-11-30",
+                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ3dLcFFWTXZFN1ZfRzZzdWxTMTlYeHI0QmFPTUtNS1NNM3Y0NlRBRHlKMUFJQVVqaVhlVHQ1bldjTWRvX0plcUw2ZVFnNlVCNENCRVlzczNqREdGeXhHV1FtSWFrUHpPWlBETDcxX1U4eXZEVEtKMDNsMjZyRF9uV3g3YzExalYyUGc?oc=5"
+            },
+            {
+                "title": "联勤保障部队2025年专业技能类文职人员公开招考公告 - 军队人才网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-11-30",
+                "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcWNJUkJEOWFQdy1LZzlUWWJEWFI1LTJpTTI4TDNlNzBaSGhqSVAyZWZhYWlUOUg5Wjg0UlFhb1lGaXBQaXJZOFoycVpaclNLNWV5U2YtcldkZw?oc=5"
+            },
+            {
+                "title": "学习规划建议每日问答丨怎样理解完善区域创新体系 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-01",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KOEJ5Wm1rOGpudHBFZEE0aXVrR2V6VEVRUGRCcHE1ejJNYUozM0VVYm5aZWd4ckd1TE5Vek9zNDZscFZ3LXNHUTQ5aDhtY1NqUkE?oc=5"
+            },
+            {
                 "title": "您的位置： 通知公告 - 军队人才网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2023-02-07",
                 "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rQTRuQUxXZl9UdzhiVmp3cTFTNEVjWk1MUHVuMWM3c1R1ZW1oVFl4U0RaaTFPZlNIUFpQcVdsdzZKdlRxZTZmbmZxc3lsSHZ6YkdsYlZR?oc=5"
-            },
-            {
-                "title": "学习贯彻四中全会精神丨加快先进战斗力建设 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiSmhFTGxqVWFjTldSSGMtODNmZklXNHJqRl9CZWxyNW54OVk3ODhQOFdfb1EtX3JKQTJPNGc4UUNEWXdNMzNTdExPSzAwb1ZvbHc?oc=5"
-            },
-            {
-                "title": "陆军某旅：基层指挥员跨军兵种编组力量 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZYlJiODNLNGJPUTQ2b0Z5N1RSVU1uaURiNmlRVUhPQWxJSHd3SWxkdEtMODU5YXdtdFJSektjZWhDYW9MY3NhQjJKVTYydkY0eEE?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-01T01:43:38.723473+00:00"
+    "last_updated": "2025-12-01T06:29:23.233034+00:00"
 }
