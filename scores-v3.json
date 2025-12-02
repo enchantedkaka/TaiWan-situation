@@ -1,48 +1,72 @@
 {
-    "score": 0,
+    "score": 4,
     "total_indicators_possible": 10,
-    "active_indicators_count": 0,
-    "active_indicators": {},
+    "active_indicators_count": 1,
+    "active_indicators": {
+        "POL-2": {
+            "base_weight": 30,
+            "current_weight": 30,
+            "triggered_on": "2025-12-02"
+        }
+    },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that triggers any of the economic or financial warning indicators. There's no mention of increased war insurance rates, large-scale panic buying, strategic resource hoarding, or economic sanctions against Taiwan.",
-        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators (MIL-1, MIL-2, MIL-3). There is no mention of NOTAMs around Taiwan, troop movements in Fujian, or mobilization of reserves or medical resources.",
-        "pol": "The provided intelligence sources do not contain information that explicitly triggers any of the listed warning indicators. No official statements contain strong language like 'severe consequences', 'explicit explanation', or war-related terms. Diplomatic actions are routine (e.g., press conferences, official visits).",
-        "local": "情报源显示厦门本周的防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发大规模防空、疏散演习或人防工程启用的预警指标。"
+        "econ": "The provided intelligence sources do not contain information that clearly triggers any of the specified economic and financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, strategic material stockpiling, or economic sanctions against Taiwan.",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the defined military logistics warning indicators. There is no mention of NOTAMs surrounding Taiwan, troop movements in Fujian, or mobilization of reserves or civilian resources.",
+        "pol": "中国海警驱逐非法进入中国钓鱼岛领海的日本船只，属于外交部/国防部发表强硬声明，触发POL-2。",
+        "local": "情报源显示防空警报测试为年度例行测试，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "前CEO基辛格：接手Intel后才发现衰败程度超乎想象",
+                "title": "ChatGPT 三年前问世 人工智能革命由此开启",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-01",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538688.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538812.htm"
             },
             {
-                "title": "2025企业家博鳌论坛首次启用国产电脑 基于飞腾腾锐D3000M",
+                "title": "孙正义首次回应清空英伟达股票：含泪卖的，为了筹钱投资OpenAI",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-01",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538682.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538810.htm"
             },
             {
-                "title": "工信部：鼓励中国光伏、风电、锂电池、新能源汽车等优势企业“走出去”",
-                "source": "NewsAPI / 36kr.com",
+                "title": "孙正义首次回应清空英伟达股票：含泪卖的 为了筹钱投资OpenAI",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-01",
-                "url": "https://36kr.com/newsflashes/3576528884563076"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538808.htm"
             },
             {
-                "title": "飞书深诺集团创始人兼CEO沈晨岗：营销+AI双轮驱动，中国企业全球征程加速度｜WISE2025 商业之王",
+                "title": "氪星晚报｜亚马逊和谷歌联手打通高速云链路；我国快递年业务量首次突破1800亿件；中国长安汽车集团入股辰致汽车集团，后者多位高管发生变更",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-01",
-                "url": "https://36kr.com/p/3576380327230597"
+                "url": "https://36kr.com/p/3576847593601927"
             },
             {
-                "title": "后摩智能创始人兼CEO吴强：端边通用AI算力瓶颈迎来破局点，存算一体将重构产业生态｜WISE 2025 商业之王",
-                "source": "NewsAPI / 36kr.com",
+                "title": "【CDT报告汇】寒冬：北京之手伸向境外，哈萨克斯坦拘押“新疆证人”（外二篇）",
+                "source": "NewsAPI / Chinadigitaltimes.net",
                 "date": "2025-12-01",
-                "url": "https://36kr.com/p/3576375760960645"
+                "url": "https://chinadigitaltimes.net/chinese/723012.html"
             }
         ],
         "mil": [
+            {
+                "title": "硬核突围-中国硬件的全球时刻与未来想象 | 36氪 WISE2025 商业之王大会",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-01",
+                "url": "https://36kr.com/p/3576833023474825"
+            },
+            {
+                "title": "寻找“ChatGPT时刻”：谁能定义具身智能？| 36氪 WISE2025 商业之王大会",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-01",
+                "url": "https://36kr.com/p/3576864061324168"
+            },
+            {
+                "title": "一个手机壳500元 比卖手机还赚钱",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-01",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538726.htm"
+            },
             {
                 "title": "飞书深诺集团创始人兼CEO沈晨岗：营销+AI双轮驱动，中国企业全球征程加速度｜WISE2025 商业之王",
                 "source": "NewsAPI / 36kr.com",
@@ -56,24 +80,6 @@
                 "url": "https://www.ithome.com/0/901/434.htm"
             },
             {
-                "title": "每日一语 2025.11.29",
-                "source": "NewsAPI / Chinadigitaltimes.net",
-                "date": "2025-11-30",
-                "url": "https://chinadigitaltimes.net/chinese/723046.html"
-            },
-            {
-                "title": "英国“龙火”激光武器成功击落高速飞行的无人机",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-11-30",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538652.htm"
-            },
-            {
-                "title": "美日联合“兵推”剧本 台海第一枪不在台湾 真正的引爆点在哪(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-30",
-                "url": "https://www.secretchina.com/news/gb/2025/11/30/1091403.html"
-            },
-            {
                 "title": "法国总统马克龙将访华 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-01",
@@ -104,42 +110,42 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xbC11ay0zUkNiQWxaWWRkTGp1M1BiclowVU9MQ1hjUURBY2JlMmZEVmpmRjJoZFlKUnl5bzk4eTIzNDN2X3dOS25xWi1iTUhmdWc?oc=5"
             },
             {
-                "title": "联勤保障部队2025年专业技能类文职人员公开招考公告 - 军队人才网",
+                "title": "China Coast Guard expels Japanese vessel illegally entering territorial waters of China's Diaoyu Dao - China Military Online",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcWNJUkJEOWFQdy1LZzlUWWJEWFI1LTJpTTI4TDNlNzBaSGhqSVAyZWZhYWlUOUg5Wjg0UlFhb1lGaXBQaXJZOFoycVpaclNLNWV5U2YtcldkZw?oc=5"
+                "date": "2025-12-02",
+                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mNE1IQWo2SnBINzVVbXc2WFFEWkxhSkw1dlU5MkppRlNXYmYyYy1yX2h1Ym9yYVQ4UFB0WG8wSzdGMG84am5nbnBqX2xUR3BmSG1ReU9GQkFQR19MNXc?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "前CEO基辛格：接手Intel后才发现衰败程度超乎想象",
+                "title": "特斯拉销售罕见亮点：挪威销量提前一个月打破大众全年纪录",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-01",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538688.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538814.htm"
             },
             {
-                "title": "飞书深诺集团创始人兼CEO沈晨岗：营销+AI双轮驱动，中国企业全球征程加速度｜WISE2025 商业之王",
+                "title": "氪星晚报｜亚马逊和谷歌联手打通高速云链路；我国快递年业务量首次突破1800亿件；中国长安汽车集团入股辰致汽车集团，后者多位高管发生变更",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-01",
-                "url": "https://36kr.com/p/3576380327230597"
+                "url": "https://36kr.com/p/3576847593601927"
             },
             {
-                "title": "中共正国级领导的“隐性特权”让人瞠目结舌(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "硬核突围-中国硬件的全球时刻与未来想象 | 36氪 WISE2025 商业之王大会",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-01",
-                "url": "https://www.secretchina.com/news/gb/2025/12/01/1091422.html"
+                "url": "https://36kr.com/p/3576833023474825"
             },
             {
-                "title": "法拉第未来贾跃亭：未来五年努力实现预计 40-50 万台的产销目标",
-                "source": "NewsAPI / Ithome.com",
+                "title": "寻找“ChatGPT时刻”：谁能定义具身智能？| 36氪 WISE2025 商业之王大会",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-01",
-                "url": "https://www.ithome.com/0/901/503.htm"
+                "url": "https://36kr.com/p/3576864061324168"
             },
             {
-                "title": "在华坐牢千日 前加外交官谈卡尼访华：不应对中共抱任何幻想(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "ポケットに手の劉局長「日系企業は中国で安心して事業活動をしてほしい」",
+                "source": "NewsAPI / Itainews.com",
                 "date": "2025-12-01",
-                "url": "https://www.secretchina.com/news/gb/2025/12/01/1091415.html"
+                "url": "https://itainews.com/archives/2055883.html"
             },
             {
                 "title": "法国总统马克龙将访华 - mfa.gov.cn",
@@ -172,13 +178,13 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xbC11ay0zUkNiQWxaWWRkTGp1M1BiclowVU9MQ1hjUURBY2JlMmZEVmpmRjJoZFlKUnl5bzk4eTIzNDN2X3dOS25xWi1iTUhmdWc?oc=5"
             },
             {
-                "title": "联勤保障部队2025年专业技能类文职人员公开招考公告 - 军队人才网",
+                "title": "China Coast Guard expels Japanese vessel illegally entering territorial waters of China's Diaoyu Dao - China Military Online",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-11-30",
-                "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPcWNJUkJEOWFQdy1LZzlUWWJEWFI1LTJpTTI4TDNlNzBaSGhqSVAyZWZhYWlUOUg5Wjg0UlFhb1lGaXBQaXJZOFoycVpaclNLNWV5U2YtcldkZw?oc=5"
+                "date": "2025-12-02",
+                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mNE1IQWo2SnBINzVVbXc2WFFEWkxhSkw1dlU5MkppRlNXYmYyYy1yX2h1Ym9yYVQ4UFB0WG8wSzdGMG84am5nbnBqX2xUR3BmSG1ReU9GQkFQR19MNXc?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-02T06:28:55.176797+00:00"
+    "last_updated": "2025-12-02T12:38:37.005383+00:00"
 }
