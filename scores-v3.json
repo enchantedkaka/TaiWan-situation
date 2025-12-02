@@ -1,54 +1,54 @@
 {
     "score": 0,
     "total_indicators_possible": 10,
-    "active_indicators_count": 1,
-    "active_indicators": {
-        "MIL-3": {
-            "base_weight": 100,
-            "current_weight": 1.0022595757618546,
-            "triggered_on": "2025-11-28"
-        }
-    },
+    "active_indicators_count": 0,
+    "active_indicators": {},
     "category_reasoning": {
-        "econ": "The provided intelligence sources consist of general news articles related to technology, business, and AI. There is no indication of economic or financial pre-warning indicators being triggered based on the information provided.",
-        "mil": "The provided information does not explicitly trigger any of the listed military logistics warning indicators. There is no mention of large-scale naval exercises, troop movements, or mobilization of reserves.",
-        "pol": "根据提供的情报源，未发现明确触发预警指标的信息。虽然有外交部例行记者会，但没有具体内容显示使用了强硬措辞。解放军报/军网的信息主要关于内部建设和招考，没有涉及战争动员或最后通牒。国际与商业媒体的信息也未显示相关预警触发。",
-        "local": "情报源显示厦门防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not contain information that triggers any of the economic or financial warning indicators. There's no mention of increased war insurance rates, large-scale panic buying, strategic resource hoarding, or economic sanctions against Taiwan.",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the listed military logistics warning indicators (MIL-1, MIL-2, MIL-3). There is no mention of NOTAMs around Taiwan, troop movements in Fujian, or mobilization of reserves or medical resources.",
+        "pol": "The provided intelligence sources do not contain information that explicitly triggers any of the listed warning indicators. No official statements contain strong language like 'severe consequences', 'explicit explanation', or war-related terms. Diplomatic actions are routine (e.g., press conferences, official visits).",
+        "local": "情报源显示厦门本周的防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发大规模防空、疏散演习或人防工程启用的预警指标。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "研究：超四成美国驾驶员用 AI 选车险",
-                "source": "NewsAPI / Ithome.com",
+                "title": "前CEO基辛格：接手Intel后才发现衰败程度超乎想象",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-01",
-                "url": "https://www.ithome.com/0/901/441.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538688.htm"
             },
             {
-                "title": "商业不动产REITs试点启动，高质量扩容可期",
+                "title": "2025企业家博鳌论坛首次启用国产电脑 基于飞腾腾锐D3000M",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-01",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538682.htm"
+            },
+            {
+                "title": "工信部：鼓励中国光伏、风电、锂电池、新能源汽车等优势企业“走出去”",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-01",
-                "url": "https://36kr.com/newsflashes/3576210651609993"
+                "url": "https://36kr.com/newsflashes/3576528884563076"
             },
             {
-                "title": "科技昨夜今晨 1201：华为官网详解“5A”先进通信技术；苹果 A20 系列芯片前瞻；《疯狂动物城 2》超第一部成中国影史进口动画票房冠军...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-11-30",
-                "url": "https://www.ithome.com/0/901/434.htm"
+                "title": "飞书深诺集团创始人兼CEO沈晨岗：营销+AI双轮驱动，中国企业全球征程加速度｜WISE2025 商业之王",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-01",
+                "url": "https://36kr.com/p/3576380327230597"
             },
             {
-                "title": "80后“粉红”小老板的转变 用脚投票投奔自由(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-11-30",
-                "url": "https://www.secretchina.com/news/gb/2025/12/01/1091005.html"
-            },
-            {
-                "title": "忽视了数学这一环，AI将无法尽其用",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-11-30",
-                "url": "https://www.ftchinese.com/story/001108319"
+                "title": "后摩智能创始人兼CEO吴强：端边通用AI算力瓶颈迎来破局点，存算一体将重构产业生态｜WISE 2025 商业之王",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-01",
+                "url": "https://36kr.com/p/3576375760960645"
             }
         ],
         "mil": [
+            {
+                "title": "飞书深诺集团创始人兼CEO沈晨岗：营销+AI双轮驱动，中国企业全球征程加速度｜WISE2025 商业之王",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-01",
+                "url": "https://36kr.com/p/3576380327230597"
+            },
             {
                 "title": "科技昨夜今晨 1201：华为官网详解“5A”先进通信技术；苹果 A20 系列芯片前瞻；《疯狂动物城 2》超第一部成中国影史进口动画票房冠军...",
                 "source": "NewsAPI / Ithome.com",
@@ -72,12 +72,6 @@
                 "source": "NewsAPI / Secretchina.com",
                 "date": "2025-11-30",
                 "url": "https://www.secretchina.com/news/gb/2025/11/30/1091403.html"
-            },
-            {
-                "title": "【CDTV】1989年徐勤先违抗戒严命令案庭审实录（完整文字版 二）",
-                "source": "NewsAPI / Chinadigitaltimes.net",
-                "date": "2025-11-30",
-                "url": "https://chinadigitaltimes.net/chinese/723013.html"
             },
             {
                 "title": "法国总统马克龙将访华 - mfa.gov.cn",
@@ -118,34 +112,34 @@
         ],
         "pol": [
             {
-                "title": "节省开支，英国评估出售海外使馆房产",
+                "title": "前CEO基辛格：接手Intel后才发现衰败程度超乎想象",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-01",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538688.htm"
+            },
+            {
+                "title": "飞书深诺集团创始人兼CEO沈晨岗：营销+AI双轮驱动，中国企业全球征程加速度｜WISE2025 商业之王",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-01",
-                "url": "https://36kr.com/newsflashes/3576279791008644"
+                "url": "https://36kr.com/p/3576380327230597"
             },
             {
-                "title": "研究：超四成美国驾驶员用 AI 选车险",
+                "title": "中共正国级领导的“隐性特权”让人瞠目结舌(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-12-01",
+                "url": "https://www.secretchina.com/news/gb/2025/12/01/1091422.html"
+            },
+            {
+                "title": "法拉第未来贾跃亭：未来五年努力实现预计 40-50 万台的产销目标",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-01",
-                "url": "https://www.ithome.com/0/901/441.htm"
+                "url": "https://www.ithome.com/0/901/503.htm"
             },
             {
-                "title": "【CDTV】1989年徐勤先违抗戒严命令案庭审实录（完整文字版 六）",
-                "source": "NewsAPI / Chinadigitaltimes.net",
-                "date": "2025-11-30",
-                "url": "https://chinadigitaltimes.net/chinese/723027.html"
-            },
-            {
-                "title": "【立此存照】驻港国家安全公署｜坚定支持香港特区依法严惩反中乱港分子“以灾乱港”行径",
-                "source": "NewsAPI / Chinadigitaltimes.net",
-                "date": "2025-11-30",
-                "url": "https://chinadigitaltimes.net/chinese/723033.html"
-            },
-            {
-                "title": "《海贼王》歌手上海演出突遭中断 中日外交风暴波及文化圈",
-                "source": "NewsAPI / DW (English)",
-                "date": "2025-11-30",
-                "url": "https://www.dw.com/zh/%E6%B5%B7%E8%B4%BC%E7%8E%8B%E6%AD%8C%E6%89%8B%E4%B8%8A%E6%B5%B7%E6%BC%94%E5%87%BA%E7%AA%81%E9%81%AD%E4%B8%AD%E6%96%AD-%E4%B8%AD%E6%97%A5%E5%A4%96%E4%BA%A4%E9%A3%8E%E6%9A%B4%E6%B3%A2%E5%8F%8A%E6%96%87%E5%8C%96%E5%9C%88/a-74958210"
+                "title": "在华坐牢千日 前加外交官谈卡尼访华：不应对中共抱任何幻想(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-12-01",
+                "url": "https://www.secretchina.com/news/gb/2025/12/01/1091415.html"
             },
             {
                 "title": "法国总统马克龙将访华 - mfa.gov.cn",
@@ -186,5 +180,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-12-02T01:21:04.731827+00:00"
+    "last_updated": "2025-12-02T06:28:55.176797+00:00"
 }
