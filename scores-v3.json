@@ -5,50 +5,68 @@
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 16.875,
+            "current_weight": 12.65625,
             "triggered_on": "2025-12-02"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain information that triggers any of the economic and financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, or economic sanctions against Taiwan.",
-        "mil": "The provided information does not explicitly trigger any of the military logistics warning indicators. There is no mention of NOTAMs, military buildup, or mobilization of reserves.",
-        "pol": "The provided intelligence sources do not contain explicit language indicating any of the pre-defined warning indicators have been triggered. There is no mention of '悬崖勒马', '勿谓言之不预', war mobilization, strong warnings like '严重后果' or '明确交代', diplomatic downgrades, or evacuation of personnel. The mention of China Coast Guard expelling a Japanese vessel, while potentially escalatory in a broader context, does not on its own meet the criteria for triggering a specific warning indicator based on the provided definitions.",
-        "local": "情报源显示防空警报测试为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not explicitly trigger any of the economic and financial warning indicators. There is no mention of increased war insurance rates, unusual stockpiling, or economic sanctions against Taiwan.",
+        "mil": "未发现明确触发军事后勤预警指标的信息。情报源中仅包含中俄战略安全磋商、法国总统访华等外交活动信息，以及中国海警驱逐进入钓鱼岛海域的日本船只等信息，未提及大规模军事调动、禁航通告或征召预备役等与军事后勤直接相关的内容。",
+        "pol": "分析情报源，未发现任何明确触发预警指标的信息。外交部信息主要为中俄磋商、法国总统访华和例行记者会，解放军报信息主要为军事新闻和中国海警的行动，均未包含最后通牒式语言或强硬声明，以及撤侨/旅行警告。",
+        "local": "情报源表明防空警报测试为年度例行测试，社会秩序正常，未提及非例行的大规模演习或人防工程启用，因此未触发预警指标 LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "三星首款三折叠手机 Galaxy Z TriFold 发布：采用 10 英寸内屏、骁龙 8 Elite for Galaxy 芯片",
+                "title": "美国发现全球最大锂矿床：蕴藏 2000~4000 万吨富锂粘土，估值约 1.5 万亿美元",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-02",
-                "url": "https://www.ithome.com/0/901/756.htm"
+                "url": "https://www.ithome.com/0/901/847.htm"
             },
             {
-                "title": "剑桥博士推动“HUD for All”，摆脱高成本楔形膜依赖 | 36氪首发",
-                "source": "NewsAPI / 36kr.com",
+                "title": "“大字吸睛小字埋雷”，广告岂容文字游戏",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://36kr.com/p/3577705572367490"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538920.htm"
             },
             {
-                "title": "兴业证券：关注长债阶段性超跌反弹的机会",
-                "source": "NewsAPI / 36kr.com",
+                "title": "月活跌破8000万、营收下滑22% 知乎的“精神高地”正在坍塌",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://36kr.com/newsflashes/3577669922962312"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538912.htm"
             },
             {
-                "title": "前三季度天津社会融资规模累计增量达4368亿元",
-                "source": "NewsAPI / 36kr.com",
+                "title": "自助“偷甘蔗”爆火 偷菜游戏永不落幕",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://36kr.com/newsflashes/3577669065522309"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538908.htm"
             },
             {
-                "title": "消息称三星 Galaxy S26 Ultra 手机将推四款配色，紫色为主打色",
-                "source": "NewsAPI / Ithome.com",
+                "title": "AI时代落后的三星：李在镕欲借并购突围，争夺技术优势",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://www.ithome.com/0/901/745.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538900.htm"
             }
         ],
         "mil": [
+            {
+                "title": "新国标落地 电动自行车普遍涨到2000+ 旧标车仍可“带牌过户”",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-02",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538942.htm"
+            },
+            {
+                "title": "自助“偷甘蔗”爆火 偷菜游戏永不落幕",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-02",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538908.htm"
+            },
+            {
+                "title": "代言微软 AI 时代：新宠 Zava 上位，“张三李四”公司将谢幕",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-02",
+                "url": "https://www.ithome.com/0/901/758.htm"
+            },
             {
                 "title": "剑桥博士推动“HUD for All”，摆脱高成本楔形膜依赖 | 36氪首发",
                 "source": "NewsAPI / 36kr.com",
@@ -62,22 +80,10 @@
                 "url": "https://www.toodaylab.com/83819"
             },
             {
-                "title": "8点1氪丨香港大埔火灾已拘捕13人，罪名是误杀；明年起避孕药品和用具征收增值税；万科被冻结5.7亿元股权，冻结期限为3年",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-01",
-                "url": "https://36kr.com/p/3577633686354824"
-            },
-            {
-                "title": "欧盟将在2026年承诺至少30亿欧元投资 以降低对原材料的依赖",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-01",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538874.htm"
-            },
-            {
-                "title": "马斯克称人工智能将助力解决美国国债问题",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-01",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1538866.htm"
+                "title": "中俄举行战略安全磋商 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-02",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KSnBEVkVkRjl2RXY3SWc1S0pFdFN2cS0tZ0xXME5Lbk9XYzdWeGVXSjA0amE3enMyOGtZdG9hdWRpZXNiVzRrT3RJZHBrdkZMUWtFVU5zS3NQYUxpVTRtcVZ3MmI2bVBDQ2dF?oc=5"
             },
             {
                 "title": "法国总统马克龙将访华 - mfa.gov.cn",
@@ -92,60 +98,60 @@
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oRjRxYWVKZmE2ejFzcks4dUx4MjZiNVVkcXpuZkFXbzYyZ1J1eWJzM3dKRGM1bnFlMy03MFNMWEUyLUNlbVJtMTl3MENvMlBmSXpkVFNPTUJTUGo1WjZzWlNBa3hDQjY5aFM0ZDFSa0RVTEhrZmc?oc=5"
             },
             {
-                "title": "驻外报道 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2021-12-03",
-                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
-            },
-            {
                 "title": "向新而行｜两只翅膀都要硬起来 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-01",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xbC11ay0zUkNiQWxaWWRkTGp1M1BiclowVU9MQ1hjUURBY2JlMmZEVmpmRjJoZFlKUnl5bzk4eTIzNDN2X3dOS25xWi1iTUhmdWc?oc=5"
             },
             {
+                "title": "2025年12月3日中国国防报第02版：综合 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-02",
+                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3RUTjRTUzBWSTl0N2FjOHVXWmVHYmVkTWtJd2RjMUp6LWJ1bkliS2l5SlJNd3dCeE5UVEhmajl5S0NRaEExM1oxZ0U0VE1NaFoxN0VJaWZ5ZmljQURHZmRYQmsyLXVDeWVvS2daN0NHVnFnZGtid2hHanl0MDB4aWpDaUZUU0FyejRuMXAwaGJSRFJZbm1GajIyc3ZveElX?oc=5"
+            },
+            {
                 "title": "China Coast Guard expels Japanese vessel illegally entering territorial waters of China's Diaoyu Dao - China Military Online",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-02",
                 "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mNE1IQWo2SnBINzVVbXc2WFFEWkxhSkw1dlU5MkppRlNXYmYyYy1yX2h1Ym9yYVQ4UFB0WG8wSzdGMG84am5nbnBqX2xUR3BmSG1ReU9GQkFQR19MNXc?oc=5"
-            },
-            {
-                "title": "选拔培养“兵教师”进校园- 中国国防报 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT2hNbUhIWngwb0V2ei1jbkR0a084LW0zd2tsU2JXejNDWkJMOW1PZHZWeHIxR2JJTVRGT1oxc2MwVnZfcEVWVEFrSDNPaTFGXzRIem5FY3RDbTFfaFBfejhVWlFqbVU2elVESVNySk9UaHhZLVJfOEhpblBSODg3NTBtZ1JDbGUyTUhtN2pRRzM4UTZLTkJQcFFYM3I4dkhrOWFuNkVCb05mai1vSEZrOTdrOTEyMFU?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "剑桥博士推动“HUD for All”，摆脱高成本楔形膜依赖 | 36氪首发",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-02",
-                "url": "https://36kr.com/p/3577705572367490"
-            },
-            {
-                "title": "鸿蒙智行尚界 H5 汽车 11 月交付破 1 万台，购置税补贴延期至 12 月 31 日",
+                "title": "海外版问界 M9 车机曝光，完成地图、HUAWEI ADS 和各类 App 本地化适配",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-02",
-                "url": "https://www.ithome.com/0/901/753.htm"
+                "url": "https://www.ithome.com/0/901/849.htm"
             },
             {
-                "title": "特斯拉 11 月欧洲主要市场销量大跌：法国、瑞典、丹麦均腰斩",
-                "source": "NewsAPI / Ithome.com",
+                "title": "马斯克称想要将X打造成“微信升级版”",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://www.ithome.com/0/901/752.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538924.htm"
             },
             {
-                "title": "从“叙事政治”谈日中关系的恶意螺旋(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "美团骑手宣传片营销过度被骂到下架？这碗鸡汤太毒了",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://www.secretchina.com/news/gb/2025/12/02/1091469.html"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538922.htm"
             },
             {
-                "title": "科技昨夜今晨 1202：“旧国标”电动自行车全面停售；DeepSeek V3.2 正式版发布；小米汽车“现车选购”即将开启...",
-                "source": "NewsAPI / Ithome.com",
+                "title": "“大字吸睛小字埋雷”，广告岂容文字游戏",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://www.ithome.com/0/901/738.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538920.htm"
+            },
+            {
+                "title": "月活跌破8000万、营收下滑22% 知乎的“精神高地”正在坍塌",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-02",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1538912.htm"
+            },
+            {
+                "title": "中俄举行战略安全磋商 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-02",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9KSnBEVkVkRjl2RXY3SWc1S0pFdFN2cS0tZ0xXME5Lbk9XYzdWeGVXSjA0amE3enMyOGtZdG9hdWRpZXNiVzRrT3RJZHBrdkZMUWtFVU5zS3NQYUxpVTRtcVZ3MmI2bVBDQ2dF?oc=5"
             },
             {
                 "title": "法国总统马克龙将访华 - mfa.gov.cn",
@@ -160,31 +166,25 @@
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oRjRxYWVKZmE2ejFzcks4dUx4MjZiNVVkcXpuZkFXbzYyZ1J1eWJzM3dKRGM1bnFlMy03MFNMWEUyLUNlbVJtMTl3MENvMlBmSXpkVFNPTUJTUGo1WjZzWlNBa3hDQjY5aFM0ZDFSa0RVTEhrZmc?oc=5"
             },
             {
-                "title": "驻外报道 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2021-12-03",
-                "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBzWmlLclhjbDZRRDBjYk1wc3c4bjYtWXg5NU9qazktNmFJUVBuZXF0ejhlaFlCMzJvd1dXWVRMTldHU3E3YjVBU1IyRzB4MGtXT3YzeUJGSHNiTU0?oc=5"
-            },
-            {
                 "title": "向新而行｜两只翅膀都要硬起来 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-01",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xbC11ay0zUkNiQWxaWWRkTGp1M1BiclowVU9MQ1hjUURBY2JlMmZEVmpmRjJoZFlKUnl5bzk4eTIzNDN2X3dOS25xWi1iTUhmdWc?oc=5"
             },
             {
+                "title": "2025年12月3日中国国防报第02版：综合 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-02",
+                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3RUTjRTUzBWSTl0N2FjOHVXWmVHYmVkTWtJd2RjMUp6LWJ1bkliS2l5SlJNd3dCeE5UVEhmajl5S0NRaEExM1oxZ0U0VE1NaFoxN0VJaWZ5ZmljQURHZmRYQmsyLXVDeWVvS2daN0NHVnFnZGtid2hHanl0MDB4aWpDaUZUU0FyejRuMXAwaGJSRFJZbm1GajIyc3ZveElX?oc=5"
+            },
+            {
                 "title": "China Coast Guard expels Japanese vessel illegally entering territorial waters of China's Diaoyu Dao - China Military Online",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-02",
                 "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mNE1IQWo2SnBINzVVbXc2WFFEWkxhSkw1dlU5MkppRlNXYmYyYy1yX2h1Ym9yYVQ4UFB0WG8wSzdGMG84am5nbnBqX2xUR3BmSG1ReU9GQkFQR19MNXc?oc=5"
-            },
-            {
-                "title": "选拔培养“兵教师”进校园- 中国国防报 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPT2hNbUhIWngwb0V2ei1jbkR0a084LW0zd2tsU2JXejNDWkJMOW1PZHZWeHIxR2JJTVRGT1oxc2MwVnZfcEVWVEFrSDNPaTFGXzRIem5FY3RDbTFfaFBfejhVWlFqbVU2elVESVNySk9UaHhZLVJfOEhpblBSODg3NTBtZ1JDbGUyTUhtN2pRRzM4UTZLTkJQcFFYM3I4dkhrOWFuNkVCb05mai1vSEZrOTdrOTEyMFU?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-03T01:21:17.885213+00:00"
+    "last_updated": "2025-12-03T06:28:19.031179+00:00"
 }
