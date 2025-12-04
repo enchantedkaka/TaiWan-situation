@@ -5,50 +5,56 @@
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 16.875,
+            "current_weight": 12.65625,
             "triggered_on": "2025-12-03"
         }
     },
     "category_reasoning": {
-        "econ": "The provided information does not contain any data that triggers the economic and financial warning indicators. The news articles are related to technology, business, and general news, but they don't mention anything about insurance rates, resource hoarding, or economic sanctions related to Taiwan.",
-        "mil": "The provided information does not explicitly trigger any of the military logistics warning indicators. There is no mention of NOTAMs, military build-ups in Fujian, or mobilization of reserves/civilian resources.",
-        "pol": "The provided information contains routine diplomatic activities and general news reports. There are no explicit indications of escalating tensions, final warnings, or significant diplomatic actions like personnel withdrawals. Therefore, no pre-defined warning indicators are triggered. The presence of '例行记者会' does not automatically trigger POL-2 unless strong language is detected, which is absent here.",
-        "local": "情报源显示厦门本周防空警报测试为年度例行测试，超市物资供应充足，未见抢购，社会秩序正常。因此，没有明确触发预警指标LOCAL-1（厦门及沿海地区进行非例行的大规模防空、疏散演习或人防工程启用）。"
+        "econ": "The provided intelligence sources do not contain information that clearly triggers any of the economic and financial warning indicators listed. There is no mention of increased war insurance rates, unusual stockpiling, or economic sanctions against Taiwan.",
+        "mil": "The provided intelligence sources do not contain any information that explicitly triggers the defined military logistics warning indicators. There is no mention of NOTAMs, troop movements, or mobilization of resources.",
+        "pol": "未发现任何明确触发预警指标的信息。虽然有外交部例行记者会的信息，但缺乏具体内容，无法判断是否存在强硬声明。其他信息主要为一般新闻报道和领导人会晤，不涉及预警指标中的威胁或外交降级等情况。",
+        "local": "情报源显示防空警报为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "戴尔创始人豪捐 62.5 亿美元，助力美国儿童投资账户计划",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-03",
-                "url": "https://www.ithome.com/0/902/026.htm"
-            },
-            {
-                "title": "中信证券：特斯拉机器人量产进程加速，关注产业链相关公司",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-03",
-                "url": "https://36kr.com/newsflashes/3579064862391169"
-            },
-            {
-                "title": "科技昨夜今晨 1203：三星首款三折叠手机发布；小米汽车累计交付破 50 万台；首款“豆包助手”手机售罄...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-03",
-                "url": "https://www.ithome.com/0/902/016.htm"
-            },
-            {
-                "title": "8点1氪丨三星首款三折叠手机发布，被罗永浩吐槽；2025年十大流行语公布；中国居民人均预期寿命达79岁",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-03",
-                "url": "https://36kr.com/p/3579056610982784"
-            },
-            {
-                "title": "苹果iPhone 17助推智能手机市场创纪录 2026年或迎涨价与降量双重压力",
+                "title": "联想ISG上海全员被裁？“两分钟录音”式裁员引发舆论风暴",
                 "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-02",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539088.htm"
+                "date": "2025-12-03",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539174.htm"
+            },
+            {
+                "title": "浙江：支持打造低空产业“先导区”和低空经济“先飞区”，新开无人机航线100条以上",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-03",
+                "url": "https://36kr.com/newsflashes/3579373999275144"
+            },
+            {
+                "title": "欧盟敲定协议 2027年底前逐步停止从俄罗斯进口天然气",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-03",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539166.htm"
+            },
+            {
+                "title": "亚马逊携手英伟达推出本地“AI工厂” 满足企业与政府主权数据需求",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-03",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539152.htm"
+            },
+            {
+                "title": "实验室带你过周末：2025.12.6 - 12.7 成都篇",
+                "source": "NewsAPI / Toodaylab.com",
+                "date": "2025-12-03",
+                "url": "https://www.toodaylab.com/83822"
             }
         ],
         "mil": [
+            {
+                "title": "DeepSeek的一次小更新：暴打OpenAI 追上Gemini",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-03",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539178.htm"
+            },
             {
                 "title": "埃隆·马斯克列出人工智能的三大关键要素",
                 "source": "NewsAPI / Cnbeta.com.tw",
@@ -74,12 +80,6 @@
                 "url": "https://www.ftchinese.com/story/001108333"
             },
             {
-                "title": "吉利系 AI 终端进展曝光：首月速成 200 人团队，挖遍华为小米荣耀",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-02",
-                "url": "https://www.ithome.com/0/901/987.htm"
-            },
-            {
                 "title": "中俄举行战略安全磋商 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-02",
@@ -98,54 +98,54 @@
                 "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5VODBpZ0EzbjAxenJYSFdNTTFuVi1tQlJGVkZ4NGNablYyU09Zd0pJMVlDZXFUWnZVNjRLdnU1MmxxZlk?oc=5"
             },
             {
+                "title": "习近平同法国总统马克龙会谈 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WaVJzcDJYWGx3MTM1WXNvWDU3UldIUWVLWXJwVUh4YksxaVFNSEt4REVUZk82R2lrX2EycUxPblk1cER2YWdmZGNBMW5fMDhZd3c?oc=5"
+            },
+            {
                 "title": "新兵的“成人礼” - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-03",
                 "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5xUGFyWWNQS0tMUDR6VUFvZm1ZdndnV3FpWWdEdnY5VTlxV2xrb1d3bXhob0M1TXBwTTlTNWxKUFRZZnd5SHBHcS1B?oc=5"
             },
             {
-                "title": "2025年12月3日中国国防报第02版：综合 - 中国军网",
+                "title": "习近平同法国总统马克龙共同出席中法企业家委员会第七次会议闭幕式 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3RUTjRTUzBWSTl0N2FjOHVXWmVHYmVkTWtJd2RjMUp6LWJ1bkliS2l5SlJNd3dCeE5UVEhmajl5S0NRaEExM1oxZ0U0VE1NaFoxN0VJaWZ5ZmljQURHZmRYQmsyLXVDeWVvS2daN0NHVnFnZGtid2hHanl0MDB4aWpDaUZUU0FyejRuMXAwaGJSRFJZbm1GajIyc3ZveElX?oc=5"
-            },
-            {
-                "title": "西藏那曲军分区“雪山宣讲队”传递党的好声音 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uUHAzTC1CLXZNbm9FT2FBWTJfTW0wZlBVM0lPcXJkWk5yME52LVM1TUpFYUFoS213MDFHU1pCZll6QkFIZTdZZUQ2VXNoWWJjZlE?oc=5"
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acXZQYlR0R0RDS2dWNVo4aVRuU3dMR01VZ1laRGZEdC1QS0FmeGh4dWhrdWtRM0ZuOVRoU2lydkF3dmJ6TzR4Y19CSDNvT2lSNFE?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "哭泣的香港：国安法下一场“反中乱港”的火灾追责(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "川普簽署台灣保證實施法案 中國批：粗暴干涉內政",
+                "source": "NewsAPI / DW (English)",
                 "date": "2025-12-03",
-                "url": "https://www.secretchina.com/news/gb/2025/12/03/1091515.html"
+                "url": "https://www.dw.com/zh/%E7%89%B9%E6%9C%97%E6%99%AE%E7%AD%BE%E7%BD%B2%E5%8F%B0%E6%B9%BE%E4%BF%9D%E8%AF%81%E5%AE%9E%E6%96%BD%E6%B3%95%E6%A1%88-%E4%B8%AD%E5%9B%BD%E6%89%B9%E7%B2%97%E6%9A%B4%E5%B9%B2%E6%B6%89%E5%86%85%E6%94%BF/a-74993188"
             },
             {
-                "title": "谷歌测试用 AI 改写新闻标题引争议：被吐槽标题党且未清晰标注",
-                "source": "NewsAPI / Ithome.com",
+                "title": "美国小哥边坐牢边上班：工资比你还高 还在老家买房了",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-03",
-                "url": "https://www.ithome.com/0/902/022.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539176.htm"
             },
             {
-                "title": "科技昨夜今晨 1203：三星首款三折叠手机发布；小米汽车累计交付破 50 万台；首款“豆包助手”手机售罄...",
-                "source": "NewsAPI / Ithome.com",
+                "title": "联想ISG上海全员被裁？“两分钟录音”式裁员引发舆论风暴",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-03",
-                "url": "https://www.ithome.com/0/902/016.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539174.htm"
             },
             {
-                "title": "8点1氪丨三星首款三折叠手机发布，被罗永浩吐槽；2025年十大流行语公布；中国居民人均预期寿命达79岁",
-                "source": "NewsAPI / 36kr.com",
+                "title": "比特币大跌后重回90000美元上方 但投资者情绪依旧谨慎",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-03",
-                "url": "https://36kr.com/p/3579056610982784"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539170.htm"
             },
             {
-                "title": "“换皮”台湾护照套 中国网友自嘲是“外交后遗症受害者”(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "美国SEC连发九封警告函 叫停高杠杆ETF产品发行计划",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-03",
-                "url": "https://www.secretchina.com/news/gb/2025/12/03/1091497.html"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539162.htm"
             },
             {
                 "title": "中俄举行战略安全磋商 - mfa.gov.cn",
@@ -166,25 +166,25 @@
                 "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5VODBpZ0EzbjAxenJYSFdNTTFuVi1tQlJGVkZ4NGNablYyU09Zd0pJMVlDZXFUWnZVNjRLdnU1MmxxZlk?oc=5"
             },
             {
+                "title": "习近平同法国总统马克龙会谈 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WaVJzcDJYWGx3MTM1WXNvWDU3UldIUWVLWXJwVUh4YksxaVFNSEt4REVUZk82R2lrX2EycUxPblk1cER2YWdmZGNBMW5fMDhZd3c?oc=5"
+            },
+            {
                 "title": "新兵的“成人礼” - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-03",
                 "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5xUGFyWWNQS0tMUDR6VUFvZm1ZdndnV3FpWWdEdnY5VTlxV2xrb1d3bXhob0M1TXBwTTlTNWxKUFRZZnd5SHBHcS1B?oc=5"
             },
             {
-                "title": "2025年12月3日中国国防报第02版：综合 - 中国军网",
+                "title": "习近平同法国总统马克龙共同出席中法企业家委员会第七次会议闭幕式 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3RUTjRTUzBWSTl0N2FjOHVXWmVHYmVkTWtJd2RjMUp6LWJ1bkliS2l5SlJNd3dCeE5UVEhmajl5S0NRaEExM1oxZ0U0VE1NaFoxN0VJaWZ5ZmljQURHZmRYQmsyLXVDeWVvS2daN0NHVnFnZGtid2hHanl0MDB4aWpDaUZUU0FyejRuMXAwaGJSRFJZbm1GajIyc3ZveElX?oc=5"
-            },
-            {
-                "title": "西藏那曲军分区“雪山宣讲队”传递党的好声音 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uUHAzTC1CLXZNbm9FT2FBWTJfTW0wZlBVM0lPcXJkWk5yME52LVM1TUpFYUFoS213MDFHU1pCZll6QkFIZTdZZUQ2VXNoWWJjZlE?oc=5"
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acXZQYlR0R0RDS2dWNVo4aVRuU3dMR01VZ1laRGZEdC1QS0FmeGh4dWhrdWtRM0ZuOVRoU2lydkF3dmJ6TzR4Y19CSDNvT2lSNFE?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-04T01:21:19.200197+00:00"
+    "last_updated": "2025-12-04T06:28:12.578907+00:00"
 }
