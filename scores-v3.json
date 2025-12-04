@@ -1,54 +1,60 @@
 {
-    "score": 3,
+    "score": 2,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 22.5,
+            "current_weight": 16.875,
             "triggered_on": "2025-12-03"
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not contain any information that clearly triggers any of the economic and financial warning indicators. There is no mention of increased war insurance rates, large-scale panic buying, strategic material stockpiling, or economic sanctions against Taiwan.",
-        "mil": "The provided information does not contain any explicit triggers for the defined military logistics warning indicators. There is no mention of NOTAMs包围台湾 (MIL-1), troop movements in Fujian (MIL-2), or mobilization of reserves/civilian resources (MIL-3). The news articles and official statements are unrelated to these specific indicators.",
-        "pol": "根据提供的情报源，未发现中国官方使用“悬崖勒马”、“勿谓言之不预”等最后通牒式语言或进行战争动员的表述，也未发现外交部/国防部发表带有“严重后果”、“明确交代”等字眼的强硬声明。同时，情报中没有关于美/日/欧撤离外交人员或发布最高级别撤侨/旅行警告的信息。因此，未明确触发任何预警指标。",
-        "local": "情报源表明本周防空警报测试为年度例行测试，物资供应充足，社会秩序正常，因此未触发预警指标LOCAL-1。"
+        "econ": "The provided information does not contain any data that triggers the economic and financial warning indicators. The news articles are related to technology, business, and general news, but they don't mention anything about insurance rates, resource hoarding, or economic sanctions related to Taiwan.",
+        "mil": "The provided information does not explicitly trigger any of the military logistics warning indicators. There is no mention of NOTAMs, military build-ups in Fujian, or mobilization of reserves/civilian resources.",
+        "pol": "The provided information contains routine diplomatic activities and general news reports. There are no explicit indications of escalating tensions, final warnings, or significant diplomatic actions like personnel withdrawals. Therefore, no pre-defined warning indicators are triggered. The presence of '例行记者会' does not automatically trigger POL-2 unless strong language is detected, which is absent here.",
+        "local": "情报源显示厦门本周防空警报测试为年度例行测试，超市物资供应充足，未见抢购，社会秩序正常。因此，没有明确触发预警指标LOCAL-1（厦门及沿海地区进行非例行的大规模防空、疏散演习或人防工程启用）。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "英特尔14A制程试产获早期客户积极反馈",
+                "title": "戴尔创始人豪捐 62.5 亿美元，助力美国儿童投资账户计划",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-03",
+                "url": "https://www.ithome.com/0/902/026.htm"
+            },
+            {
+                "title": "中信证券：特斯拉机器人量产进程加速，关注产业链相关公司",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-03",
+                "url": "https://36kr.com/newsflashes/3579064862391169"
+            },
+            {
+                "title": "科技昨夜今晨 1203：三星首款三折叠手机发布；小米汽车累计交付破 50 万台；首款“豆包助手”手机售罄...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-03",
+                "url": "https://www.ithome.com/0/902/016.htm"
+            },
+            {
+                "title": "8点1氪丨三星首款三折叠手机发布，被罗永浩吐槽；2025年十大流行语公布；中国居民人均预期寿命达79岁",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-03",
+                "url": "https://36kr.com/p/3579056610982784"
+            },
+            {
+                "title": "苹果iPhone 17助推智能手机市场创纪录 2026年或迎涨价与降量双重压力",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-02",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539074.htm"
-            },
-            {
-                "title": "特朗普政府将“国家可再生能源实验室”名称中的“可再生”一词移除",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-02",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539054.htm"
-            },
-            {
-                "title": "5万吨“中国牛”订单，怎么阻止亚马孙毁林？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-02",
-                "url": "https://www.ftchinese.com/story/001108330"
-            },
-            {
-                "title": "美国政府改革的新动作——“拆解教育部”",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-02",
-                "url": "https://www.ftchinese.com/story/001108331"
-            },
-            {
-                "title": "德国人：美国有了特朗普，中国不再显得那么具威胁性了",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-02",
-                "url": "https://www.ftchinese.com/story/001108326"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539088.htm"
             }
         ],
         "mil": [
+            {
+                "title": "埃隆·马斯克列出人工智能的三大关键要素",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-02",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539082.htm"
+            },
             {
                 "title": "24次兵推共军22惨败 为何北京忌惮“台湾有事”？揭开美日同盟的致胜密码(图)",
                 "source": "NewsAPI / Secretchina.com",
@@ -74,12 +80,6 @@
                 "url": "https://www.ithome.com/0/901/987.htm"
             },
             {
-                "title": "《疯狂动物城2》背后的商业帝国",
-                "source": "NewsAPI / Huxiu.com",
-                "date": "2025-12-02",
-                "url": "https://www.huxiu.com/article/4812619.html"
-            },
-            {
                 "title": "中俄举行战略安全磋商 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-02",
@@ -110,42 +110,42 @@
                 "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3RUTjRTUzBWSTl0N2FjOHVXWmVHYmVkTWtJd2RjMUp6LWJ1bkliS2l5SlJNd3dCeE5UVEhmajl5S0NRaEExM1oxZ0U0VE1NaFoxN0VJaWZ5ZmljQURHZmRYQmsyLXVDeWVvS2daN0NHVnFnZGtid2hHanl0MDB4aWpDaUZUU0FyejRuMXAwaGJSRFJZbm1GajIyc3ZveElX?oc=5"
             },
             {
-                "title": "China Coast Guard expels Japanese vessel illegally entering territorial waters of China's Diaoyu Dao - China Military Online",
+                "title": "西藏那曲军分区“雪山宣讲队”传递党的好声音 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mNE1IQWo2SnBINzVVbXc2WFFEWkxhSkw1dlU5MkppRlNXYmYyYy1yX2h1Ym9yYVQ4UFB0WG8wSzdGMG84am5nbnBqX2xUR3BmSG1ReU9GQkFQR19MNXc?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uUHAzTC1CLXZNbm9FT2FBWTJfTW0wZlBVM0lPcXJkWk5yME52LVM1TUpFYUFoS213MDFHU1pCZll6QkFIZTdZZUQ2VXNoWWJjZlE?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "东北风暴袭美东 多州警报 专家警告房屋损害风险(图)",
+                "title": "哭泣的香港：国安法下一场“反中乱港”的火灾追责(图)",
                 "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-02",
-                "url": "https://www.secretchina.com/news/gb/2025/12/03/1091502.html"
+                "date": "2025-12-03",
+                "url": "https://www.secretchina.com/news/gb/2025/12/03/1091515.html"
             },
             {
-                "title": "24次兵推共军22惨败 为何北京忌惮“台湾有事”？揭开美日同盟的致胜密码(图)",
+                "title": "谷歌测试用 AI 改写新闻标题引争议：被吐槽标题党且未清晰标注",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-03",
+                "url": "https://www.ithome.com/0/902/022.htm"
+            },
+            {
+                "title": "科技昨夜今晨 1203：三星首款三折叠手机发布；小米汽车累计交付破 50 万台；首款“豆包助手”手机售罄...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-03",
+                "url": "https://www.ithome.com/0/902/016.htm"
+            },
+            {
+                "title": "8点1氪丨三星首款三折叠手机发布，被罗永浩吐槽；2025年十大流行语公布；中国居民人均预期寿命达79岁",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-03",
+                "url": "https://36kr.com/p/3579056610982784"
+            },
+            {
+                "title": "“换皮”台湾护照套 中国网友自嘲是“外交后遗症受害者”(图)",
                 "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-02",
-                "url": "https://www.secretchina.com/news/gb/2025/12/03/1091482.html"
-            },
-            {
-                "title": "5万吨“中国牛”订单，怎么阻止亚马孙毁林？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-02",
-                "url": "https://www.ftchinese.com/story/001108330"
-            },
-            {
-                "title": "美国政府改革的新动作——“拆解教育部”",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-02",
-                "url": "https://www.ftchinese.com/story/001108331"
-            },
-            {
-                "title": "德国人：美国有了特朗普，中国不再显得那么具威胁性了",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-02",
-                "url": "https://www.ftchinese.com/story/001108326"
+                "date": "2025-12-03",
+                "url": "https://www.secretchina.com/news/gb/2025/12/03/1091497.html"
             },
             {
                 "title": "中俄举行战略安全磋商 - mfa.gov.cn",
@@ -178,13 +178,13 @@
                 "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb3RUTjRTUzBWSTl0N2FjOHVXWmVHYmVkTWtJd2RjMUp6LWJ1bkliS2l5SlJNd3dCeE5UVEhmajl5S0NRaEExM1oxZ0U0VE1NaFoxN0VJaWZ5ZmljQURHZmRYQmsyLXVDeWVvS2daN0NHVnFnZGtid2hHanl0MDB4aWpDaUZUU0FyejRuMXAwaGJSRFJZbm1GajIyc3ZveElX?oc=5"
             },
             {
-                "title": "China Coast Guard expels Japanese vessel illegally entering territorial waters of China's Diaoyu Dao - China Military Online",
+                "title": "西藏那曲军分区“雪山宣讲队”传递党的好声音 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-02",
-                "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mNE1IQWo2SnBINzVVbXc2WFFEWkxhSkw1dlU5MkppRlNXYmYyYy1yX2h1Ym9yYVQ4UFB0WG8wSzdGMG84am5nbnBqX2xUR3BmSG1ReU9GQkFQR19MNXc?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uUHAzTC1CLXZNbm9FT2FBWTJfTW0wZlBVM0lPcXJkWk5yME52LVM1TUpFYUFoS213MDFHU1pCZll6QkFIZTdZZUQ2VXNoWWJjZlE?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-03T18:28:50.132902+00:00"
+    "last_updated": "2025-12-04T01:21:19.200197+00:00"
 }
