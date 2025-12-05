@@ -5,79 +5,85 @@
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 5.33935546875,
+            "current_weight": 4.0045166015625,
             "triggered_on": "2025-12-03"
         }
     },
     "category_reasoning": {
-        "econ": "The provided information does not explicitly trigger any of the economic/financial warning indicators. There is no mention of increased war insurance rates, unusual stockpiling, or economic sanctions related to Taiwan.",
-        "mil": "情报源中没有明确提及与军事后勤相关的预警指标。主要内容集中在国际关系、商业新闻和外交活动，没有涉及大规模军事调动、禁航通告或征召预备役等信息。",
-        "pol": "根据提供的情报源，没有明确触发任何预警指标。外交部的信息显示正常的会见和例行记者会，解放军报/军网也显示正常的军事训练和领导人会见。没有发现任何最后通牒式语言、战争动员、强硬声明或外交关系降级，以及美/日/欧撤离外交人员或发布最高级别撤侨/旅行警告的迹象。",
-        "local": "情报源显示是年度例行防空警报测试，且社会秩序正常，未见异常，因此未触发预警指标LOCAL-1。"
+        "econ": "The provided intelligence sources do not explicitly trigger any of the economic and financial warning indicators. There's no mention of increased war insurance rates, mass panic buying, strategic resource hoarding, or economic sanctions against Taiwan.",
+        "mil": "The provided information does not explicitly trigger any of the listed military logistics warning indicators. There is no mention of NOTAMs, military buildup in Fujian, or mobilization of reserves/civilian resources.",
+        "pol": "根据提供的情报源，虽然外交部有例行记者会等活动，但未发现任何直接提及“悬崖勒马”、“勿谓言之不预”、“严重后果”、“明确交代”等关键词或类似含义的表述，因此没有明确触发预警指标。",
+        "local": "情报源显示防空警报为年度例行测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "超300家被整合，中小银行迎来重组大年",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-04",
-                "url": "https://36kr.com/newsflashes/3580483978329217"
-            },
-            {
-                "title": "科技昨夜今晨 1204：“豆包助手”手机出现微信被动下线问题；朱雀三号重复使用运载火箭发射入轨；马航 370 客机残骸搜寻 12 月 30 日重启...",
+                "title": "因在 WhatsApp 中整合 AI 功能，欧盟拟对 Meta 展开新的反垄断调查",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-04",
-                "url": "https://www.ithome.com/0/902/317.htm"
+                "url": "https://www.ithome.com/0/902/411.htm"
             },
             {
-                "title": "8点1氪：12306回应“取消靠窗选座”；张雪峰回应被点名“使用污言秽语”；马航MH370客机残骸搜寻将重启",
+                "title": "家电新生活，探索智能人居新体验｜世研消费指数品牌榜Vol.88",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-04",
-                "url": "https://36kr.com/p/3580473263848577"
+                "url": "https://36kr.com/p/3580823432362888"
             },
             {
-                "title": "英伟达CEO黄仁勋与特朗普会面 讨论芯片出口管制",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-03",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539346.htm"
+                "title": "习近平同法国总统马克龙举行会谈",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/newsflashes/3580821960145798"
             },
             {
-                "title": "美政府入股、英伟达投资大幅改善资金状况 英特尔不卖这个部门了",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-03",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539342.htm"
+                "title": "中央经济工作会议前瞻：宽松政策组合有望延续 促消费与稳民企最受瞩目",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/newsflashes/3580813183892609"
+            },
+            {
+                "title": "腾讯公司副总裁蒋杰：AI让广告每个环节都在提效，腾讯会更多启用AI人才",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3572731024604033"
             }
         ],
         "mil": [
             {
+                "title": "卢泰文主讲，三星官宣 The First Look 主题 CES 2026 活动",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-04",
+                "url": "https://www.ithome.com/0/902/403.htm"
+            },
+            {
+                "title": "腾讯公司副总裁蒋杰：AI让广告每个环节都在提效，腾讯会更多启用AI人才",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3572731024604033"
+            },
+            {
+                "title": "法拉第未来称 FX Super One 首批整套零部件抵达美国将开始组装，此前该车被指抄袭",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-04",
+                "url": "https://www.ithome.com/0/902/354.htm"
+            },
+            {
+                "title": "光联芯科CEO 陈超：光互连是通往AGI的必由之路｜WISE2025 商业之王",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3580616218016898"
+            },
+            {
                 "title": "8点1氪：12306回应“取消靠窗选座”；张雪峰回应被点名“使用污言秽语”；马航MH370客机残骸搜寻将重启",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-04",
                 "url": "https://36kr.com/p/3580473263848577"
             },
             {
-                "title": "美国施压未阻增长，委内瑞拉11月石油日出口超90万桶",
-                "source": "NewsAPI / 36kr.com",
+                "title": "2025年12月4日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-04",
-                "url": "https://36kr.com/newsflashes/3580460634766217"
-            },
-            {
-                "title": "AI 造“月球吸尘器”，吸口月尘就能变能源",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-04",
-                "url": "https://www.ithome.com/0/902/315.htm"
-            },
-            {
-                "title": "每周时事分析：中国对G2要换一种思路",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-03",
-                "url": "https://www.ftchinese.com/story/001108346"
-            },
-            {
-                "title": "马斯克脑机接口意念控制机械臂！演示者获得钢铁之吻，理论上可控制一切",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-03",
-                "url": "https://www.ithome.com/0/902/295.htm"
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hcUI0V1JLUUkyTWQ0TUdPLTVGcmQtOEd2eDlVeEN2ZTRiMFU1Um1JOWZYTjNEc1ZmSXZudUtoLXpoYWRYNks2ZEdSQ01LS04tQVU3U1IyUVM1djNHTWJmMlJlZy02Rk5ySWZLRm81VUNYM2k4b2c?oc=5"
             },
             {
                 "title": "王毅会见法国外长巴罗 - mfa.gov.cn",
@@ -86,16 +92,10 @@
                 "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uTUVSQk9mV2tCaTk4a0o4enJIVU1fS0Z0WTROUGExNlhvZnJFc3doT0RxMnpKc01Vb2FRbTk0bEVHTE5laGI0TlBlUkQ4WjFER3E3enYzNk0xOGQ5VHpTVUd0dVVtVWFwVkp0OWNB?oc=5"
             },
             {
-                "title": "2025年12月3日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-03",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tQnJCNnZVbm0tNGNHR0FtOFBwVzNXNXp6NU1NRllQQUNQRmdhR1NqakxzeUJBMm5jWndUdmFPSjdjd21PS1JldnRaRnNVM0x3LTJYVmlxN0RNSFhEaEVLekFYRmtpcFpUbkphSVVUeDFrR25sR1E?oc=5"
-            },
-            {
-                "title": "习近平出席中法企业家委员会第七次会议闭幕式并致辞 - mfa.gov.cn",
+                "title": "习近平同法国总统马克龙共同会见记者 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-04",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tOC1XOXltcTBBZzEtZW00UXNvREJVeUZSTXVScmoyeEw1LTlCMUQ3bXVlZmo4VGNJVVJzaEtvSy14dkhEczlRWjBCREVFUUFMcUhMN2IwNWYyX3pkNGxJWUsyek1BNXhyQzFj?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52LTZhZGtpODJRM3lmM2xDZ2ZLY3hwYkRxSnZLcFdnZk5zV01zNG9sOWFmTmdueXhvTnNSUWdqTnNYN1VzMklpYmdBWUZlbmdJSnVzRVhCOXZCVC1YU25CeXlhUFBPWnVlOWFR?oc=5"
             },
             {
                 "title": "习近平同法国总统马克龙会谈 - 中国军网",
@@ -118,34 +118,40 @@
         ],
         "pol": [
             {
+                "title": "家电新生活，探索智能人居新体验｜世研消费指数品牌榜Vol.88",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3580823432362888"
+            },
+            {
+                "title": "腾讯公司副总裁蒋杰：AI让广告每个环节都在提效，腾讯会更多启用AI人才",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3572731024604033"
+            },
+            {
+                "title": "法拉第未来称 FX Super One 首批整套零部件抵达美国将开始组装，此前该车被指抄袭",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-04",
+                "url": "https://www.ithome.com/0/902/354.htm"
+            },
+            {
+                "title": "光联芯科CEO 陈超：光互连是通往AGI的必由之路｜WISE2025 商业之王",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3580616218016898"
+            },
+            {
                 "title": "科技昨夜今晨 1204：“豆包助手”手机出现微信被动下线问题；朱雀三号重复使用运载火箭发射入轨；马航 370 客机残骸搜寻 12 月 30 日重启...",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-04",
                 "url": "https://www.ithome.com/0/902/317.htm"
             },
             {
-                "title": "8点1氪：12306回应“取消靠窗选座”；张雪峰回应被点名“使用污言秽语”；马航MH370客机残骸搜寻将重启",
-                "source": "NewsAPI / 36kr.com",
+                "title": "2025年12月4日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-04",
-                "url": "https://36kr.com/p/3580473263848577"
-            },
-            {
-                "title": "小瘪三变大瘪三本质不变没出路(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-03",
-                "url": "https://www.secretchina.com/news/gb/2025/12/04/1091557.html"
-            },
-            {
-                "title": "国产飞机里程碑 C909载客突破3000万人次",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-03",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539330.htm"
-            },
-            {
-                "title": "Google Photos借力Gemini推出2025年度回顾 用AI挖掘年度高光时刻",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-03",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539326.htm"
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hcUI0V1JLUUkyTWQ0TUdPLTVGcmQtOEd2eDlVeEN2ZTRiMFU1Um1JOWZYTjNEc1ZmSXZudUtoLXpoYWRYNks2ZEdSQ01LS04tQVU3U1IyUVM1djNHTWJmMlJlZy02Rk5ySWZLRm81VUNYM2k4b2c?oc=5"
             },
             {
                 "title": "王毅会见法国外长巴罗 - mfa.gov.cn",
@@ -154,16 +160,10 @@
                 "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uTUVSQk9mV2tCaTk4a0o4enJIVU1fS0Z0WTROUGExNlhvZnJFc3doT0RxMnpKc01Vb2FRbTk0bEVHTE5laGI0TlBlUkQ4WjFER3E3enYzNk0xOGQ5VHpTVUd0dVVtVWFwVkp0OWNB?oc=5"
             },
             {
-                "title": "2025年12月3日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-03",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tQnJCNnZVbm0tNGNHR0FtOFBwVzNXNXp6NU1NRllQQUNQRmdhR1NqakxzeUJBMm5jWndUdmFPSjdjd21PS1JldnRaRnNVM0x3LTJYVmlxN0RNSFhEaEVLekFYRmtpcFpUbkphSVVUeDFrR25sR1E?oc=5"
-            },
-            {
-                "title": "习近平出席中法企业家委员会第七次会议闭幕式并致辞 - mfa.gov.cn",
+                "title": "习近平同法国总统马克龙共同会见记者 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-04",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tOC1XOXltcTBBZzEtZW00UXNvREJVeUZSTXVScmoyeEw1LTlCMUQ3bXVlZmo4VGNJVVJzaEtvSy14dkhEczlRWjBCREVFUUFMcUhMN2IwNWYyX3pkNGxJWUsyek1BNXhyQzFj?oc=5"
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52LTZhZGtpODJRM3lmM2xDZ2ZLY3hwYkRxSnZLcFdnZk5zV01zNG9sOWFmTmdueXhvTnNSUWdqTnNYN1VzMklpYmdBWUZlbmdJSnVzRVhCOXZCVC1YU25CeXlhUFBPWnVlOWFR?oc=5"
             },
             {
                 "title": "习近平同法国总统马克龙会谈 - 中国军网",
@@ -186,5 +186,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-12-05T01:21:51.765187+00:00"
+    "last_updated": "2025-12-05T06:28:22.665354+00:00"
 }
