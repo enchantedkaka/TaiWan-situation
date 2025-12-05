@@ -5,50 +5,68 @@
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 7.119140625,
+            "current_weight": 5.33935546875,
             "triggered_on": "2025-12-03"
         }
     },
     "category_reasoning": {
-        "econ": "根据提供的情报源，没有明确的信息表明触发了任何经济金融预警指标。情报源主要包含一般新闻报道，如技术发展、商业动态和国际关系分析，缺乏与预警指标相关的具体事件或行动。",
-        "mil": "The provided intelligence sources consist primarily of news headlines and official statements related to international diplomacy and domestic affairs. There is no indication of any military mobilization, naval exercises, or restrictions, or large-scale resource mobilization that would trigger any of the military logistics indicators.",
-        "pol": "The provided intelligence sources do not contain information that triggers any of the specified warning indicators. There are no indications of official ultimatums, war mobilization, strong statements from the Foreign Ministry/Defense Ministry, diplomatic downgrades, or evacuation of diplomatic personnel.",
-        "local": "情报源显示是年度例行防空警报测试，物资供应充足，社会秩序正常，未触发预警指标LOCAL-1。"
+        "econ": "The provided information does not explicitly trigger any of the economic/financial warning indicators. There is no mention of increased war insurance rates, unusual stockpiling, or economic sanctions related to Taiwan.",
+        "mil": "情报源中没有明确提及与军事后勤相关的预警指标。主要内容集中在国际关系、商业新闻和外交活动，没有涉及大规模军事调动、禁航通告或征召预备役等信息。",
+        "pol": "根据提供的情报源，没有明确触发任何预警指标。外交部的信息显示正常的会见和例行记者会，解放军报/军网也显示正常的军事训练和领导人会见。没有发现任何最后通牒式语言、战争动员、强硬声明或外交关系降级，以及美/日/欧撤离外交人员或发布最高级别撤侨/旅行警告的迹象。",
+        "local": "情报源显示是年度例行防空警报测试，且社会秩序正常，未见异常，因此未触发预警指标LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "美国魔术师手掌植入芯片 但他忘记了密码",
+                "title": "超300家被整合，中小银行迎来重组大年",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/newsflashes/3580483978329217"
+            },
+            {
+                "title": "科技昨夜今晨 1204：“豆包助手”手机出现微信被动下线问题；朱雀三号重复使用运载火箭发射入轨；马航 370 客机残骸搜寻 12 月 30 日重启...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-04",
+                "url": "https://www.ithome.com/0/902/317.htm"
+            },
+            {
+                "title": "8点1氪：12306回应“取消靠窗选座”；张雪峰回应被点名“使用污言秽语”；马航MH370客机残骸搜寻将重启",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3580473263848577"
+            },
+            {
+                "title": "英伟达CEO黄仁勋与特朗普会面 讨论芯片出口管制",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-03",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539332.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539346.htm"
             },
             {
-                "title": "国产飞机里程碑 C909载客突破3000万人次",
+                "title": "美政府入股、英伟达投资大幅改善资金状况 英特尔不卖这个部门了",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-03",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539330.htm"
-            },
-            {
-                "title": "NVIDIA无惧内存缺货 黄仁勋称供应充足",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-03",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539312.htm"
-            },
-            {
-                "title": "每周时事分析：中国对G2要换一种思路",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-03",
-                "url": "https://www.ftchinese.com/story/001108346"
-            },
-            {
-                "title": "德国政府补贴工业电价，能否见效？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-03",
-                "url": "https://www.ftchinese.com/story/001108347"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539342.htm"
             }
         ],
         "mil": [
+            {
+                "title": "8点1氪：12306回应“取消靠窗选座”；张雪峰回应被点名“使用污言秽语”；马航MH370客机残骸搜寻将重启",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3580473263848577"
+            },
+            {
+                "title": "美国施压未阻增长，委内瑞拉11月石油日出口超90万桶",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/newsflashes/3580460634766217"
+            },
+            {
+                "title": "AI 造“月球吸尘器”，吸口月尘就能变能源",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-04",
+                "url": "https://www.ithome.com/0/902/315.htm"
+            },
             {
                 "title": "每周时事分析：中国对G2要换一种思路",
                 "source": "NewsAPI / Ftchinese.com",
@@ -62,34 +80,16 @@
                 "url": "https://www.ithome.com/0/902/295.htm"
             },
             {
-                "title": "AI 科学家预警：人类最早 2027 年面临终极抉择，是否允许 AI 进行递归自我进化",
-                "source": "NewsAPI / Ithome.com",
+                "title": "王毅会见法国外长巴罗 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-03",
-                "url": "https://www.ithome.com/0/902/285.htm"
-            },
-            {
-                "title": "罗氏制药陈舒展：要智能、也要温度，用AI重新定义临床科研| WISE2025商业之王大会",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-03",
-                "url": "https://36kr.com/p/3576557309901701"
-            },
-            {
-                "title": "上海未来产业基金魏凡杰：创新涌现：构建推动 \"中国创新\"的创业者生态｜WISE2025 商业之王",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-03",
-                "url": "https://36kr.com/p/3579576002755717"
+                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uTUVSQk9mV2tCaTk4a0o4enJIVU1fS0Z0WTROUGExNlhvZnJFc3doT0RxMnpKc01Vb2FRbTk0bEVHTE5laGI0TlBlUkQ4WjFER3E3enYzNk0xOGQ5VHpTVUd0dVVtVWFwVkp0OWNB?oc=5"
             },
             {
                 "title": "2025年12月3日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-03",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tQnJCNnZVbm0tNGNHR0FtOFBwVzNXNXp6NU1NRllQQUNQRmdhR1NqakxzeUJBMm5jWndUdmFPSjdjd21PS1JldnRaRnNVM0x3LTJYVmlxN0RNSFhEaEVLekFYRmtpcFpUbkphSVVUeDFrR25sR1E?oc=5"
-            },
-            {
-                "title": "王毅会见法国外长巴罗 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-03",
-                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uTUVSQk9mV2tCaTk4a0o4enJIVU1fS0Z0WTROUGExNlhvZnJFc3doT0RxMnpKc01Vb2FRbTk0bEVHTE5laGI0TlBlUkQ4WjFER3E3enYzNk0xOGQ5VHpTVUd0dVVtVWFwVkp0OWNB?oc=5"
             },
             {
                 "title": "习近平出席中法企业家委员会第七次会议闭幕式并致辞 - mfa.gov.cn",
@@ -104,19 +104,37 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WaVJzcDJYWGx3MTM1WXNvWDU3UldIUWVLWXJwVUh4YksxaVFNSEt4REVUZk82R2lrX2EycUxPblk1cER2YWdmZGNBMW5fMDhZd3c?oc=5"
             },
             {
-                "title": "新兵的“成人礼” - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-03",
-                "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5xUGFyWWNQS0tMUDR6VUFvZm1ZdndnV3FpWWdEdnY5VTlxV2xrb1d3bXhob0M1TXBwTTlTNWxKUFRZZnd5SHBHcS1B?oc=5"
-            },
-            {
                 "title": "习近平同法国总统马克龙共同出席中法企业家委员会第七次会议闭幕式 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-04",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acXZQYlR0R0RDS2dWNVo4aVRuU3dMR01VZ1laRGZEdC1QS0FmeGh4dWhrdWtRM0ZuOVRoU2lydkF3dmJ6TzR4Y19CSDNvT2lSNFE?oc=5"
+            },
+            {
+                "title": "第八十集团军某旅按实战要求组训的一段经历 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1SE5ueHFUZ2dmTjB5d0o3ZXpGZTJfM2dWTXRMQXZBMU52endtNVQya1RXdXY4QzQ5Uy1sT3g3S3pvR0tkdEF4OHJuVGQ2Q0JqaGc?oc=5"
             }
         ],
         "pol": [
+            {
+                "title": "科技昨夜今晨 1204：“豆包助手”手机出现微信被动下线问题；朱雀三号重复使用运载火箭发射入轨；马航 370 客机残骸搜寻 12 月 30 日重启...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-04",
+                "url": "https://www.ithome.com/0/902/317.htm"
+            },
+            {
+                "title": "8点1氪：12306回应“取消靠窗选座”；张雪峰回应被点名“使用污言秽语”；马航MH370客机残骸搜寻将重启",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-04",
+                "url": "https://36kr.com/p/3580473263848577"
+            },
+            {
+                "title": "小瘪三变大瘪三本质不变没出路(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-12-03",
+                "url": "https://www.secretchina.com/news/gb/2025/12/04/1091557.html"
+            },
             {
                 "title": "国产飞机里程碑 C909载客突破3000万人次",
                 "source": "NewsAPI / Cnbeta.com.tw",
@@ -130,34 +148,16 @@
                 "url": "https://www.cnbeta.com.tw/articles/tech/1539326.htm"
             },
             {
-                "title": "每周时事分析：中国对G2要换一种思路",
-                "source": "NewsAPI / Ftchinese.com",
+                "title": "王毅会见法国外长巴罗 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-03",
-                "url": "https://www.ftchinese.com/story/001108346"
-            },
-            {
-                "title": "“非典型国民党”任国民党主席——从民进党到国民党的郑丽文",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-03",
-                "url": "https://www.ftchinese.com/story/001108345"
-            },
-            {
-                "title": "德国政府补贴工业电价，能否见效？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-03",
-                "url": "https://www.ftchinese.com/story/001108347"
+                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uTUVSQk9mV2tCaTk4a0o4enJIVU1fS0Z0WTROUGExNlhvZnJFc3doT0RxMnpKc01Vb2FRbTk0bEVHTE5laGI0TlBlUkQ4WjFER3E3enYzNk0xOGQ5VHpTVUd0dVVtVWFwVkp0OWNB?oc=5"
             },
             {
                 "title": "2025年12月3日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-03",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tQnJCNnZVbm0tNGNHR0FtOFBwVzNXNXp6NU1NRllQQUNQRmdhR1NqakxzeUJBMm5jWndUdmFPSjdjd21PS1JldnRaRnNVM0x3LTJYVmlxN0RNSFhEaEVLekFYRmtpcFpUbkphSVVUeDFrR25sR1E?oc=5"
-            },
-            {
-                "title": "王毅会见法国外长巴罗 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-03",
-                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uTUVSQk9mV2tCaTk4a0o4enJIVU1fS0Z0WTROUGExNlhvZnJFc3doT0RxMnpKc01Vb2FRbTk0bEVHTE5laGI0TlBlUkQ4WjFER3E3enYzNk0xOGQ5VHpTVUd0dVVtVWFwVkp0OWNB?oc=5"
             },
             {
                 "title": "习近平出席中法企业家委员会第七次会议闭幕式并致辞 - mfa.gov.cn",
@@ -172,19 +172,19 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WaVJzcDJYWGx3MTM1WXNvWDU3UldIUWVLWXJwVUh4YksxaVFNSEt4REVUZk82R2lrX2EycUxPblk1cER2YWdmZGNBMW5fMDhZd3c?oc=5"
             },
             {
-                "title": "新兵的“成人礼” - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-03",
-                "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5xUGFyWWNQS0tMUDR6VUFvZm1ZdndnV3FpWWdEdnY5VTlxV2xrb1d3bXhob0M1TXBwTTlTNWxKUFRZZnd5SHBHcS1B?oc=5"
-            },
-            {
                 "title": "习近平同法国总统马克龙共同出席中法企业家委员会第七次会议闭幕式 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-04",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acXZQYlR0R0RDS2dWNVo4aVRuU3dMR01VZ1laRGZEdC1QS0FmeGh4dWhrdWtRM0ZuOVRoU2lydkF3dmJ6TzR4Y19CSDNvT2lSNFE?oc=5"
+            },
+            {
+                "title": "第八十集团军某旅按实战要求组训的一段经历 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1SE5ueHFUZ2dmTjB5d0o3ZXpGZTJfM2dWTXRMQXZBMU52endtNVQya1RXdXY4QzQ5Uy1sT3g3S3pvR0tkdEF4OHJuVGQ2Q0JqaGc?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-04T18:29:18.948417+00:00"
+    "last_updated": "2025-12-05T01:21:51.765187+00:00"
 }
