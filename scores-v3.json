@@ -10,45 +10,57 @@
         }
     },
     "category_reasoning": {
-        "econ": "The provided intelligence sources do not explicitly trigger any of the economic and financial warning indicators. There is no mention of increased war insurance rates, mass panic buying, strategic material stockpiling, or economic sanctions against Taiwan.",
-        "mil": "根据提供的情报源，没有发现明确触发预警指标的信息。虽然提到了军事和外交活动，但没有迹象表明有大规模军事集结、禁航通告或征召预备役等情况发生。外交部和国防部的信息主要集中在与法国的交流和乌克兰/巴勒斯坦局势的声明上，没有强硬声明或战争威胁。",
-        "pol": "情报源中提到“2025年12月4日外交部发言人林剑主持例行记者会”，虽然没有直接给出记者会内容，但根据关键判断准则，考虑到官方信源的极高权重，以及宁可误报不可漏报的原则，假设记者会可能包含强硬声明（如“严重后果”、“明确交代”），因此触发POL-2。",
-        "local": "情报源显示，厦门防空警报测试为年度例行测试，社会秩序正常，未见异常。因此，未触发预警指标LOCAL-1。"
+        "econ": "当前情报源主要为国际商业媒体报道，内容涉及芯片、AI、加密货币等领域，未提及任何与预警指标相关的事件，例如保险费率调整、物资抢购、经济制裁等。因此，未触发任何预警指标。",
+        "mil": "The provided intelligence sources do not contain information that explicitly triggers any of the defined military logistics warning indicators. There is no mention of NOTAMs surrounding Taiwan, troop or equipment mobilization in Fujian, or mobilization of reserves/civilian resources.",
+        "pol": "情报源显示，外交部在2025年12月4日举行了例行记者会。虽然没有直接提供记者会的具体内容，但根据关键判断准则，外交部/国防部的任何强硬声明，如提及“严重后果”、“明确交代”等，都应视为触发POL-2指标。考虑到“宁可误报不可漏报”的原则，以及官方信源的高权重，即使仅提及例行记者会，也应暂时认定触发POL-2，等待更详细的信息出现以进一步确认或排除。",
+        "local": "情报源显示是年度例行防空警报测试，且社会秩序正常，未触发预警指标 LOCAL-1。"
     },
     "news_sources": {
         "econ": [
             {
-                "title": "AMD 苏姿丰证实已获批对华出口 AI 芯片，需向美政府支付 15% 税费",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-05",
-                "url": "https://www.ithome.com/0/902/600.htm"
-            },
-            {
-                "title": "湖北“十五五”规划建议：做大做强武汉国家航天产业基地，建设航天强省",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-05",
-                "url": "https://36kr.com/newsflashes/3581909200059272"
-            },
-            {
-                "title": "出师未捷：奥尔特曼上诉失败，OpenAI 首款 AI 硬件恐因侵权被迫改名",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-05",
-                "url": "https://www.ithome.com/0/902/593.htm"
-            },
-            {
-                "title": "一加 Pad Go 2 平板现身 Geekbench：有望搭载联发科天玑 7300 芯片，12 英寸 2.8K LCD 屏幕",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-04",
-                "url": "https://www.ithome.com/0/902/588.htm"
-            },
-            {
-                "title": "苹果高层变动：Meta首席法务官出任总法律顾问 政府事务主管退休",
+                "title": "国产GPU又一巨头冲刺资本市场 沐曦股份今日申购",
                 "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-04",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539556.htm"
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539624.htm"
+            },
+            {
+                "title": "美国拥抱加密经济的趋势已不可逆——Uweb 纽约游学总结（上）",
+                "source": "NewsAPI / Csdn.net",
+                "date": "2025-12-05",
+                "url": "https://blog.csdn.net/myan/article/details/155619418"
+            },
+            {
+                "title": "AMD CEO苏姿丰：对华芯片销售将向美政府缴纳15%税款 AI没泡沫",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539592.htm"
+            },
+            {
+                "title": "金融时报：美国的AI之路可能走错了方向",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539584.htm"
+            },
+            {
+                "title": "中国AI芯片市场迎巨变：英伟达2026年将仅占8%",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539580.htm"
             }
         ],
         "mil": [
+            {
+                "title": "任正非最新 1.4 万字讲话：中美 AI 研究方向不同而华为致力于解决实际问题、关注自动驾驶模型等领域，未来可能采用量子计算但不会主导研发",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-05",
+                "url": "https://www.ithome.com/0/902/626.htm"
+            },
+            {
+                "title": "专访Luma AI首席科学家：视频生成模型的游戏规则改变了",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-05",
+                "url": "https://36kr.com/p/3581965812054918"
+            },
             {
                 "title": "湖北“十五五”规划建议：做大做强武汉国家航天产业基地，建设航天强省",
                 "source": "NewsAPI / 36kr.com",
@@ -68,18 +80,6 @@
                 "url": "https://www.secretchina.com/news/gb/2025/12/05/1091622.html"
             },
             {
-                "title": "特朗普收紧移民工作许可 扩大对合法移民的打击力度",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-04",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539552.htm"
-            },
-            {
-                "title": "中美台之间角力 赖清德赢了(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-04",
-                "url": "https://www.secretchina.com/news/gb/2025/12/05/1091619.html"
-            },
-            {
                 "title": "2025年12月4日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-04",
@@ -92,60 +92,60 @@
                 "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WRFhnZ0tMVzRoQ1pJUENlaTMxWGVoNnVqMHIxX0k2T3B2RzlCczUtZTRWREZWZkp1VmJpcW9NVUZlUVJpZ25OdmJIRDlqMUR6ZHp6NTVENlFzSkhSZmhEOXBqZWN4aWNhUDNV?oc=5"
             },
             {
-                "title": "中华人民共和国和法兰西共和国关于乌克兰局势和巴勒斯坦局势的联合声明 - mfa.gov.cn",
+                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-05",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkVkdiWWlaMVNJR0NzN1Y0dWpSdHZOa243UEY4VFk2VWJwQmc5emxvTlZrUVRJdXRZVy1pUUxTZlFsb3QxLWdEZWpoQWQtZEV0VjlmNXFpYVY5UENiU1c2bHRFTmMwSFduQjNn?oc=5"
-            },
-            {
-                "title": "习近平同法国总统马克龙会谈 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-04",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WaVJzcDJYWGx3MTM1WXNvWDU3UldIUWVLWXJwVUh4YksxaVFNSEt4REVUZk82R2lrX2EycUxPblk1cER2YWdmZGNBMW5fMDhZd3c?oc=5"
-            },
-            {
-                "title": "习近平同法国总统马克龙共同出席中法企业家委员会第七次会议闭幕式 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-04",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acXZQYlR0R0RDS2dWNVo4aVRuU3dMR01VZ1laRGZEdC1QS0FmeGh4dWhrdWtRM0ZuOVRoU2lydkF3dmJ6TzR4Y19CSDNvT2lSNFE?oc=5"
+                "date": "2005-09-24",
+                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
                 "title": "这是中国军人的专属浪漫！老兵新兵集体献唱《当那一天来临》，致敬退役军人新征程！ - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-05",
                 "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HSE1wdnhpbDVRbmV0M1N6Q09sMGFTRXYzWTNpanFVOTRNTTNsNnZLWlhVOS1seXBBNlI2cmd6RHFnVWZTUk9pUWZOd0FsVjF0YzZlQ20xdEp1QmhwR0hyWQ?oc=5"
+            },
+            {
+                "title": "第八十集团军某旅按实战要求组训的一段经历 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1SE5ueHFUZ2dmTjB5d0o3ZXpGZTJfM2dWTXRMQXZBMU52endtNVQya1RXdXY4QzQ5Uy1sT3g3S3pvR0tkdEF4OHJuVGQ2Q0JqaGc?oc=5"
+            },
+            {
+                "title": "新华时评丨高市早苗企图蒙混过关行不通 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-05",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85UHg1TVhEenFwbDJ0SDZIS0NMWDJKU3RYaDZVVHdqa0FlaXNOR2dGT1ZIRUpXSEhqTXg5c3hXdTF3NkpqdTVOTnFVcHVPdFRGcHc?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "连获融资，AI推理3D游戏《神探夏洛克：暗夜追踪者》将于明年上线 | 36氪首发",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-04",
-                "url": "https://36kr.com/p/3581016777603968"
-            },
-            {
-                "title": "被乔布斯“改名”的 Stephen Lemay，现在掌管苹果所有界面设计",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-04",
-                "url": "https://www.ithome.com/0/902/589.htm"
-            },
-            {
-                "title": "“疾驰”的白银与“熄火”的黄金，金银走势为何分化",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-04",
-                "url": "https://36kr.com/newsflashes/3581869851131015"
-            },
-            {
-                "title": "马斯克称新款特斯拉软件允许边开车边发短信",
+                "title": "蔡磊回应准备尝试脑机接口：并非一时兴起",
                 "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-04",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539548.htm"
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539594.htm"
             },
             {
-                "title": "微软正悄然收缩其多元化举措 被指迎合“特朗普时代”政治环境​",
+                "title": "美媒实测特斯拉FSD：开车发短信，真的没问题吗？",
                 "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-04",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539544.htm"
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539590.htm"
+            },
+            {
+                "title": "韩正消失一个月 出事了？反习派剑指栗战书(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-12-05",
+                "url": "https://www.secretchina.com/news/gb/2025/12/05/1091600.html"
+            },
+            {
+                "title": "华尔街测算：在盈利转正之前 OpenAI将累计亏损1400亿美元",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539576.htm"
+            },
+            {
+                "title": "“AI教父”辛顿警告：人工智能将导致大规模失业",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-05",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539572.htm"
             },
             {
                 "title": "2025年12月4日外交部发言人林剑主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
@@ -160,31 +160,31 @@
                 "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WRFhnZ0tMVzRoQ1pJUENlaTMxWGVoNnVqMHIxX0k2T3B2RzlCczUtZTRWREZWZkp1VmJpcW9NVUZlUVJpZ25OdmJIRDlqMUR6ZHp6NTVENlFzSkhSZmhEOXBqZWN4aWNhUDNV?oc=5"
             },
             {
-                "title": "中华人民共和国和法兰西共和国关于乌克兰局势和巴勒斯坦局势的联合声明 - mfa.gov.cn",
+                "title": "中华人民共和国国防部 - 中华人民共和国国防部",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-05",
-                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkVkdiWWlaMVNJR0NzN1Y0dWpSdHZOa243UEY4VFk2VWJwQmc5emxvTlZrUVRJdXRZVy1pUUxTZlFsb3QxLWdEZWpoQWQtZEV0VjlmNXFpYVY5UENiU1c2bHRFTmMwSFduQjNn?oc=5"
-            },
-            {
-                "title": "习近平同法国总统马克龙会谈 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-04",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WaVJzcDJYWGx3MTM1WXNvWDU3UldIUWVLWXJwVUh4YksxaVFNSEt4REVUZk82R2lrX2EycUxPblk1cER2YWdmZGNBMW5fMDhZd3c?oc=5"
-            },
-            {
-                "title": "习近平同法国总统马克龙共同出席中法企业家委员会第七次会议闭幕式 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-04",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5acXZQYlR0R0RDS2dWNVo4aVRuU3dMR01VZ1laRGZEdC1QS0FmeGh4dWhrdWtRM0ZuOVRoU2lydkF3dmJ6TzR4Y19CSDNvT2lSNFE?oc=5"
+                "date": "2005-09-24",
+                "url": "https://news.google.com/rss/articles/CBMiOkFVX3lxTE1WODZPRmptVzZyejlOLUtTWkhoeUdBaXhHN2RyUzkzbWVrNVdpUVpyVm9VMU42TDZiOVE?oc=5"
             },
             {
                 "title": "这是中国军人的专属浪漫！老兵新兵集体献唱《当那一天来临》，致敬退役军人新征程！ - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-05",
                 "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HSE1wdnhpbDVRbmV0M1N6Q09sMGFTRXYzWTNpanFVOTRNTTNsNnZLWlhVOS1seXBBNlI2cmd6RHFnVWZTUk9pUWZOd0FsVjF0YzZlQ20xdEp1QmhwR0hyWQ?oc=5"
+            },
+            {
+                "title": "第八十集团军某旅按实战要求组训的一段经历 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-04",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB1SE5ueHFUZ2dmTjB5d0o3ZXpGZTJfM2dWTXRMQXZBMU52endtNVQya1RXdXY4QzQ5Uy1sT3g3S3pvR0tkdEF4OHJuVGQ2Q0JqaGc?oc=5"
+            },
+            {
+                "title": "新华时评丨高市早苗企图蒙混过关行不通 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-05",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85UHg1TVhEenFwbDJ0SDZIS0NMWDJKU3RYaDZVVHdqa0FlaXNOR2dGT1ZIRUpXSEhqTXg5c3hXdTF3NkpqdTVOTnFVcHVPdFRGcHc?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-06T01:17:41.585079+00:00"
+    "last_updated": "2025-12-06T06:24:50.738067+00:00"
 }
