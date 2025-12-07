@@ -1,22 +1,34 @@
 {
-    "score": 2,
+    "score": 1,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 12.65625,
+            "current_weight": 9.4921875,
             "triggered_on": "2025-12-06"
         }
     },
     "category_reasoning": {
-        "econ": "分析出错: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDuBZ2E8JZjNAETkVEuFCPjXyZ554TXC-s (Caused by ResponseError('too many 429 error responses'))",
-        "mil": "分析出错: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDuBZ2E8JZjNAETkVEuFCPjXyZ554TXC-s (Caused by ResponseError('too many 429 error responses'))",
-        "pol": "分析出错: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDuBZ2E8JZjNAETkVEuFCPjXyZ554TXC-s (Caused by ResponseError('too many 429 error responses'))",
-        "local": "分析出错: HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Max retries exceeded with url: /v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDuBZ2E8JZjNAETkVEuFCPjXyZ554TXC-s (Caused by ResponseError('too many 429 error responses'))"
+        "econ": "API错误: 403",
+        "mil": "API错误: 403",
+        "pol": "API错误: 403",
+        "local": "API错误: 403"
     },
     "news_sources": {
         "econ": [
+            {
+                "title": "遇见小面上市即破发 ，中式面馆赛道突围难在哪？",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-06",
+                "url": "https://36kr.com/p/3583480753601417"
+            },
+            {
+                "title": "2年内AI生成世界90%知识！老黄2小时重磅访谈「剧透」未来",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-06",
+                "url": "https://36kr.com/p/3583467577212036"
+            },
             {
                 "title": "9点1氪｜车评人陈震偷税被查，案件细节曝光；外卖新国标：骑手连续接单超4小时暂停派单20分钟；王传福回应比亚迪国内销量下滑",
                 "source": "NewsAPI / 36kr.com",
@@ -34,21 +46,21 @@
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-05",
                 "url": "https://www.cnbeta.com.tw/articles/tech/1539764.htm"
-            },
-            {
-                "title": "据传苹果重返英特尔阵营 或将其芯片延伸至iPhone产品线",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-05",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539754.htm"
-            },
-            {
-                "title": "纽约中领馆投影抗议参与者王永红的反共历程(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-05",
-                "url": "https://www.secretchina.com/news/gb/2025/12/06/1091669.html"
             }
         ],
         "mil": [
+            {
+                "title": "2年内AI生成世界90%知识！老黄2小时重磅访谈「剧透」未来",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-06",
+                "url": "https://36kr.com/p/3583467577212036"
+            },
+            {
+                "title": "美国发布新版国家安全战略 聚焦阻止台海冲突(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-12-06",
+                "url": "https://www.secretchina.com/news/gb/2025/12/06/1091677.html"
+            },
             {
                 "title": "9点1氪｜车评人陈震偷税被查，案件细节曝光；外卖新国标：骑手连续接单超4小时暂停派单20分钟；王传福回应比亚迪国内销量下滑",
                 "source": "NewsAPI / 36kr.com",
@@ -68,18 +80,6 @@
                 "url": "https://www.secretchina.com/news/gb/2025/12/06/1091669.html"
             },
             {
-                "title": "上海某海军家属院疑有人被抓 居民向中共军警抗议(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-05",
-                "url": "https://www.secretchina.com/news/gb/2025/12/06/1091663.html"
-            },
-            {
-                "title": "当我最后一道职业护城河正在溃堤",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-05",
-                "url": "https://36kr.com/p/3582783080545415"
-            },
-            {
                 "title": "习近平同法国总统马克龙在成都进行友好交流（2025-12-05） - 外交部 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-05",
@@ -92,10 +92,10 @@
                 "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5VODBpZ0EzbjAxenJYSFdNTTFuVi1tQlJGVkZ4NGNablYyU09Zd0pJMVlDZXFUWnZVNjRLdnU1MmxxZlk?oc=5"
             },
             {
-                "title": "首页 资料 >声明公报 - mfa.gov.cn",
+                "title": "外交部政务服务平台 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2018-02-17",
-                "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yVndIdGJUVnV2Nk1teTdjYWM3RHJ5S0FnSUFLUnFlRHk3d2tHcVd4b3NWT0NZaE0wcDJDa3A3dm5aWWQxMVhIMzVHU0J0MGpqN2tBaFMtckNvdTF4eFhBQl94bw?oc=5"
+                "date": "2022-01-16",
+                "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPM2lXcXVUSDhkbmdsaExTZEgyQ2ZKbE9ZRXF6RzVFX0pTeEhXWEw4T2Q4Y0hZVk1OX1JPbEJ5cnNreGtkUWZuY3dsWmlxX2VxU0xTNUt4SQ?oc=5"
             },
             {
                 "title": "这是中国军人的专属浪漫！老兵新兵集体献唱《当那一天来临》，致敬退役军人新征程！ - 中国军网",
@@ -124,6 +124,24 @@
         ],
         "pol": [
             {
+                "title": "遇见小面上市即破发 ，中式面馆赛道突围难在哪？",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-06",
+                "url": "https://36kr.com/p/3583480753601417"
+            },
+            {
+                "title": "2年内AI生成世界90%知识！老黄2小时重磅访谈「剧透」未来",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-06",
+                "url": "https://36kr.com/p/3583467577212036"
+            },
+            {
+                "title": "苹果向84个国家和地区的用户发送新一轮网络威胁通知",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-06",
+                "url": "https://36kr.com/newsflashes/3582766550956930"
+            },
+            {
                 "title": "9点1氪｜车评人陈震偷税被查，案件细节曝光；外卖新国标：骑手连续接单超4小时暂停派单20分钟；王传福回应比亚迪国内销量下滑",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-06",
@@ -134,24 +152,6 @@
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-06",
                 "url": "https://www.ithome.com/0/902/874.htm"
-            },
-            {
-                "title": "ChatGPT 用户增长放缓 Gemini 正加速追赶",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-05",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539768.htm"
-            },
-            {
-                "title": "台积电拟将亚利桑那“第六期厂”用地改造为先进封装基地",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-05",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539764.htm"
-            },
-            {
-                "title": "目标 2026 年 IPO 上市：马斯克 SpaceX 有望超 OpenAI 登顶美国私营公司市值榜首",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-05",
-                "url": "https://www.ithome.com/0/902/868.htm"
             },
             {
                 "title": "习近平同法国总统马克龙在成都进行友好交流（2025-12-05） - 外交部 - mfa.gov.cn",
@@ -166,10 +166,10 @@
                 "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5VODBpZ0EzbjAxenJYSFdNTTFuVi1tQlJGVkZ4NGNablYyU09Zd0pJMVlDZXFUWnZVNjRLdnU1MmxxZlk?oc=5"
             },
             {
-                "title": "首页 资料 >声明公报 - mfa.gov.cn",
+                "title": "外交部政务服务平台 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2018-02-17",
-                "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9yVndIdGJUVnV2Nk1teTdjYWM3RHJ5S0FnSUFLUnFlRHk3d2tHcVd4b3NWT0NZaE0wcDJDa3A3dm5aWWQxMVhIMzVHU0J0MGpqN2tBaFMtckNvdTF4eFhBQl94bw?oc=5"
+                "date": "2022-01-16",
+                "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBPM2lXcXVUSDhkbmdsaExTZEgyQ2ZKbE9ZRXF6RzVFX0pTeEhXWEw4T2Q4Y0hZVk1OX1JPbEJ5cnNreGtkUWZuY3dsWmlxX2VxU0xTNUt4SQ?oc=5"
             },
             {
                 "title": "这是中国军人的专属浪漫！老兵新兵集体献唱《当那一天来临》，致敬退役军人新征程！ - 中国军网",
@@ -198,5 +198,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-12-07T01:29:12.571492+00:00"
+    "last_updated": "2025-12-07T06:25:01.011519+00:00"
 }
