@@ -1,11 +1,11 @@
 {
-    "score": 1,
+    "score": 0,
     "total_indicators_possible": 10,
     "active_indicators_count": 1,
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 4.0045166015625,
+            "current_weight": 3.003387451171875,
             "triggered_on": "2025-12-06"
         }
     },
@@ -18,37 +18,55 @@
     "news_sources": {
         "econ": [
             {
+                "title": "福特 11 月在美售出 4247 辆纯电动汽车，同比暴跌超 60%",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-07",
+                "url": "https://www.ithome.com/0/903/074.htm"
+            },
+            {
+                "title": "《2025年海南省咖啡产业发展报告》发布 预计产能突破4万吨",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-07",
+                "url": "https://36kr.com/newsflashes/3584791658511235"
+            },
+            {
+                "title": "清华系具身智能公司获数亿元Pre-A轮融资，拿下三菱等头部客户订单｜硬氪首发",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-07",
+                "url": "https://36kr.com/p/3582338244230272"
+            },
+            {
+                "title": "网红“甲亢哥”直播暴力损毁人形机器人“Rizzbot”，后者开发公司起诉索赔",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-07",
+                "url": "https://www.ithome.com/0/903/049.htm"
+            },
+            {
                 "title": "美国人为什么不结婚了呢？(图)",
                 "source": "NewsAPI / Secretchina.com",
                 "date": "2025-12-07",
                 "url": "https://www.secretchina.com/news/gb/2025/12/07/1091713.html"
-            },
-            {
-                "title": "科技昨夜今晨 1207：苹果 2026 年初新品前瞻；华为终端可持续发展报告 2024-2025 发布；黄仁勋称华为是全球最强科技公司之一...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/040.htm"
-            },
-            {
-                "title": "在欧盟推翻燃油车禁令之前，众车企早已不再押注纯电",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-06",
-                "url": "https://www.ftchinese.com/story/001108371"
-            },
-            {
-                "title": "展望2026：外需是最大变数",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-06",
-                "url": "https://www.ftchinese.com/story/001108370"
-            },
-            {
-                "title": "VC投资人 : “我们正在找寻这类公司”",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-06",
-                "url": "https://36kr.com/p/3583802382515337"
             }
         ],
         "mil": [
+            {
+                "title": "航行警告 南海部分水域有火箭残骸掉落 禁止驶入",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-07",
+                "url": "https://36kr.com/newsflashes/3584845421558920"
+            },
+            {
+                "title": "清华系具身智能公司获数亿元Pre-A轮融资，拿下三菱等头部客户订单｜硬氪首发",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-07",
+                "url": "https://36kr.com/p/3582338244230272"
+            },
+            {
+                "title": "网红“甲亢哥”直播暴力损毁人形机器人“Rizzbot”，后者开发公司起诉索赔",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-07",
+                "url": "https://www.ithome.com/0/903/049.htm"
+            },
             {
                 "title": "俄大规模空袭乌克兰 泽连斯基：乌美谈判迈入下一步(图)",
                 "source": "NewsAPI / Secretchina.com",
@@ -62,22 +80,10 @@
                 "url": "https://www.cnbeta.com.tw/articles/tech/1539814.htm"
             },
             {
-                "title": "17.3%超高缺陷率 德国人：特斯拉可靠性最差",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-06",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539792.htm"
-            },
-            {
-                "title": "美知名机器人公司iRobot爆雷 欠中国代工厂超25亿元",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-06",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539786.htm"
-            },
-            {
-                "title": "奈飞宣布将收购华纳兄弟 几家流媒体巨头现状如何？",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-06",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539778.htm"
+                "title": "外交部发言人就日方声称中国海军舰载机对日本自卫队战斗机“雷达照射”事答记者问 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-07",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11MnFiM1piX20tMTV2ckJ4aTdkdUh1MTNHcVRnclE4S2lmaDkwWWY3c081ZE41bFpzbVp2T1JlM3lPS1lzY0c5ZHhPVkYwQUZPOXBKTGRVZkNrMGlyRmVsaENZLURib3dVb1pzVGRHUjBBcGU3ZGc?oc=5"
             },
             {
                 "title": "驻孔敬总领事刘红梅会见泰国旅游警察局局长萨希拉（2025-12-05） - 外交部 - mfa.gov.cn",
@@ -92,10 +98,10 @@
                 "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPOVFqdDNsS0c2S2FESUJsTFk2SVJZYTliZzUzQVhBck9xcWF4QnlSdzQ1bF81eUVFc3QtMVBuM2dCcHRVR2l4Z010NGVhcVg2MlZSdmNNTkh2cllxeHNMVkQxYnZIRUU3QzMtVE9QOGctQ21LeUlBcGxxdlZRWHJ2dnRDUlU2YVJZQk90M2xJbjNLcy1VSmZQRXFjUjJOeDA3UkRoc2kxVlZmSXRBdTNoZzg1VzdGQmlsLUZwT3U4WGNNOUlKdUtyQlRUTFdpRXVueVg1eGFYWHNPOWN1Z1QwRlhSV1R2Q0poSVdfSERkeW1ScEo4cFBxVEN5cHV6OTZwRmZuX2d5R1FpaWZDUTcxZTdDUWlkakdFckNSeHpn?oc=5"
             },
             {
-                "title": "- mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-06",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN2xfN2s0V3ZPM3p1QWxlWUI0LW4zbU5fLTNZTnI3czdxbEFmSmdJaXZRRHQ2UHdIVGVHTVVzYm1pTGtsY0c2Ml9IRDl1cjl6RWcwbEpsaFptejk5MGxQOHZRVEp4a1YzX1htUEVZQXJRVWt0czdRb1N3b3M1OTJPbTM2dDN4bXZiZ2c?oc=5"
+                "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-07",
+                "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtWjE1V2V3bVE4ZVVBUDJCYmpTZEdZVjBaM19rQmxqOVlBcGRYdEJMZTFiWVZMX3dBUE5QZHFENWVqMXZ1dW9aaU40LWxoNmNQZWdYRGNWVWRUZTVPdFJVVg?oc=5"
             },
             {
                 "title": "Japan should strictly discipline its front-line operations: Navy Spokesperson - 中国军网",
@@ -108,12 +114,6 @@
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-06",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ENjA4eklUMnRSRURockpKR3V6eW9VdmM2aEZQT2dQT3NtM3hHMVhERVVXbjk0eUU4a01Od3NoRjFZNlZIYzNmamZGdER5bVRMRGc?oc=5"
-            },
-            {
-                "title": "您的位置： 通知公告 - 军队人才网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2023-02-07",
-                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rQTRuQUxXZl9UdzhiVmp3cTFTNEVjWk1MUHVuMWM3c1R1ZW1oVFl4U0RaaTFPZlNIUFpQcVdsdzZKdlRxZTZmbmZxc3lsSHZ6YkdsYlZR?oc=5"
             },
             {
                 "title": "海事法规 - 上海海事局",
@@ -124,34 +124,40 @@
         ],
         "pol": [
             {
-                "title": "索尼 PlayStation 前负责人吉田修平：中国游戏开发速度日本学不来",
+                "title": "美国公司推出全球首个可扩展 DNA 数据存储解决方案，寿命长达上千年",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/042.htm"
+                "url": "https://www.ithome.com/0/903/070.htm"
             },
             {
-                "title": "科技昨夜今晨 1207：苹果 2026 年初新品前瞻；华为终端可持续发展报告 2024-2025 发布；黄仁勋称华为是全球最强科技公司之一...",
+                "title": "美国调查特斯拉 FSD：至少存在 80 起违反交通规则的案例",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/040.htm"
+                "url": "https://www.ithome.com/0/903/064.htm"
             },
             {
-                "title": "美突扔两震撼弹 对华政策全面翻盘北京措手不及(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-06",
-                "url": "https://www.secretchina.com/news/gb/2025/12/07/1091708.html"
+                "title": "航行警告 南海部分水域有火箭残骸掉落 禁止驶入",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-07",
+                "url": "https://36kr.com/newsflashes/3584845421558920"
             },
             {
-                "title": "在欧盟推翻燃油车禁令之前，众车企早已不再押注纯电",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-06",
-                "url": "https://www.ftchinese.com/story/001108371"
+                "title": "《2025年海南省咖啡产业发展报告》发布 预计产能突破4万吨",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-07",
+                "url": "https://36kr.com/newsflashes/3584791658511235"
             },
             {
-                "title": "华府市长鲍泽卸任 为政坛变局铺路(图)",
-                "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-06",
-                "url": "https://www.secretchina.com/news/gb/2025/12/06/1091698.html"
+                "title": "网红“甲亢哥”直播暴力损毁人形机器人“Rizzbot”，后者开发公司起诉索赔",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-07",
+                "url": "https://www.ithome.com/0/903/049.htm"
+            },
+            {
+                "title": "外交部发言人就日方声称中国海军舰载机对日本自卫队战斗机“雷达照射”事答记者问 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-07",
+                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11MnFiM1piX20tMTV2ckJ4aTdkdUh1MTNHcVRnclE4S2lmaDkwWWY3c081ZE41bFpzbVp2T1JlM3lPS1lzY0c5ZHhPVkYwQUZPOXBKTGRVZkNrMGlyRmVsaENZLURib3dVb1pzVGRHUjBBcGU3ZGc?oc=5"
             },
             {
                 "title": "驻孔敬总领事刘红梅会见泰国旅游警察局局长萨希拉（2025-12-05） - 外交部 - mfa.gov.cn",
@@ -166,10 +172,10 @@
                 "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPOVFqdDNsS0c2S2FESUJsTFk2SVJZYTliZzUzQVhBck9xcWF4QnlSdzQ1bF81eUVFc3QtMVBuM2dCcHRVR2l4Z010NGVhcVg2MlZSdmNNTkh2cllxeHNMVkQxYnZIRUU3QzMtVE9QOGctQ21LeUlBcGxxdlZRWHJ2dnRDUlU2YVJZQk90M2xJbjNLcy1VSmZQRXFjUjJOeDA3UkRoc2kxVlZmSXRBdTNoZzg1VzdGQmlsLUZwT3U4WGNNOUlKdUtyQlRUTFdpRXVueVg1eGFYWHNPOWN1Z1QwRlhSV1R2Q0poSVdfSERkeW1ScEo4cFBxVEN5cHV6OTZwRmZuX2d5R1FpaWZDUTcxZTdDUWlkakdFckNSeHpn?oc=5"
             },
             {
-                "title": "- mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-06",
-                "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPN2xfN2s0V3ZPM3p1QWxlWUI0LW4zbU5fLTNZTnI3czdxbEFmSmdJaXZRRHQ2UHdIVGVHTVVzYm1pTGtsY0c2Ml9IRDl1cjl6RWcwbEpsaFptejk5MGxQOHZRVEp4a1YzX1htUEVZQXJRVWt0czdRb1N3b3M1OTJPbTM2dDN4bXZiZ2c?oc=5"
+                "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-07",
+                "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtWjE1V2V3bVE4ZVVBUDJCYmpTZEdZVjBaM19rQmxqOVlBcGRYdEJMZTFiWVZMX3dBUE5QZHFENWVqMXZ1dW9aaU40LWxoNmNQZWdYRGNWVWRUZTVPdFJVVg?oc=5"
             },
             {
                 "title": "Japan should strictly discipline its front-line operations: Navy Spokesperson - 中国军网",
@@ -184,12 +190,6 @@
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ENjA4eklUMnRSRURockpKR3V6eW9VdmM2aEZQT2dQT3NtM3hHMVhERVVXbjk0eUU4a01Od3NoRjFZNlZIYzNmamZGdER5bVRMRGc?oc=5"
             },
             {
-                "title": "您的位置： 通知公告 - 军队人才网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2023-02-07",
-                "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rQTRuQUxXZl9UdzhiVmp3cTFTNEVjWk1MUHVuMWM3c1R1ZW1oVFl4U0RaaTFPZlNIUFpQcVdsdzZKdlRxZTZmbmZxc3lsSHZ6YkdsYlZR?oc=5"
-            },
-            {
                 "title": "海事法规 - 上海海事局",
                 "source": "官方信源 / 海事局",
                 "date": "2019-06-07",
@@ -198,5 +198,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-12-08T01:21:57.287162+00:00"
+    "last_updated": "2025-12-08T06:30:49.275075+00:00"
 }
