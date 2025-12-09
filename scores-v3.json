@@ -1,14 +1,8 @@
 {
     "score": 0,
     "total_indicators_possible": 10,
-    "active_indicators_count": 1,
-    "active_indicators": {
-        "POL-2": {
-            "base_weight": 30,
-            "current_weight": 1.2670540809631348,
-            "triggered_on": "2025-12-06"
-        }
-    },
+    "active_indicators_count": 0,
+    "active_indicators": {},
     "category_reasoning": {
         "econ": "API错误: 403",
         "mil": "API错误: 403",
@@ -18,84 +12,84 @@
     "news_sources": {
         "econ": [
             {
-                "title": "贾跃亭：法拉第未来 FX Super One 首批车将于 21 日下线，五年 50 万产销规划获董事会批准",
+                "title": "上海出现“坦克人” 退役海军与中共军警对峙(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-12-08",
+                "url": "https://www.secretchina.com/news/gb/2025/12/08/1091752.html"
+            },
+            {
+                "title": "特斯拉上海超级工厂第 400 万辆整车正式下线",
                 "source": "NewsAPI / Ithome.com",
                 "date": "2025-12-08",
-                "url": "https://www.ithome.com/0/903/205.htm"
+                "url": "https://www.ithome.com/0/903/277.htm"
             },
             {
-                "title": "中信建投：铜、铝、黄金中长期配置逻辑清晰，投资围绕三大主线",
+                "title": "厦门“十五五”规划建议：探索建设具有自由港特征的经济特区",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-08",
-                "url": "https://36kr.com/newsflashes/3586171505490825"
+                "url": "https://36kr.com/newsflashes/3586468340694151"
             },
             {
-                "title": "科技昨夜今晨 1208：曝苹果 iPhone 18 系列测试屏下 3D 解锁；华为无网通信功能“上天”；华为余承东揭秘尊界 S800 轿车“超级小脑”芯片...",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-08",
-                "url": "https://www.ithome.com/0/903/196.htm"
-            },
-            {
-                "title": "重庆“十五五”规划建议：推动国资国企改革纵深发展",
+                "title": "中共中央政治局：明年经济工作要坚持稳中求进、提质增效，继续实施更加积极的财政政策和适度宽松的货币政策",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-08",
-                "url": "https://36kr.com/newsflashes/3586137560005511"
+                "url": "https://36kr.com/newsflashes/3586455098014597"
             },
             {
-                "title": "8点1氪｜苹果资深高管正加速离职；5款百万抗癌药纳入首版商保目录；12306回应高铁盲文无凸起",
+                "title": "英报告：国际投资者看好中企加速国际化",
                 "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-07",
-                "url": "https://36kr.com/p/3586117998640263"
+                "date": "2025-12-08",
+                "url": "https://36kr.com/newsflashes/3586436619631749"
             }
         ],
         "mil": [
             {
-                "title": "一道火光横跨六州 凯克斯堡UFO坠毁事件(图)",
+                "title": "上海出现“坦克人” 退役海军与中共军警对峙(图)",
                 "source": "NewsAPI / Secretchina.com",
                 "date": "2025-12-08",
-                "url": "https://www.secretchina.com/news/gb/2025/12/08/1091745.html"
+                "url": "https://www.secretchina.com/news/gb/2025/12/08/1091752.html"
             },
             {
-                "title": "Oculus 创始人拉奇为在战争中使用 AI 辩护：使用落后技术并无道德高地可言",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/192.htm"
+                "title": "首曝PV破800万播放量，国单游戏里「最硬核的兔子」回来了",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-08",
+                "url": "https://36kr.com/p/3584129909947520"
             },
             {
-                "title": "全球最大云厂商，将“最牛马”的工作交给了 AI Agent",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/127.htm"
-            },
-            {
-                "title": "南极臭氧空洞创数十年来第五小 显示修复进程超预期",
+                "title": "3年7倍！博通的崛起与铁腕CEO陈福阳",
                 "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-07",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539938.htm"
+                "date": "2025-12-08",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1540004.htm"
             },
             {
-                "title": "软银旗下Arm计划在韩国设立芯片培训基地",
+                "title": "怕老怕死卷疯了 科技大佬砸钱“买永生”",
                 "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-07",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539934.htm"
+                "date": "2025-12-08",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539986.htm"
+            },
+            {
+                "title": "体验消费至上，折叠屏卷向主力机｜世研消费指数品牌榜Vol.89",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-08",
+                "url": "https://36kr.com/p/3586305605008516"
+            },
+            {
+                "title": "韩正会见德国外长瓦德富尔 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56bElFY3gyMDg5bnNDVFhkbXAzV21hZUhBSzRyM24zLW81ZUxiWWZSWDhrcTA5U1AwN3A5bUxOVW9sY09rTldIZ3htQzcwUk95NlQwNW53c0lqSjJac0JEZzFsV0RVZlk2Z3cw?oc=5"
+            },
+            {
+                "title": "外交部长活动_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
                 "title": "外交部发言人就日方声称中国海军舰载机对日本自卫队战斗机“雷达照射”事答记者问 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-07",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11MnFiM1piX20tMTV2ckJ4aTdkdUh1MTNHcVRnclE4S2lmaDkwWWY3c081ZE41bFpzbVp2T1JlM3lPS1lzY0c5ZHhPVkYwQUZPOXBKTGRVZkNrMGlyRmVsaENZLURib3dVb1pzVGRHUjBBcGU3ZGc?oc=5"
-            },
-            {
-                "title": "2025年12月8日外交部发言人郭嘉昆主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-08",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxYUI3a1ZiOWFCYW51NnFoNnFReXNKMEJybWQtNTBqVk4yUFRfVF9GTkljcncxYXNBWlVNMW5nTVNRSnVBeFZQUDllaDBUanBJbkhxQW1Cdi1LQnpvRjBBMnpBZVhrS19EVjQxb3RFSHZNbnFrTWc?oc=5"
-            },
-            {
-                "title": "王毅：台湾地位已被“七重锁定” - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-08",
-                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
                 "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
@@ -118,52 +112,52 @@
         ],
         "pol": [
             {
-                "title": "中信建投：铜、铝、黄金中长期配置逻辑清晰，投资围绕三大主线",
+                "title": "中共中央政治局：明年经济工作要坚持稳中求进、提质增效，继续实施更加积极的财政政策和适度宽松的货币政策",
                 "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-08",
-                "url": "https://36kr.com/newsflashes/3586171505490825"
+                "url": "https://36kr.com/newsflashes/3586455098014597"
             },
             {
-                "title": "中共霸凌日本文化交流 自曝外交丑态(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "3年7倍！博通的崛起与铁腕CEO陈福阳",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-08",
-                "url": "https://www.secretchina.com/news/gb/2025/12/08/1091746.html"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1540004.htm"
             },
             {
-                "title": "科技昨夜今晨 1208：曝苹果 iPhone 18 系列测试屏下 3D 解锁；华为无网通信功能“上天”；华为余承东揭秘尊界 S800 轿车“超级小脑”芯片...",
-                "source": "NewsAPI / Ithome.com",
+                "title": "OpenAI光环褪去 彭博：它已从股市救星沦为负担",
+                "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-08",
-                "url": "https://www.ithome.com/0/903/196.htm"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539996.htm"
             },
             {
-                "title": "8点1氪｜苹果资深高管正加速离职；5款百万抗癌药纳入首版商保目录；12306回应高铁盲文无凸起",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-07",
-                "url": "https://36kr.com/p/3586117998640263"
+                "title": "怕老怕死卷疯了 科技大佬砸钱“买永生”",
+                "source": "NewsAPI / Cnbeta.com.tw",
+                "date": "2025-12-08",
+                "url": "https://www.cnbeta.com.tw/articles/tech/1539986.htm"
             },
             {
-                "title": "依托“汽车智能 + 北斗通导”战略加速出海，北斗智联完成数亿元B轮战略融资｜36氪首发",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-07",
-                "url": "https://36kr.com/p/3582529960049545"
+                "title": "德外长访中国 瓦德富尔：扩大德中伙伴关系",
+                "source": "NewsAPI / DW (English)",
+                "date": "2025-12-08",
+                "url": "https://www.dw.com/zh/%E5%BE%B7%E5%A4%96%E9%95%BF%E8%AE%BF%E4%B8%AD%E5%9B%BD-%E7%93%A6%E5%BE%B7%E5%AF%8C%E5%B0%94%E6%89%A9%E5%A4%A7%E5%BE%B7%E4%B8%AD%E4%BC%99%E4%BC%B4%E5%85%B3%E7%B3%BB/a-75021578"
+            },
+            {
+                "title": "韩正会见德国外长瓦德富尔 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56bElFY3gyMDg5bnNDVFhkbXAzV21hZUhBSzRyM24zLW81ZUxiWWZSWDhrcTA5U1AwN3A5bUxOVW9sY09rTldIZ3htQzcwUk95NlQwNW53c0lqSjJac0JEZzFsV0RVZlk2Z3cw?oc=5"
+            },
+            {
+                "title": "外交部长活动_中华人民共和国外交部 - mfa.gov.cn",
+                "source": "官方信源 / 外交部/国防部",
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
                 "title": "外交部发言人就日方声称中国海军舰载机对日本自卫队战斗机“雷达照射”事答记者问 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-07",
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11MnFiM1piX20tMTV2ckJ4aTdkdUh1MTNHcVRnclE4S2lmaDkwWWY3c081ZE41bFpzbVp2T1JlM3lPS1lzY0c5ZHhPVkYwQUZPOXBKTGRVZkNrMGlyRmVsaENZLURib3dVb1pzVGRHUjBBcGU3ZGc?oc=5"
-            },
-            {
-                "title": "2025年12月8日外交部发言人郭嘉昆主持例行记者会_中华人民共和国外交部 - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-08",
-                "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxYUI3a1ZiOWFCYW51NnFoNnFReXNKMEJybWQtNTBqVk4yUFRfVF9GTkljcncxYXNBWlVNMW5nTVNRSnVBeFZQUDllaDBUanBJbkhxQW1Cdi1LQnpvRjBBMnpBZVhrS19EVjQxb3RFSHZNbnFrTWc?oc=5"
-            },
-            {
-                "title": "王毅：台湾地位已被“七重锁定” - mfa.gov.cn",
-                "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-08",
-                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
                 "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
@@ -186,5 +180,5 @@
         ],
         "local": []
     },
-    "last_updated": "2025-12-09T01:21:13.533320+00:00"
+    "last_updated": "2025-12-09T06:28:39.035164+00:00"
 }
