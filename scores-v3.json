@@ -5,7 +5,7 @@
     "active_indicators": {
         "POL-2": {
             "base_weight": 30,
-            "current_weight": 1.6894054412841797,
+            "current_weight": 1.2670540809631348,
             "triggered_on": "2025-12-06"
         }
     },
@@ -18,37 +18,49 @@
     "news_sources": {
         "econ": [
             {
-                "title": "荣耀 Magic7 系列手机功能回落进展公布：胶片风格将覆盖更多样式、AI 追色回合下放等",
+                "title": "贾跃亭：法拉第未来 FX Super One 首批车将于 21 日下线，五年 50 万产销规划获董事会批准",
                 "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/150.htm"
+                "date": "2025-12-08",
+                "url": "https://www.ithome.com/0/903/205.htm"
             },
             {
-                "title": "OPPO Pad Air 换皮？一加 Pad Go 2 平板细节曝光，两种配色可选",
-                "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/132.htm"
+                "title": "中信建投：铜、铝、黄金中长期配置逻辑清晰，投资围绕三大主线",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-08",
+                "url": "https://36kr.com/newsflashes/3586171505490825"
             },
             {
-                "title": "全球最大云厂商，将“最牛马”的工作交给了 AI Agent",
+                "title": "科技昨夜今晨 1208：曝苹果 iPhone 18 系列测试屏下 3D 解锁；华为无网通信功能“上天”；华为余承东揭秘尊界 S800 轿车“超级小脑”芯片...",
                 "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/127.htm"
+                "date": "2025-12-08",
+                "url": "https://www.ithome.com/0/903/196.htm"
             },
             {
-                "title": "软银旗下Arm计划在韩国设立芯片培训基地",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-07",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539934.htm"
+                "title": "重庆“十五五”规划建议：推动国资国企改革纵深发展",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-08",
+                "url": "https://36kr.com/newsflashes/3586137560005511"
             },
             {
-                "title": "100% 响应，中国脑机接口临床试验 32 例截瘫患者全部实现脑控抓握",
-                "source": "NewsAPI / Ithome.com",
+                "title": "8点1氪｜苹果资深高管正加速离职；5款百万抗癌药纳入首版商保目录；12306回应高铁盲文无凸起",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/119.htm"
+                "url": "https://36kr.com/p/3586117998640263"
             }
         ],
         "mil": [
+            {
+                "title": "一道火光横跨六州 凯克斯堡UFO坠毁事件(图)",
+                "source": "NewsAPI / Secretchina.com",
+                "date": "2025-12-08",
+                "url": "https://www.secretchina.com/news/gb/2025/12/08/1091745.html"
+            },
+            {
+                "title": "Oculus 创始人拉奇为在战争中使用 AI 辩护：使用落后技术并无道德高地可言",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-07",
+                "url": "https://www.ithome.com/0/903/192.htm"
+            },
             {
                 "title": "全球最大云厂商，将“最牛马”的工作交给了 AI Agent",
                 "source": "NewsAPI / Ithome.com",
@@ -68,18 +80,6 @@
                 "url": "https://www.cnbeta.com.tw/articles/tech/1539934.htm"
             },
             {
-                "title": "坠毁无人机显示俄罗斯还在利用SpaceX星链制导",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-07",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539912.htm"
-            },
-            {
-                "title": "在被 Prada 集团收购后，Versace 光速辞退上任仅 8 个月的创意总监",
-                "source": "NewsAPI / Toodaylab.com",
-                "date": "2025-12-07",
-                "url": "https://www.toodaylab.com/83830"
-            },
-            {
                 "title": "外交部发言人就日方声称中国海军舰载机对日本自卫队战斗机“雷达照射”事答记者问 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-07",
@@ -92,10 +92,10 @@
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxYUI3a1ZiOWFCYW51NnFoNnFReXNKMEJybWQtNTBqVk4yUFRfVF9GTkljcncxYXNBWlVNMW5nTVNRSnVBeFZQUDllaDBUanBJbkhxQW1Cdi1LQnpvRjBBMnpBZVhrS19EVjQxb3RFSHZNbnFrTWc?oc=5"
             },
             {
-                "title": "国防部新闻发言人张晓刚就日炒作我辽宁舰航母编队舰载机雷达照射答记者问 - 中华人民共和国国防部",
+                "title": "王毅：台湾地位已被“七重锁定” - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-07",
-                "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SVm9NcENlbGEwTWt3U3Y4NzdRVFRXdDAzMFJHS1N1elpuWHpyeDdPakZOM1pBTkM1ZHZmYTljVDJNWEZYV1MzTUhBZFMwSjhLaWlRakpFZnM?oc=5"
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
                 "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
@@ -110,42 +110,42 @@
                 "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FQmxsQ1dYczB3WEs3eDNkNDVBN01lVWNzcTlVRU9PbU9ubjdtd1gtZURLNE5EQVpGazBzbFlLREZxbTNFcnNTYkpVd0xIT1N6M1g3SlRiczJYdW8wQUJyY01nT080amM?oc=5"
             },
             {
-                "title": "空军多支部队创新组训模式，一次训练锤炼多维度实战能力 - 中国军网",
+                "title": "四川省甘孜军分区推进基层武装部规范化达标建设 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-06",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ENjA4eklUMnRSRURockpKR3V6eW9VdmM2aEZQT2dQT3NtM3hHMVhERVVXbjk0eUU4a01Od3NoRjFZNlZIYzNmamZGdER5bVRMRGc?oc=5"
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mazVxYW5WekswaXRzNjVEOFRxdDVSdG5vcVlkZndPQXVtWjMxSjBheXpOTTc1V050UXZxSDE5UmNybGhYUUlMS1pfQVBkRWVLMGc?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "笑喷 中共霸凌日本 日资深外交官出炉“中国共产党指南”(图)",
+                "title": "中信建投：铜、铝、黄金中长期配置逻辑清晰，投资围绕三大主线",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-08",
+                "url": "https://36kr.com/newsflashes/3586171505490825"
+            },
+            {
+                "title": "中共霸凌日本文化交流 自曝外交丑态(图)",
                 "source": "NewsAPI / Secretchina.com",
-                "date": "2025-12-07",
-                "url": "https://www.secretchina.com/news/gb/2025/12/07/1091728.html"
+                "date": "2025-12-08",
+                "url": "https://www.secretchina.com/news/gb/2025/12/08/1091746.html"
             },
             {
-                "title": "全球最大云厂商，将“最牛马”的工作交给了 AI Agent",
+                "title": "科技昨夜今晨 1208：曝苹果 iPhone 18 系列测试屏下 3D 解锁；华为无网通信功能“上天”；华为余承东揭秘尊界 S800 轿车“超级小脑”芯片...",
                 "source": "NewsAPI / Ithome.com",
-                "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/127.htm"
+                "date": "2025-12-08",
+                "url": "https://www.ithome.com/0/903/196.htm"
             },
             {
-                "title": "高市早苗“理解尊重中方立场”日台媒体人幽默解读(图)",
-                "source": "NewsAPI / Secretchina.com",
+                "title": "8点1氪｜苹果资深高管正加速离职；5款百万抗癌药纳入首版商保目录；12306回应高铁盲文无凸起",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-07",
-                "url": "https://www.secretchina.com/news/gb/2025/12/07/1091725.html"
+                "url": "https://36kr.com/p/3586117998640263"
             },
             {
-                "title": "100% 响应，中国脑机接口临床试验 32 例截瘫患者全部实现脑控抓握",
-                "source": "NewsAPI / Ithome.com",
+                "title": "依托“汽车智能 + 北斗通导”战略加速出海，北斗智联完成数亿元B轮战略融资｜36氪首发",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-07",
-                "url": "https://www.ithome.com/0/903/119.htm"
-            },
-            {
-                "title": "前英特尔CEO帕特·基辛格借力美政府押注xLight 希望把“摩尔定律”拉回正轨​",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-07",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1539902.htm"
+                "url": "https://36kr.com/p/3582529960049545"
             },
             {
                 "title": "外交部发言人就日方声称中国海军舰载机对日本自卫队战斗机“雷达照射”事答记者问 - mfa.gov.cn",
@@ -160,10 +160,10 @@
                 "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxYUI3a1ZiOWFCYW51NnFoNnFReXNKMEJybWQtNTBqVk4yUFRfVF9GTkljcncxYXNBWlVNMW5nTVNRSnVBeFZQUDllaDBUanBJbkhxQW1Cdi1LQnpvRjBBMnpBZVhrS19EVjQxb3RFSHZNbnFrTWc?oc=5"
             },
             {
-                "title": "国防部新闻发言人张晓刚就日炒作我辽宁舰航母编队舰载机雷达照射答记者问 - 中华人民共和国国防部",
+                "title": "王毅：台湾地位已被“七重锁定” - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
-                "date": "2025-12-07",
-                "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5SVm9NcENlbGEwTWt3U3Y4NzdRVFRXdDAzMFJHS1N1elpuWHpyeDdPakZOM1pBTkM1ZHZmYTljVDJNWEZYV1MzTUhBZFMwSjhLaWlRakpFZnM?oc=5"
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
                 "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
@@ -178,13 +178,13 @@
                 "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FQmxsQ1dYczB3WEs3eDNkNDVBN01lVWNzcTlVRU9PbU9ubjdtd1gtZURLNE5EQVpGazBzbFlLREZxbTNFcnNTYkpVd0xIT1N6M1g3SlRiczJYdW8wQUJyY01nT080amM?oc=5"
             },
             {
-                "title": "空军多支部队创新组训模式，一次训练锤炼多维度实战能力 - 中国军网",
+                "title": "四川省甘孜军分区推进基层武装部规范化达标建设 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-06",
-                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ENjA4eklUMnRSRURockpKR3V6eW9VdmM2aEZQT2dQT3NtM3hHMVhERVVXbjk0eUU4a01Od3NoRjFZNlZIYzNmamZGdER5bVRMRGc?oc=5"
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mazVxYW5WekswaXRzNjVEOFRxdDVSdG5vcVlkZndPQXVtWjMxSjBheXpOTTc1V050UXZxSDE5UmNybGhYUUlMS1pfQVBkRWVLMGc?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-08T18:27:50.721849+00:00"
+    "last_updated": "2025-12-09T01:21:13.533320+00:00"
 }
