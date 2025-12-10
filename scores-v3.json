@@ -12,37 +12,43 @@
     "news_sources": {
         "econ": [
             {
-                "title": "传 iPhone 18 Pro 或首发屏下 Face ID",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-08",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1540154.htm"
+                "title": "【CDT报告汇】9to5Mac：如果苹果选择像在美国、英国和印度那样对抗中国政府，会发生什么？",
+                "source": "NewsAPI / Chinadigitaltimes.net",
+                "date": "2025-12-09",
+                "url": "https://chinadigitaltimes.net/chinese/723320.html"
             },
             {
-                "title": "报告称 iPhone 16 成今年三季度全球最畅销智能手机",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-08",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1540152.htm"
+                "title": "美国联邦法官裁定特朗普政府海上风电禁令违法",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-09",
+                "url": "https://www.ithome.com/0/903/461.htm"
             },
             {
-                "title": "美贸易代表：中国目前正在遵守贸易协议，但美国将继续观察核实",
-                "source": "NewsAPI / Voachinese.com",
-                "date": "2025-12-08",
-                "url": "https://www.voachinese.com/a/us-trade-representative-says-so-far-china-is-complying-with-the-trade-deal-terms-but-the-us-will-continue-to-monitor-and-verify-20251208/8091432.html"
+                "title": "特朗普宣布：允许英伟达向中国出售H200芯片",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-09",
+                "url": "https://36kr.com/newsflashes/3587607135928576"
             },
             {
-                "title": "德国外长：我们需要同中国对话，因而我来到了北京",
-                "source": "NewsAPI / DW (English)",
-                "date": "2025-12-08",
-                "url": "https://www.dw.com/zh/%E5%BE%B7%E5%9B%BD%E5%A4%96%E9%95%BF%E6%88%91%E4%BB%AC%E9%9C%80%E8%A6%81%E5%90%8C%E4%B8%AD%E5%9B%BD%E5%AF%B9%E8%AF%9D%E5%9B%A0%E8%80%8C%E6%88%91%E6%9D%A5%E5%88%B0%E4%BA%86%E5%8C%97%E4%BA%AC/a-75067545"
+                "title": "科技昨夜今晨 1209：经典版 QQ 官宣回归；苹果 iPhone 17 Pro 系列官方破价；小米汽车定制服务开启交付...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-09",
+                "url": "https://www.ithome.com/0/903/452.htm"
             },
             {
-                "title": "在新闻发布会都几近绝迹的今天，为啥公司还要去展会？",
-                "source": "NewsAPI / Ftchinese.com",
+                "title": "8点1氪｜盒马回应“草莓蛋糕制作中将糖放成盐”；万达集团被恢复执行17亿；国家税务总局：严禁平台向“小哥”转嫁涉税义务",
+                "source": "NewsAPI / 36kr.com",
                 "date": "2025-12-08",
-                "url": "https://www.ftchinese.com/story/001108372"
+                "url": "https://36kr.com/p/3587542278471681"
             }
         ],
         "mil": [
+            {
+                "title": "8点1氪｜盒马回应“草莓蛋糕制作中将糖放成盐”；万达集团被恢复执行17亿；国家税务总局：严禁平台向“小哥”转嫁涉税义务",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-08",
+                "url": "https://36kr.com/p/3587542278471681"
+            },
             {
                 "title": "中国电信发布 2025 年十大联合创新成果：“天通 + 北斗”国产星基导航增强系统等",
                 "source": "NewsAPI / Ithome.com",
@@ -68,12 +74,6 @@
                 "url": "https://36kr.com/p/3586491208498052"
             },
             {
-                "title": "GMI Cloud：出海是AI企业释放产能、获取新生的最佳途径｜WISE 2025",
-                "source": "NewsAPI / 36kr.com",
-                "date": "2025-12-08",
-                "url": "https://36kr.com/p/3575108608031619"
-            },
-            {
                 "title": "韩正会见德国外长瓦德富尔 - mfa.gov.cn",
                 "source": "官方信源 / 外交部/国防部",
                 "date": "2025-12-08",
@@ -92,12 +92,6 @@
                 "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
-                "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-07",
-                "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtWjE1V2V3bVE4ZVVBUDJCYmpTZEdZVjBaM19rQmxqOVlBcGRYdEJMZTFiWVZMX3dBUE5QZHFENWVqMXZ1dW9aaU40LWxoNmNQZWdYRGNWVWRUZTVPdFJVVg?oc=5"
-            },
-            {
                 "title": "外交部：对日本右翼势力的挑衅言行，任何姑息纵容只会把亚洲人民再次置于危险境地 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-09",
@@ -108,38 +102,44 @@
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-08",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mazVxYW5WekswaXRzNjVEOFRxdDVSdG5vcVlkZndPQXVtWjMxSjBheXpOTTc1V050UXZxSDE5UmNybGhYUUlMS1pfQVBkRWVLMGc?oc=5"
+            },
+            {
+                "title": "蓝天下的静默“冲锋” - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTBnaGhkQU9rU1o2Slc2VFozME1uNkdKWXBJQ0dTNFE4WVA0OGpmRnVpcWlVSWxDMEhBeWZWcjliOXBMZE90dDdXYmtNcC1lN3BNWTJ4X3lfTXNGQmZQcDdFS3VDbTIxQTY2dUZTVDV1RS1SNHNRVkFYYnkwTnl4MGNjYU9uMERVd09pZFdaTGJrWUp1ZEVjUUVNb3RBNUJVUjRxWXpCOUVhQUllbGp4R2JB?oc=5"
             }
         ],
         "pol": [
             {
-                "title": "传 iPhone 18 Pro 或首发屏下 Face ID",
+                "title": "美国联邦法官裁定特朗普政府海上风电禁令违法",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-09",
+                "url": "https://www.ithome.com/0/903/461.htm"
+            },
+            {
+                "title": "科技昨夜今晨 1209：经典版 QQ 官宣回归；苹果 iPhone 17 Pro 系列官方破价；小米汽车定制服务开启交付...",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-09",
+                "url": "https://www.ithome.com/0/903/452.htm"
+            },
+            {
+                "title": "8点1氪｜盒马回应“草莓蛋糕制作中将糖放成盐”；万达集团被恢复执行17亿；国家税务总局：严禁平台向“小哥”转嫁涉税义务",
+                "source": "NewsAPI / 36kr.com",
+                "date": "2025-12-08",
+                "url": "https://36kr.com/p/3587542278471681"
+            },
+            {
+                "title": "App 遭美国政府施压下架，开发者反手把 14 名官员告了",
+                "source": "NewsAPI / Ithome.com",
+                "date": "2025-12-08",
+                "url": "https://www.ithome.com/0/903/445.htm"
+            },
+            {
+                "title": "特朗普政府因移除追踪移民特工行踪的应用程序而被起诉",
                 "source": "NewsAPI / Cnbeta.com.tw",
                 "date": "2025-12-08",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1540154.htm"
-            },
-            {
-                "title": "1995年的“10天黑客实验” 如何转身成为支撑互联网的JavaScript",
-                "source": "NewsAPI / Cnbeta.com.tw",
-                "date": "2025-12-08",
-                "url": "https://www.cnbeta.com.tw/articles/tech/1540144.htm"
-            },
-            {
-                "title": "德国外长：我们需要同中国对话，因而我来到了北京",
-                "source": "NewsAPI / DW (English)",
-                "date": "2025-12-08",
-                "url": "https://www.dw.com/zh/%E5%BE%B7%E5%9B%BD%E5%A4%96%E9%95%BF%E6%88%91%E4%BB%AC%E9%9C%80%E8%A6%81%E5%90%8C%E4%B8%AD%E5%9B%BD%E5%AF%B9%E8%AF%9D%E5%9B%A0%E8%80%8C%E6%88%91%E6%9D%A5%E5%88%B0%E4%BA%86%E5%8C%97%E4%BA%AC/a-75067545"
-            },
-            {
-                "title": "在新闻发布会都几近绝迹的今天，为啥公司还要去展会？",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-08",
-                "url": "https://www.ftchinese.com/story/001108372"
-            },
-            {
-                "title": "被低估的以太坊Fusaka升级：扩容、降费、从通胀到通缩",
-                "source": "NewsAPI / Ftchinese.com",
-                "date": "2025-12-08",
-                "url": "https://www.ftchinese.com/story/001108386"
+                "url": "https://www.cnbeta.com.tw/articles/tech/1540170.htm"
             },
             {
                 "title": "韩正会见德国外长瓦德富尔 - mfa.gov.cn",
@@ -160,12 +160,6 @@
                 "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LOF9sVFJQNWNYeWpEM1g4U1Nrb3BVX2dHQWZLYUxkbWNPVlRaVXhncjhjdHYwRVUydUUxeGdwQ0hyOEFnVnFzN01rRURJenJjeXBQZlZEbmMwZmppWURjYklGdlg4UHROTkgxa2VR?oc=5"
             },
             {
-                "title": "烽火誓言今犹在，激励着官兵矢志强军、奋勇争先 - 中国军网",
-                "source": "官方信源 / 解放军报/军网",
-                "date": "2025-12-07",
-                "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtWjE1V2V3bVE4ZVVBUDJCYmpTZEdZVjBaM19rQmxqOVlBcGRYdEJMZTFiWVZMX3dBUE5QZHFENWVqMXZ1dW9aaU40LWxoNmNQZWdYRGNWVWRUZTVPdFJVVg?oc=5"
-            },
-            {
                 "title": "外交部：对日本右翼势力的挑衅言行，任何姑息纵容只会把亚洲人民再次置于危险境地 - 中国军网",
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-09",
@@ -176,9 +170,15 @@
                 "source": "官方信源 / 解放军报/军网",
                 "date": "2025-12-08",
                 "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mazVxYW5WekswaXRzNjVEOFRxdDVSdG5vcVlkZndPQXVtWjMxSjBheXpOTTc1V050UXZxSDE5UmNybGhYUUlMS1pfQVBkRWVLMGc?oc=5"
+            },
+            {
+                "title": "蓝天下的静默“冲锋” - 中国军网",
+                "source": "官方信源 / 解放军报/军网",
+                "date": "2025-12-08",
+                "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObTBnaGhkQU9rU1o2Slc2VFozME1uNkdKWXBJQ0dTNFE4WVA0OGpmRnVpcWlVSWxDMEhBeWZWcjliOXBMZE90dDdXYmtNcC1lN3BNWTJ4X3lfTXNGQmZQcDdFS3VDbTIxQTY2dUZTVDV1RS1SNHNRVkFYYnkwTnl4MGNjYU9uMERVd09pZFdaTGJrWUp1ZEVjUUVNb3RBNUJVUjRxWXpCOUVhQUllbGp4R2JB?oc=5"
             }
         ],
         "local": []
     },
-    "last_updated": "2025-12-09T18:23:09.242970+00:00"
+    "last_updated": "2025-12-10T01:23:01.558206+00:00"
 }
